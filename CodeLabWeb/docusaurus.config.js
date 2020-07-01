@@ -1,30 +1,42 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'CodeLab Website',
+  tagline: 'Turn your world into a playground',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/logo.png',
+  organizationName: 'CodeLab', // Usually your GitHub org/user name.
+  projectName: 'WebDemo', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'CodeLab',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       links: [
         {
+          to: 'projects/hello',
+          label: 'Projects',
+          activeBasePath: 'projects/hello',
+          position: 'left',
+         },   
+         {
+          href: 'https://scratch.codelab.club',
+          label:'Scratch',
+          position: 'left'
+        },              
+        {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Adapter',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+         to: 'aboutus/hello',
+         activeBasePath: 'aboutus/hello',
+         label: 'About Us',
+         position: 'left',
         },
       ],
     },
@@ -33,46 +45,20 @@ module.exports = {
       links: [
         {
           title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
+          activeBasePath: 'docs/',
+          position: 'left',
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
+          title: '创作环境',
         },
         {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
+          title: '找到同伴',
+        },
+        {
+          title: '广播',
+        },
+        {
+          title: '下载',
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,

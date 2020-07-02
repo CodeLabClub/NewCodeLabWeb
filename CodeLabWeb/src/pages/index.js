@@ -5,37 +5,18 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import { VideoRow } from './projects/index'
+const videos = require('../../static/video_config.json')
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    imageUrl: 'img/undraw_docusaurus_mountain.svg'
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    imageUrl: 'img/undraw_docusaurus_tree.svg'
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    imageUrl: 'img/undraw_docusaurus_react.svg'
   },
 ];
 
@@ -59,25 +40,35 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title="Home"
+      // title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className={clsx(styles.heroBanner)}>
+        <div className="container">
+          <h1 className="hero__title">CodeLab</h1>
+          <p className="hero__subtitle">迎接你的5种方式</p>
+          <VideoRow videos={videos['首页']}/>
+          <p className="text--right">
+            <Link to="/projects"><button className="button button--info">去作品管看看</button></Link>
+          </p>
+        </div>
+      </div>
+      <div className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
         </div>
-      </header>
-      <main>
+      </div>
+      <div className={clsx('container', styles.start)}>
+        <p className="hero__subtitle text--center">从这里开始</p>
+        <iframe className={styles.iframe} src="https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3"/>
+        <p className="text--right margin-top--lg">
+            <Link to="/"><button className="button button--info margin-right--sm">我先逛逛</button></Link>
+            <a href="https://baidu.com" target="_blank"><button className="button button--info">现在开始创作</button></a>
+        </p>
+      </div>
+      <div>
+        <p className="hero__subtitle text--center">延展至广阔可编程空间</p>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -86,10 +77,29 @@ function Home() {
                   <Feature key={idx} {...props} />
                 ))}
               </div>
+              <p className="text--right margin-top--lg">
+                <Link to="/"><button className="button button--info">如何实现</button></Link>
+              </p>
             </div>
           </section>
         )}
-      </main>
+      </div>
+      <div className="padding-top--lg padding-bottom--lg">
+        <div className="container text--center padding-top--lg" style={{background: 'rgba(0,0,0,0.2)'}}>
+          <p className="hero__subtitle">XXXXXX</p>
+          <p className="text--center padding-top--lg padding-bottom--lg">
+            <Link to="/"><button className="button button--info">button</button></Link>
+          </p>
+        </div>
+      </div>
+      <div className="padding-top--lg padding-bottom--lg">
+        <div className="container text--center padding-top--lg margin-top--lg margin-bottom--lg" style={{background: 'rgba(0,0,0,0.2)'}}>
+          <p className="hero__subtitle">XXXXXX</p>
+          <p className="text--center padding-top--lg padding-bottom--lg">
+            <Link to="/"><button className="button button--info">button</button></Link>
+          </p>
+        </div>
+      </div>
     </Layout>
   );
 }

@@ -23,3 +23,16 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.modalVideo {
+  width: 80vw!important;
+}
+
+.ReactModal__Overlay {
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5)!important;
+}
+.ReactModal__Content {
+  background-color: var(--ifm-navbar-background-color)!important;
+  border-color: var(--ifm-navbar-background-color)!important;
+}

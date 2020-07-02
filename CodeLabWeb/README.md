@@ -2,6 +2,15 @@
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
+## 页面配置
+
+* 视频页&首页视频
+
+    ```/static/video_config.json```
+* 首页三张图片
+
+    ```/src/pages/index.js:L11 features```
+
 ### Installation
 
 ```

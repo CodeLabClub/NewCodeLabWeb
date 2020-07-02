@@ -6,7 +6,7 @@
  */
 
 .heroBanner {
-  padding: 2rem 0;
+  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -35,11 +35,15 @@
   height: 200px;
   width: 200px;
 }
-.iframe {
-  width: 100%;
-  height: calc(var(--ifm-container-width) / 16 * 11);
+
+.headerFontColor {
+  color: var(--ifm-color-primary)
 }
 
-.start {
-  padding: 4rem 0;
+.video {
+  width: 100%;
+  cursor: pointer;
+}
+.modalVideo {
+  width: 80vw;
 }

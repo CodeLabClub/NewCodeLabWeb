@@ -5,11 +5,40 @@
  * and scoped locally.
  */
 
+.welcome {
+  background-color: black;
+  width: 100%;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.herotitle {
+  font-size: 5rem;
+}
+
+.herosubtitle {
+  font-size: 2rem;
+}
+
+.hero_p {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  text-align: center;
+  color:#ffb81e;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+
 .heroBanner {
   padding: 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+
 }
 
 @media screen and (max-width: 966px) {
@@ -18,10 +47,26 @@
   }
 }
 
+.buttonsec{
+  padding-top: 4rem;
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.button_bottom {
+  background-color: #ffb81e;
+  border-color:#ffb81e;
+  border-style: solid;
+  border-width: 1em;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  color: white;
 }
 
 .features {
@@ -38,6 +83,7 @@
 .iframe {
   width: 100%;
   height: calc(var(--ifm-container-width) / 16 * 11);
+  border: 2px solid;
 }
 
 .start {

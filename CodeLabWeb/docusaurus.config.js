@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'CodeLab Website',
-  tagline: 'Turn your world into a playground',
+  title: 'CodeLab',
+  tagline: '传递编程的乐趣，鼓励孩子成为数字时代的创作者',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/logo.png',
@@ -10,7 +10,6 @@ module.exports = {
     // disableDarkMode: true,
     defaultDarkMode: true,
     navbar: {
-      title: 'CodeLab',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.png',

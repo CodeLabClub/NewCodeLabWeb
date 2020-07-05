@@ -15,7 +15,11 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #000000;
+  --ifm-background-color: #edf2f4!important;
+  --ifm-footer-background-color: #000000!important; /*颜色没改掉*/
 }
+
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -35,4 +39,11 @@
 .ReactModal__Content {
   background-color: var(--ifm-navbar-background-color)!important;
   border-color: var(--ifm-navbar-background-color)!important;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 !important; /*改不了*/
 }

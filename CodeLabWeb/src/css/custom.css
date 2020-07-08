@@ -16,10 +16,40 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
   --ifm-navbar-background-color: #000000;
-  --ifm-background-color: #edf2f4!important;
-  --ifm-footer-background-color: #000000!important; /*颜色没改掉*/
+  --ifm-background-color: #fcfcfc!important;
+  /*--ifm-button-border-radius: 0;*/
+  --ifm-button-background-color:#ffb81e!important;/*改不掉*/
+  --ifm-navbar-height: 4rem;
+  --ifm-navbar-item-padding-horizontal: 3rem;
+  --ifm-navbar-item-padding-vertical: 0.25rem;
+  --ifm-font-color-base: black;
+  --ifm-navbar-link-color: white;
+  --ifm-color-content-secondary: #145cbb!important;/*右侧目录字体颜色，重新挑选修改！*/
+
 }
 
+
+
+.navbar__logo {
+  height: 100%;
+  margin-right: 0.5rem;
+}
+.navbar__items {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.navbar__items--right {
+    justify-content: flex-end;
+  }
+
+
+.button--info {
+  --ifm-button-border-color: var(--ifm-color-info);
+}
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -46,4 +76,18 @@
   align-items: center;
   justify-content: center;
   border-radius: 0 !important; /*改不了*/
+}
+
+.footer {
+  background-color: #000000;
+  color: var(--ifm-footer-color);
+  padding: var(--ifm-footer-padding-vertical)
+    var(--ifm-footer-padding-horizontal);
+  width: 100%;
+}
+
+
+
+h1[class^='margin-bottom--sm blogPostTitle'] {
+  color: blue;    
 }

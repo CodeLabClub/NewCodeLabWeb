@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="32px" viewBox="0 0 42 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>callout marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="V-2---1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cloud-Landing-Page" transform="translate(-195.000000, -1305.000000)">
+            <g id="Feat-1---Low-Fi" transform="translate(-23.000000, 1067.000000)">
+                <g id="features" transform="translate(218.000000, 66.000000)">
+                    <g id="callout" transform="translate(0.000000, 171.000000)">
+                        <g id="callout-marker">
+                            <path d="M16.1538462,1 C7.23232327,1 0,8.163444 0,17 C0,25.836556 7.23232327,33 16.1538462,33 C16.5157231,33 16.8748207,32.988214 17.2307692,32.9650085 C20.2897212,32.7543793 23.0628144,31.7372707 25.3886795,30.12933 C26.7943662,29.1575365 32.331473,24.7810931 42,17 C32.331473,9.21890686 26.7943662,4.84246351 25.3886795,3.87066996 C23.0628144,2.26272928 20.2897212,1.24562067 17.291212,1.03904379 C16.8748207,1.01178598 16.5157231,1 16.1538462,1 Z" id="Combined-Shape-Copy-2" fill="#CC0000" transform="translate(21.000000, 17.000000) scale(-1, 1) rotate(-180.000000) translate(-21.000000, -17.000000) "/>
+                            <text id="i" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#FFFFFF">
+                                <tspan x="13.3378906" y="26">i</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

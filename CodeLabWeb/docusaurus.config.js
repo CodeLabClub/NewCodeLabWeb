@@ -3,7 +3,7 @@ module.exports = {
   tagline: '传递编程的乐趣，鼓励孩子成为数字时代的创作者',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  favicon: 'img/logo.png',
+  favicon: 'img/favicon.png',
   organizationName: 'CodeLab', // Usually your GitHub org/user name.
   projectName: 'WebDemo', // Usually your repo name.
   themeConfig: {
@@ -16,27 +16,27 @@ module.exports = {
       },
       links: [
         {
+          href: 'https://scratch.codelab.club',
+          label:'Scratch社区',
+          position: 'left'
+        },        
+        {
           to: 'projects',
-          label: 'Projects',
+          label: '演示案例',
           activeBasePath: 'projects',
           position: 'left',
          },
-         {
-          href: 'https://scratch.codelab.club',
-          label:'Scratch',
-          position: 'left'
-        },
         {
           to: 'docs/adapter/doc1',
           activeBasePath: 'docs/adapter',
-          label: 'Adapter',
+          label: '文档',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: '博客', position: 'left'},
         {
           to: 'docs/Aboutus',
           activeBasePath: 'docs/Aboutus',
-          label: 'About Us',
+          label: '关于我们',
           position: 'left',
         },
       ],
@@ -45,40 +45,75 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          activeBasePath: 'docs/',
-          position: 'left',
-        },
-        {
-          title: '创作环境',
+          title: '文档',
+          items: [
+            {
+              label: '技术文档',
+              to: 'docs/',
+            },
+            {
+              label: '项目/活动文档',
+              to: 'docs/',
+            }
+          ]
         },
         {
           title: '找到同伴',
+          items: [
+            {
+              label: 'Scratch社区',
+              to: 'https://scratch.codelab.club',
+            },
+            {
+              label: 'CodeLab论坛',
+              to: 'https://forums.codelab.club/top/all',
+            },
+            {
+              label: '博客圈',
+              to: '',
+            },
+          ]
         },
         {
-          title: '广播',
+          title: '正在发生',
+          items: [
+            {
+              label: 'CodeLab活动',
+              to: '',
+            }
+          ]
         },
         {
           title: '下载',
         },
         {
-          title: '链接',
+          title: '找到我们',
           items: [
             {
-              html: `<a href="https://github.com" target="_blank"><img width="30" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>`
+              label: 'GitHub',
+              to: 'https://github.com/CodeLabClub',
             },
             {
-              html: `<a href="https://github.com" target="_blank"><img width="30" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>`
+              label: '公众号',
+              to: 'https://github.com/CodeLabClub',
+              
+            },
+            {
+              label: '邮箱',
+              to: 'https://github.com/CodeLabClub',
+              
             }
           ]
         }
       ],
+      /*
       logo: {
         // href: 'https://github.com',
         alt: 'qrcode',
         src: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
       },
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      */
+      copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -86,6 +121,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          homePageId:'dochome',
           // It is recommended to set document id as docs home page (`docs/` path).
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.

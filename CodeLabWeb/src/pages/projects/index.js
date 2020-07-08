@@ -9,14 +9,18 @@ import useThemeContext from '@theme/hooks/useThemeContext';
 import Modal from 'react-modal';
 const videos = require('../../../static/video_config.json')
 
+
 const Header = function () {
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   return (
-    <header className={clsx('hero', styles.heroBanner)}>
+    <header /*className={clsx('hero', styles.heroBanner)}*/>
+      <div className={clsx('hero', styles.heroBanner)}>
         <div className="container">
-          <h1 className={clsx('hero__title', isDarkTheme && styles.headerFontColor)}>CodeLab</h1>
-          <p className={clsx('hero__subtitle', isDarkTheme && styles.headerFontColor)}>作品馆</p>
+          <p className={clsx(styles.herosubtitle , isDarkTheme)}>演示案例</p>
+          <p className={clsx( styles.heroBanner)}>说明文字</p>
         </div>
+      </div>
+      <div className={clsx(styles.triangle_top)}></div>
     </header>)
 }
 
@@ -118,18 +122,19 @@ export const VideoRow = function ({title, videos, ...props}) {
 function Projects() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+  
+
 
   return (
     <Layout title="Projects">
       <Header/>
-      <main className="container">
-        <VideoRow title="CodeLab出品" videos={videos['CodeLab出品']}/>
-        <VideoRow title="社区出品" videos={videos['社区出品']}/>
-        <VideoRow title="活动纪实" videos={videos['活动纪实']}/>
-
+      <main className={clsx("container")}>
+        <VideoRow title="来自CodeLab" videos={videos['来自CodeLab']}/>
+        <VideoRow title="来自社区" videos={videos['来自社区']}/>
       </main>
     </Layout>
   );
+
 }
 
 export default Projects;

@@ -53,7 +53,6 @@
   color: #ffb81e;
   border-color: #ffb81e transparent transparent transparent;
   /*border-right-width: 620px;*/
- 
 }
 
 .triangle_up1 {
@@ -80,7 +79,7 @@
   border-width: 60px 50vw 0;
   color: #ffb81e;
   border-color: transparent #ffb81e #ffb81e #ffb81e;
-  
+
  /* border-right-width: 620px;*/
 }
 
@@ -92,7 +91,7 @@
   text-align: center;
   padding: 2em;
   color: black;
-  
+
 }
 
 
@@ -200,7 +199,7 @@
   margin-top: 3rem;
   padding-top: 1rem;
   background-color:#535296;
- 
+
 }
 
 .env {
@@ -208,17 +207,18 @@
   z-index: 1;
   margin-top:0;
   padding-top:0;
+  background: #ffb81e;
 }
 
 .env::after {
   position:absolute;
   content: "";
-  background-color: #ffb81e;
+  background-color: white;
   z-index: -1;
   left:0;
-  top:30rem;
+  top:0;
   width:100%;
-  height: 1450px;
+  height: 30%;
 }
 
 
@@ -226,62 +226,48 @@
 .circle1,
 .circle2,
 .circle3 {
-  width:200px;
-  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  max-width: 200px;
+  height: 200px;
   border:7px solid #ffb81e;
   border-radius:200px;
   text-align: center;
   font-size: 1.5rem;
   color:black;
-  position: absolute;
-  display: table-cell;
-  vertical-align: middle;
-  
-
 }
 
 .circle1 {
-  top:0;
-  left:0;
 }
 
 .circle2 {
-  top:0;
-  left:300px;
 }
 
 .circle3 {
-  top:0px;
-  left:600px;
 }
 
 .community {
-  position: relative;
-  left:50%;
-  top:50%;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
   margin-top:3rem;
-  width:800px;
-  height: 300px;
-  margin-left:-400px;
-  margin-bottom: 0;
+  /* width:800px;
+  height: 300px; */
 }
 
 .plus1,
 .plus2 {
-  position: absolute;
+  justify-content: center;
   font-size: 5rem;
   color:#1a1a1a;
-
+  display: flex!important;
+  align-items: center;
 }
 
 .plus1{
-  top: 20px;
-  left: 220px;
 }
 
 .plus2{
-  top:20px;
-  left:520px;
 }
-
-

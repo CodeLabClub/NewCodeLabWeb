@@ -27,12 +27,13 @@ module.exports = {
           position: 'left',
          },
         {
-          to: 'docs/adapter/doc1',
+          href: 'https://codelab-adapter-docs.codelab.club/',
           activeBasePath: 'docs/adapter',
           label: '文档',
           position: 'left',
         },
-        { to: 'blog', label: '博客', position: 'left'},
+        { href: 'https://www.codelab.club/blog/', label: '博客', position: 'left'},
+        { href: 'https://www.codelab.club/blog/about-codelab-club/', label:'关于我们', position:'left'},
         {
           label: '',
           href: 'https://github.com/facebook/docusaurus',

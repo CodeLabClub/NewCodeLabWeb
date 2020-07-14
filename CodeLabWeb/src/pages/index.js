@@ -51,7 +51,9 @@ function Home() {
       // title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <div className={clsx(styles.welcome)}>
-        <Video src="https://adapter.codelab.club/video/1593410656522462.mp4" poster="/img/2.PNG"/>
+        <div className="container text--center padding-top--md padding-bottom--md" style={{background: 'black', fontSize: 0}}>
+          <Video src="https://adapter.codelab.club/video/1593410656522462.mp4" style={{objectFit: 'fill'}} poster="/img/2.PNG"/>
+        </div>
         <p className={clsx(styles.herosubtitle)}>传递编程的乐趣，鼓励孩子成为数字时代的创作者</p>
         <div className={clsx(styles.triangle_up1)}></div>
       </div>
@@ -62,10 +64,8 @@ function Home() {
       </div>
       <div className={clsx(styles.triangle_up2)}></div>
       <div className="container">
+        <p className={clsx(styles.number)}>1</p> 
         <p className={clsx(styles.hero_p)}>构建一个创作环境</p>
-        <div className={clsx(styles.arrow)}>
-          <img src="/img/arrow.png" alt = "向下箭头"></img>
-        </div>
       </div>
       <div className={clsx(styles.env)}>
         <div className={clsx("container",styles.start)}>
@@ -76,9 +76,9 @@ function Home() {
             <a href="https://scratch.codelab.club" target="_blank"><button className="button button--info margin-bottom--md">先去看看大家的作品</button></a>
           </p>
           <div className="padding-top--lg padding-bottom--lg">
-            <p className={clsx(styles.subtitle1)}>延展至可编程空间</p>
+            <p className={clsx(styles.subtitle1)}>延申至可编程空间</p>
             <div className="container text--center padding-top--md padding-bottom--md" style={{background: 'white', fontSize: 0}}>
-              <Video src="https://adapter.codelab.club/video/1593410656522462.mp4" poster="/img/office.JPG"/>
+              <Video src="https://adapter.codelab.club/video/1593410656522462.mp4" style={{objectFit: 'fill'}} poster="/img/office.JPG"/>
             </div>
           </div>
           <div className="container padding-top-lg">
@@ -93,10 +93,8 @@ function Home() {
 
 
       <div className="container">
+        <p className={clsx(styles.number)}> 2</p> 
         <p className={clsx(styles.hero_p)}>维护一个互助社区</p>
-        <div className={clsx(styles.arrow)}>
-          <img src="/img/arrow.png" alt = "向下箭头"></img>
-        </div>
         <div className={clsx("container", "row", styles.community)}>
 
             <div className={clsx(styles.circle1)}>

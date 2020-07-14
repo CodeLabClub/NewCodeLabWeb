@@ -58,6 +58,7 @@ html[data-theme=dark] .header-github-link:before {
 .navbar__items {
   flex-grow: 1;
   justify-content: space-between;
+  font-size: 1.3rem;
 }
 
 .navbar__items--right {

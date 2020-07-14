@@ -19,7 +19,7 @@ module.exports = {
           href: 'https://scratch.codelab.club',
           label:'Scratch社区',
           position: 'left'
-        },        
+        },
         {
           to: 'projects',
           label: '演示案例',
@@ -34,10 +34,10 @@ module.exports = {
         },
         { to: 'blog', label: '博客', position: 'left'},
         {
-          to: 'docs/Aboutus',
-          activeBasePath: 'docs/Aboutus',
-          label: '关于我们',
+          label: '',
+          href: 'https://github.com/facebook/docusaurus',
           position: 'left',
+          className: 'header-github-link'
         },
       ],
     },
@@ -61,7 +61,7 @@ module.exports = {
               to: 'https://forums.codelab.club/top/all'
             },
           ]
-        },       
+        },
         {
           title: null,
           items:[
@@ -88,7 +88,7 @@ module.exports = {
         src: 'img/codelab_wechat.jpg'
       },
       */
-      
+
       /*copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,*/
       copyright: `©CodeLab`,
     },

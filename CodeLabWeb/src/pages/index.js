@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Video from '../components/video'
 import { VideoRow } from './projects/index';
 const videos = require('../../static/video_config.json')
 
@@ -50,16 +51,14 @@ function Home() {
       // title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <div className={clsx(styles.welcome)}>
-        <video poster="/img/2.PNG">
-          <source src="https://adapter.codelab.club/video/1593410656522462.mp4" type="video/mp4"/>
-        </video>
+        <Video src="https://adapter.codelab.club/video/1593410656522462.mp4" poster="/img/2.PNG"/>
         <p className={clsx(styles.herosubtitle)}>传递编程的乐趣，鼓励孩子成为数字时代的创作者</p>
         <div className={clsx(styles.triangle_up1)}></div>
       </div>
       <div className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className={clsx(styles.herotitle)}>{siteConfig.title}</h1>
-        </div>          
+        </div>
       </div>
       <div className={clsx(styles.triangle_up2)}></div>
       <div className="container">
@@ -67,27 +66,25 @@ function Home() {
         <div className={clsx(styles.arrow)}>
           <img src="/img/arrow.png" alt = "向下箭头"></img>
         </div>
-      </div> 
+      </div>
       <div className={clsx(styles.env)}>
         <div className={clsx("container",styles.start)}>
           <p className={clsx(styles.subtitle1)}>从Scratch开始</p>
           <iframe className={styles.iframe} src="https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3"/>
           <p className="text--center margin-top--lg">
-            <a href="https://scratch.codelab.club/projects/editor/"><button className="button button--info">立即开始Scratch创作</button></a>
-            <a href="https://scratch.codelab.club" target="_blank"><button className="button button--info">先去看看大家的作品</button></a>
+            <a href="https://scratch.codelab.club/projects/editor/"><button className="button button--info margin-bottom--md">立即开始Scratch创作</button></a>
+            <a href="https://scratch.codelab.club" target="_blank"><button className="button button--info margin-bottom--md">先去看看大家的作品</button></a>
           </p>
           <div className="padding-top--lg padding-bottom--lg">
             <p className={clsx(styles.subtitle1)}>延展至可编程空间</p>
-            <div className="container text--center padding-top--lg" style={{background: 'white'}}>
-              <video poster="/img/office.JPG" >
-                <source src="https://adapter.codelab.club/video/1593410656522462.mp4" type="video/mp4"/>
-              </video>
+            <div className="container text--center padding-top--md padding-bottom--md" style={{background: 'white', fontSize: 0}}>
+              <Video src="https://adapter.codelab.club/video/1593410656522462.mp4" poster="/img/office.JPG"/>
             </div>
           </div>
           <div className="container padding-top-lg">
             <p className="text--center margin-top--lg">
-              <Link to="/projects"><button className="button button--info">更多演示案例</button></Link>
-              <Link to="/docs"><button className="button button--info">阅读技术文档</button></Link>
+              <Link to="/projects"><button className="button button--info margin-bottom--md">更多演示案例</button></Link>
+              <Link to="/docs"><button className="button button--info margin-bottom--md">阅读技术文档</button></Link>
             </p>
           </div>
         </div>
@@ -100,34 +97,34 @@ function Home() {
         <div className={clsx(styles.arrow)}>
           <img src="/img/arrow.png" alt = "向下箭头"></img>
         </div>
-        <div className={clsx("container",styles.community)}>
-          
+        <div className={clsx("container", "row", styles.community)}>
+
             <div className={clsx(styles.circle1)}>
-              <a href="https://scratch.codelab.club/explore/projects/all/"><p >Scratch社区</p></a> 
+              <a href="https://scratch.codelab.club/explore/projects/all/"><div>Scratch社区</div></a>
             </div>
-            <div className={clsx(styles.plus1)}>
+            <div className={clsx(styles.plus1, 'col', 'col--1')}>
               <p>+</p>
             </div>
             <div className={clsx(styles.circle2)}>
-              <a href="https://scratch.codelab.club/explore/projects/all/"><p>CodeLab论坛</p></a> 
+              <a href="https://scratch.codelab.club/explore/projects/all/"><div>CodeLab论坛</div></a>
             </div>
-            <div className={clsx(styles.plus2)}>
+            <div className={clsx(styles.plus2, 'col', 'col--1')}>
               <p>+</p>
             </div>
             <div className={clsx(styles.circle3)}>
-              <a href="https://scratch.codelab.club/explore/projects/all/"><p>博客圈</p></a> 
+              <a href="https://scratch.codelab.club/explore/projects/all/"><div>博客圈</div></a>
             </div>
-                      
+
         </div>
       </div>
 
-      <div class={clsx( styles.activity)}>
-      <div class={clsx("container", styles.activity)}>
+      <div className={clsx( styles.activity)}>
+      <div className={clsx("container", styles.activity)}>
         <p className={clsx(styles.subtitle2)}>正在发生</p>
-        <div class='row'>
-          <div class= 'col'>
-            <article class={clsx(styles.box)}>
-              <a class={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/codelab-neverland-online/">
+        <div className='row'>
+          <div className= 'col'>
+            <article className={clsx(styles.box)}>
+              <a className={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/codelab-neverland-online/">
                 <img src="/img/play.png" alt = "CodeLab直播"></img>
               </a>
               <h3>
@@ -136,9 +133,9 @@ function Home() {
               <p>本周五晚不见不散</p>
             </article>
           </div>
-          <div class= 'col'>
-            <article class={clsx(styles.box)}>
-              <a class={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/codelab-neverland-online/">
+          <div className= 'col'>
+            <article className={clsx(styles.box)}>
+              <a className={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/codelab-neverland-online/">
                 <img src="/img/play.png" alt = "CodeLab直播"></img>
               </a>
               <h3>
@@ -147,9 +144,9 @@ function Home() {
               <p>本周五晚不见不散</p>
             </article>
           </div>
-          <div class= 'col'>
-            <article class={clsx(styles.box)}>
-              <a class={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/codelab-neverland-online/">
+          <div className= 'col'>
+            <article className={clsx(styles.box)}>
+              <a className={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/codelab-neverland-online/">
                 <img src="/img/play.png" alt = "CodeLab直播"></img>
               </a>
               <h3>
@@ -162,11 +159,11 @@ function Home() {
       </div>
       <div className={clsx(styles.triangle_bottom)}></div>
       <div className={clsx(styles.bottom_sec)}>
-        <h1>支持我们</h1> 
+        <h1>支持我们</h1>
         <p>说明文字</p>
       </div>
       </div>
-  
+
     </Layout>
   );
 }

@@ -7,7 +7,7 @@ module.exports = {
   organizationName: 'CodeLab', // Usually your GitHub org/user name.
   projectName: 'WebDemo', // Usually your repo name.
   themeConfig: {
-    // disableDarkMode: true,
+    disableDarkMode: true,
     defaultDarkMode: true,
     navbar: {
       logo: {
@@ -45,75 +45,52 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: '文档',
-          items: [
+          title: null,
+          items:[
             {
-              label: '技术文档',
-              to: 'docs/',
-            },
-            {
-              label: '项目/活动文档',
-              to: 'docs/',
-            }
-          ]
-        },
-        {
-          title: '找到同伴',
-          items: [
-            {
-              label: 'Scratch社区',
-              to: 'https://scratch.codelab.club',
-            },
-            {
-              label: 'CodeLab论坛',
-              to: 'https://forums.codelab.club/top/all',
-            },
-            {
-              label: '博客圈',
-              to: '',
+              label:'CodeLab论坛',
+              to: 'https://forums.codelab.club/top/all'
             },
           ]
         },
         {
-          title: '正在发生',
-          items: [
+          title: null,
+          items:[
             {
-              label: 'CodeLab活动',
-              to: '',
-            }
+              label:'博客圈',
+              to: 'https://forums.codelab.club/top/all'
+            },
+          ]
+        },       
+        {
+          title: null,
+          items:[
+            {
+              label:'下载',
+              to: 'https://forums.codelab.club/top/all'
+            },
           ]
         },
         {
-          title: '下载',
-        },
-        {
-          title: '找到我们',
-          items: [
+          title: null,
+          items:[
             {
-              label: 'GitHub',
-              to: 'https://github.com/CodeLabClub',
+              label:'回到未来',
+              to: 'https://forums.codelab.club/top/all'
             },
-            {
-              label: '公众号',
-              to: 'https://github.com/CodeLabClub',
-              
-            },
-            {
-              label: '邮箱',
-              to: 'https://github.com/CodeLabClub',
-              
-            }
           ]
-        }
+        },
       ],
       /*
       logo: {
         // href: 'https://github.com',
         alt: 'qrcode',
-        src: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+        src: 'img/codelab_wechat.jpg'
       },
       */
-      copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,
+      
+      /*copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,*/
+      copyright: `©CodeLab`,
     },
   },
   presets: [

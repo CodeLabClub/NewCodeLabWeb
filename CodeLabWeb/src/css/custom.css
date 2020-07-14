@@ -8,26 +8,30 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #ffb81e;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary-dark: #ffaf01;
+  --ifm-color-primary-darker: #f2a600;
+  --ifm-color-primary-darkest: #c88900;
+  --ifm-color-primary-light: #ffc13b;
+  --ifm-color-primary-lighter: #ffc549;
+  --ifm-color-primary-lightest: #ffd374;
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #000000;
-  --ifm-background-color: #fcfcfc!important;
-  /*--ifm-button-border-radius: 0;*/
-  --ifm-button-background-color:#ffb81e!important;/*改不掉*/
+  --ifm-navbar-background-color:black;
+  --ifm-background-color:#fcfcfc !important;
   --ifm-navbar-height: 4rem;
-  --ifm-navbar-item-padding-horizontal: 3rem;
+  --ifm-navbar-item-padding-horizontal: 4rem; /*item水平间距*/
   --ifm-navbar-item-padding-vertical: 0.25rem;
   --ifm-font-color-base: black;
   --ifm-navbar-link-color: white;
-  --ifm-color-content-secondary: #145cbb!important;/*右侧目录字体颜色，重新挑选修改！*/
+  --ifm-color-content-secondary: #1a1a1a!important;/*右侧目录字体颜色，重新挑选修改！*/
+  --ifm-font-family-base: Poppin, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+    'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+  --ifm-font-family-monospace: Poppin, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+  --ifm-button-border-radius:2rem;
+  --ifm-button-padding-vertical: 0.775rem;
 
 }
-
 
 
 .navbar__logo {
@@ -39,7 +43,7 @@
   display: flex;
   flex: 1 1 auto;
   justify-content: space-between;
-  font-size: large;
+  font-size: 1.2rem;
 }
 
 .navbar__items--right {
@@ -49,6 +53,15 @@
 
 .button--info {
   --ifm-button-border-color: var(--ifm-color-info);
+  background-color:white;
+  border-width: 0;
+  color:#ffb81e;
+  margin: 0 1rem;
+  box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
+}
+
+.button--info:not(.button--outline):hover {
+  color:#1a1a1a;
 }
 
 .docusaurus-highlight-code-line {
@@ -87,7 +100,20 @@
 }
 
 
-
 h1[class^='margin-bottom--sm blogPostTitle'] {
-  color: blue;    
+  color:blue;    
+}
+
+
+
+.footer__link-item {
+  color: var(--ifm-footer-link-color);
+  line-height: 2;
+  padding: 4.5rem;
+}
+
+.footer__items {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  padding-left: 0;
 }

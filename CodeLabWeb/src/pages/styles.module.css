@@ -8,44 +8,68 @@
 .welcome {
   background-color: black;
   width: 100%;
-  padding: 4rem 0;
   text-align: center;
+  margin-bottom:0;
+  padding-bottom: 0;
 }
 
 .herotitle {
-  font-size: 6rem;
+  font-size: 5rem;
   color:black;
+  padding-top:1rem;
+  margin-top:0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .herosubtitle {
   font-size: 2rem;
-  color:black;
+  color:white;
+  text-align:center;
+  padding-top:5.5rem;
+  font-weight: bolder;
 }
 
 .hero_p {
-  font-size: 1.5rem;
-  color: black;
+  font-size: 2.6rem;
+  padding-top: 4rem;
+  color: #1a1a1a;
+  /*margin-bottom: 0;*/
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.triangle_top {
+.arrow {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+
+.triangle_up2 {
   border-style: solid;
   border-width: 60px 50vw 0;
   color: #ffb81e;
   border-color: #ffb81e transparent transparent transparent;
+  /*border-right-width: 620px;*/
+ 
 }
 
-.triangle_up {
-  margin-top:3rem;
+.triangle_up1 {
+  margin-top:0;
   position: relative;
-  bottom: 0;
-  left: 0;
   border-style: solid;
-  border-width: 60px 50vw 0;
+  border-width: 50px 50vw 0;
   color: #ffb81e;
   border-color: transparent #ffb81e #ffb81e #ffb81e;
-  margin-top:0;
   background-color: black;
+  /*border-right-width: 620px;/*不写的话右边冒头，写的话向下箭头不再锐利，620相对还好;结果加上在外接显示器上又有问题*/
+  margin-bottom: o;
+  padding-top: 0rem;
+  margin-top: 3.5rem;
 }
+
 
 .triangle_bottom {
   margin-top:3rem;
@@ -56,6 +80,8 @@
   border-width: 60px 50vw 0;
   color: #ffb81e;
   border-color: transparent #ffb81e #ffb81e #ffb81e;
+  
+ /* border-right-width: 620px;*/
 }
 
 .bottom_sec {
@@ -66,24 +92,47 @@
   text-align: center;
   padding: 2em;
   color: black;
+  
 }
 
 
-.subtitle {
-  font-size: 2.5rem;
+.subtitle1 {
+  font-size: 2rem;
+  text-align:center;
+  color:#1a1a1a;
+  padding-bottom: 1rem;
+  padding-top: 0rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.subtitle2 {
+  font-size: 2rem;
+  text-align:center;
+  color:white;
+  padding-bottom: 1rem;
+  padding-top: 0rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+}
+
+.subtitle_p {
+  font-size: 1rem;
   text-align: center;
-  color:#ffb81e;
-  padding-bottom: 1.5rem;
-  padding-top: 1rem;
+  color: #70acff;
+  padding-bottom:2rem;
+  padding-top: 0;
   font-weight: 600;
 }
 
 .heroBanner {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-
+  background-color: #ffb81e;
 }
 
 @media screen and (max-width: 966px) {
@@ -92,9 +141,6 @@
   }
 }
 
-.buttonsec{
-  padding-top: 4rem;
-}
 
 .buttons {
   display: flex;
@@ -102,18 +148,7 @@
   justify-content: center;
 }
 
-.button_bottom {
-  background-color: #ffb81e;
-  border-color:#ffb81e;
-  border-style: solid;
-  border-width: 1em;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 600;
-  color: white;
-  margin: 1rem;
-}
+
 
 .features {
   display: flex;
@@ -124,7 +159,7 @@
 
 
 .featureImage {
-  height:700px;
+  height:300px;
   width: 400px;
 }
 
@@ -137,6 +172,9 @@
   display: block;
   box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
   color: white;
+  margin-top:2rem;
+  background-color: white;
+  padding:0.5rem;
 }
 
 
@@ -151,5 +189,99 @@
 }
 
 .start {
-  padding: 4rem 0;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 1;
 }
+
+
+
+.activity {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  background-color:#535296;
+ 
+}
+
+.env {
+  position: relative;
+  z-index: 1;
+  margin-top:0;
+  padding-top:0;
+}
+
+.env::after {
+  position:absolute;
+  content: "";
+  background-color: #ffb81e;
+  z-index: -1;
+  left:0;
+  top:30rem;
+  width:100%;
+  height: 1450px;
+}
+
+
+
+.circle1,
+.circle2,
+.circle3 {
+  width:200px;
+  height:200px;
+  border:7px solid #ffb81e;
+  border-radius:200px;
+  text-align: center;
+  font-size: 1.5rem;
+  color:black;
+  position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+  
+
+}
+
+.circle1 {
+  top:0;
+  left:0;
+}
+
+.circle2 {
+  top:0;
+  left:300px;
+}
+
+.circle3 {
+  top:0px;
+  left:600px;
+}
+
+.community {
+  position: relative;
+  left:50%;
+  top:50%;
+  margin-top:3rem;
+  width:800px;
+  height: 300px;
+  margin-left:-400px;
+  margin-bottom: 0;
+}
+
+.plus1,
+.plus2 {
+  position: absolute;
+  font-size: 5rem;
+  color:#1a1a1a;
+
+}
+
+.plus1{
+  top: 20px;
+  left: 220px;
+}
+
+.plus2{
+  top:20px;
+  left:520px;
+}
+
+

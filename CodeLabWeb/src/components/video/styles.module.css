@@ -2,6 +2,10 @@
     display: inline-block;
     position: relative;
 }
+.video {
+    outline: none;
+}
+
 .videowrapper:hover .playbutton {
     visibility: visible;
     opacity: 1;

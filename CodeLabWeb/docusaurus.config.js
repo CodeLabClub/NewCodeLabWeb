@@ -120,6 +120,7 @@ module.exports = {
   ],
   scripts: [
     'https://unpkg.com/video.js/dist/video.min.js',
+    '/script/settheme.js'
   ],
   stylesheets: [
     'https://unpkg.com/video.js/dist/video-js.min.css',

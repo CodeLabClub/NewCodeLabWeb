@@ -21,9 +21,21 @@ const Video = ({src, className, ...props}) => {
         setIsplaying(false)
     }, [])
 
+    const videoPauseHandler = useCallback(() => {
+        if (isplaying) {
+            setIsplaying(false)
+        }
+    }, [isplaying])
+
+    const videoPlayHandler = useCallback(() => {
+        if (!isplaying) {
+            setIsplaying(true)
+        }
+    }, [isplaying])
+
     return (
         <div className={clsx(styles.videowrapper, className)}>
-            <video ref={videoRef} onClick={videoClickHandler} onEnded={videoEndHandler} {...props}>
+            <video className={styles.video} ref={videoRef} onPause={videoPauseHandler} onPlay={videoPlayHandler} onEnded={videoEndHandler} controls={isplaying} {...props}>
                 <source src={src}></source>
             </video>
             <button className={clsx(styles.playbutton, isplaying && styles.hide)} onClick={playBtnClickHandler}></button>

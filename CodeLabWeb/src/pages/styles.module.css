@@ -4,11 +4,21 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+ @import url('https://fonts.font.im/css?family=Montserrat:900');
+
 
  :root {
   --ifm-link-color: #1a1a1a;
   --ifm-link-hover-color: #ffb81e;
  }
+
+ /*
+.slogan {
+  margin-top:0;
+  padding-top:0;
+
+}
+*/
 
 .welcome {
   background-color: black;
@@ -18,33 +28,117 @@
   padding-bottom: 0;
 }
 
-.herotitle {
+
+.helloWorld {
+  font-size: 6rem;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-bottom: 0; 
+}
+
+
+
+.story {
   font-size: 5rem;
-  color:black;
-  padding-top:1rem;
-  margin-top:0;
+  color:white;
+  margin-bottom: 0;
+  line-height: 7.5rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.herosubtitle {
-  font-size: 2rem;
+.heroVideo {
+  position: relative;
+  z-index:3;
+  overflow:hidden;
+  perspective:100px;
   color:white;
+  height:100vh;
+
+}
+
+.videoOverlay {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:rgba(0, 0, 0, 0.65);
+}
+
+.autoVideo {
+  position: static;
+  height:100%;
+  width:100%;
+  object-fit: cover;
+ 
+}
+
+
+.videoContentSec {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  height:100%;
+  width:100%; 
+}
+
+.mission {
   text-align:center;
-  padding-top:5.5rem;
+  font-size: 2.7rem;
+  margin-top: 0;
+  color:white;
+  font-weight: bold;
+  position: absolute;
+  top:10%;
+  left:0;
+  width:100%;
+  line-height:5rem;
+}
+
+.yellowLine {
+  border:8px solid #ffb81e;
+}
+
+
+.herotitle {
+  font-size: 6rem;
+  color:black;
+  padding-top:1rem;
+  margin-top:0;
+  padding-bottom: 2rem;
+  margin-bottom: 0; 
+  font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
 }
 
-.hero_p {
-  font-size: 2.6rem;
-  padding-top: 1rem;
-  color: #1a1a1a;
-  /*margin-bottom: 0;*/
-  text-align: center;
+.herosubtitle {
+  font-size: 2rem;
   font-weight: bolder;
-  margin-bottom: 0;
-  padding-bottom: 4rem;
+  color:white;
 }
+
+.hero_p {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  font-weight: bolder;
+  /*text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;*/
+  text-decoration: none;
+  border: 8px solid #d9524a; 
+  padding:1rem 2rem;
+  box-shadow:0 20px 25px #d6d6d6, 0 40px 60px #d6d6d6;
+  margin-bottom: 2rem;
+}
+
+.chapter {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 /*
 .arrow {
@@ -61,20 +155,29 @@
   /*border-right-width: 620px;*/
 }
 
-.triangle_up1 {
-  margin-top:0;
+.triangle_up1,.triangle_up3 {
+  
   position: relative;
   border-style: solid;
   border-width: 60px 50vw 0;
   color: #ffb81e;
   border-color: transparent #ffb81e #ffb81e #ffb81e;
-  background-color: black;
-  /*border-right-width: 620px;/*不写的话右边冒头，写的话向下箭头不再锐利，620相对还好;结果加上在外接显示器上又有问题*/
+  
   margin-bottom: o;
   padding-top: 0rem;
-  margin-top: 3.5rem;
+  margin-top: 0rem;
+  
 }
 
+.triangle_up1 {
+  background-color: black;
+  margin-top:0;
+}
+
+.triangle_up3 {
+  background-color: white;
+  margin-top:1rem;
+}
 
 .triangle_bottom {
   margin-top:3rem;
@@ -85,6 +188,7 @@
   border-width: 60px 50vw 0;
   color: #ffb81e;
   border-color: transparent #ffb81e #ffb81e #ffb81e;
+  margin-bottom: 0;
 
  /* border-right-width: 620px;*/
 }
@@ -93,7 +197,7 @@
   position: relative;
   justify-content: center;
   background-color: #ffb81e;
-  height: 200px;
+  height: 300px;
   text-align: center;
   padding: 2em;
   color: black;
@@ -102,25 +206,54 @@
 
 
 .subtitle1 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align:center;
-  color:#1a1a1a;
-  padding-bottom: 1rem;
-  padding-top: 0rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
+  color:black;
+  padding-bottom: 0rem;
+  padding-top: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
   margin-top: 2rem;
+  /*text-shadow:  0 20px 25px #c2c2c2, 0 40px 60px #c2c2c2;*/
+
+}
+
+.subtitleNote {
+  font-size:1rem;
+  color: #adadad;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.subtitleNote1 {
+  margin-top:1rem;
+  font-size:2rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 0rem;
+
 }
 
 .subtitle2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align:center;
-  color:white;
+  color:black;
   padding-bottom: 1rem;
-  padding-top: 0rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
-  margin-top: 0rem;
+  padding-top:6rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+.subtitle3 {
+  font-size: 3rem;
+  text-align:center;
+  color:black;
+  padding-bottom: 0rem;
+  padding-top:0rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
 }
 
 .subtitle_p {
@@ -177,9 +310,10 @@
   display: block;
   box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
   color: white;
-  margin-top:2rem;
+  margin-top:5rem;
   background-color: white;
   padding:0.5rem;
+  
 }
 
 
@@ -191,31 +325,37 @@
   color: black;
   display: block;
   box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
+  margin-top:4rem;
 }
 
 .start {
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   position: relative;
   z-index: 1;
 }
 
+.spacevideo {
+  box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
+  margin-top: 5rem;
+
+}
 
 
 .activity {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  background-color:#535296;
-
+  margin-top: 0rem;
+  padding-top: 0rem;
 }
 
+/*
 .env {
   position: relative;
-  z-index: 1;
+  /*z-index: 1;
   margin-top:0;
   padding-top:0;
-  background: #ffb81e;
+  background: #fcfcfc;
 }
-
+ */
+/*
 .env::after {
   position:absolute;
   content: "";
@@ -227,7 +367,7 @@
   height: 30%;
 }
 
-
+*/
 
 .circle1,
 .circle2,
@@ -238,7 +378,7 @@
   width: 200px;
   max-width: 200px;
   height: 200px;
-  border:7px solid #1a1a1a;
+  border:5px solid #1a1a1a;
   border-radius:200px;
   text-align: center;
   font-size: 1.5rem;
@@ -248,13 +388,14 @@
 
 
 .community {
-  margin-left: 0;
-  margin-right: 0;
+  margin-top: 4rem;
   justify-content: center;
   margin-top:3rem;
   /* width:800px;
   height: 300px; */
   padding-bottom:4rem;
+  padding: top 3rem;
+  
 }
 
 .plus1,

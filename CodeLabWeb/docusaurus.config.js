@@ -21,9 +21,14 @@ module.exports = {
           position: 'left'
         },
         {
+          /*
           to: 'projects',
+            */
+          href:'https://codelab-adapter-docs.codelab.club/user_guide/gallery/',
           label: '演示案例',
+          /*
           activeBasePath: 'projects',
+           */
           position: 'left',
          },
         {
@@ -36,7 +41,7 @@ module.exports = {
         { href: 'https://www.codelab.club/blog/about-codelab-club/', label:'关于我们', position:'left'},
         {
           label: '',
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/CodeLabClub',
           position: 'left',
           className: 'header-github-link'
         },

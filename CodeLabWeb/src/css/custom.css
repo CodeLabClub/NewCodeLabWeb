@@ -16,7 +16,7 @@
   --ifm-color-primary-lightest: #ffd374;
   --ifm-code-font-size: 95%;
   --ifm-navbar-background-color:black;
-  --ifm-background-color:#fcfcfc !important;
+  --ifm-background-color: #fcfcfc !important;
   --ifm-navbar-height: 4rem;
   /* --ifm-navbar-item-padding-horizontal: 4rem; */
   /* --ifm-navbar-item-padding-vertical: 0.25rem; */
@@ -32,6 +32,11 @@
   --ifm-button-padding-vertical: 0.775rem;
 
 }
+
+.navbar__link {
+  font-weight: bold;
+}
+
 
 .main-wrapper {
   max-width: 100vw;
@@ -87,6 +92,15 @@ html[data-theme=dark] .header-github-link:before {
   padding: 0 var(--ifm-pre-padding);
 }
 
+.button--info:active,
+    .button--info.button--active {
+      --ifm-button-border-color: white;
+      --ifm-button-background-color: white;
+
+      background-color: white;
+      border-color: white;
+    }
+
 .modalVideo {
   width: 80vw!important;
 }
@@ -137,6 +151,7 @@ h1[class^='margin-bottom--sm blogPostTitle'] {
   padding-left: 0;
   text-align: center;
 }
+
 @media screen and (max-width: 966px) {
   .navbar__items {
     justify-content: unset;

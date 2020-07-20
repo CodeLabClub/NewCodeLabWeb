@@ -33,7 +33,7 @@
   font-size: 6rem;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 
@@ -54,7 +54,6 @@
   perspective:100px;
   color:white;
   height:100vh;
-
 }
 
 .videoOverlay {
@@ -70,10 +69,13 @@
   position: static;
   height:100%;
   width:100%;
-  object-fit: cover;
- 
+  font-size: 0;
 }
 
+.autoVideoPlayer {
+  object-fit: cover;
+  height: 100%;
+}
 
 .videoContentSec {
   display:flex;
@@ -81,7 +83,7 @@
   align-items:center;
   justify-content: center;
   height:100%;
-  width:100%; 
+  width:100%;
 }
 
 .mission {
@@ -97,6 +99,13 @@
   line-height:5rem;
 }
 
+@media screen and (max-width: 966px) {
+  .mission {
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+}
+
 .yellowLine {
   border:8px solid #ffb81e;
 }
@@ -108,7 +117,7 @@
   padding-top:1rem;
   margin-top:0;
   padding-bottom: 2rem;
-  margin-bottom: 0; 
+  margin-bottom: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
 }
@@ -125,7 +134,7 @@
   font-weight: bolder;
   /*text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;*/
   text-decoration: none;
-  border: 8px solid #d9524a; 
+  border: 8px solid #d9524a;
   padding:1rem 2rem;
   box-shadow:0 20px 25px #d6d6d6, 0 40px 60px #d6d6d6;
   margin-bottom: 2rem;
@@ -156,17 +165,17 @@
 }
 
 .triangle_up1,.triangle_up3 {
-  
+
   position: relative;
   border-style: solid;
   border-width: 60px 50vw 0;
   color: #ffb81e;
   border-color: transparent #ffb81e #ffb81e #ffb81e;
-  
+
   margin-bottom: o;
   padding-top: 0rem;
   margin-top: 0rem;
-  
+
 }
 
 .triangle_up1 {
@@ -197,7 +206,6 @@
   position: relative;
   justify-content: center;
   background-color: #ffb81e;
-  height: 300px;
   text-align: center;
   padding: 2em;
   color: black;
@@ -313,7 +321,7 @@
   margin-top:5rem;
   background-color: white;
   padding:0.5rem;
-  
+
 }
 
 
@@ -327,6 +335,7 @@
   box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
   margin-top:4rem;
 }
+
 
 .start {
   padding: 3rem 1rem;
@@ -395,7 +404,7 @@
   height: 300px; */
   padding-bottom:4rem;
   padding: top 3rem;
-  
+
 }
 
 .plus1,

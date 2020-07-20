@@ -49,17 +49,17 @@ function Home() {
     <Layout
       title="Home"
       // title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">      
+      description="Description will go into a meta tag in <head />">
       <div className={clsx(styles.welcome)}>
        <h1 className={clsx(styles.helloWorld)}>Hello, world!</h1>
        <h1 className={clsx(styles.story)}>我们想讲一个<br></br>好故事</h1>
-      </div> 
+      </div>
 
 
         {/*}
         <div className={clsx("container text--center padding-top--md padding-bottom--md",styles.helloWorld)}>
           <Video src="https://adapter.codelab.club/video/1593410656522462.mp4"/>
-        </div> 
+        </div>
         <div className={clsx("container",styles.slogan)}>
           <svg width="100%" height="10%" viewBox="0 0 1108 120" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" >
             <path id="path">
@@ -73,7 +73,7 @@ function Home() {
         </div>
           */}
 
-       
+
       <div className={clsx(styles.triangle_up1)}></div>
       <div className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -85,7 +85,7 @@ function Home() {
       <div className={clsx(styles.heroVideo)}>
         {/*<div className={clsx(styles.triangle_up2)}></div>*/}
         <div className={clsx(styles.autoVideo)}>
-          <video preload="auto" loop muted autoPlay playsInline>
+          <video preload="auto" loop muted autoPlay playsInline className={styles.autoVideoPlayer}>
             <source src="/img/Play.mp4" type="video/mp4"></source>
           </video>
           <div className={clsx(styles.videoOverlay)}></div>
@@ -94,13 +94,13 @@ function Home() {
           <div className={clsx(styles.videoContent)}>
             <p className={clsx(styles.mission)}>传递编程的乐趣<br></br>鼓励孩子成为数字时代的创作者</p>
           </div>
-        </div> 
+        </div>
       </div>
-     
+
 
       {/*
       <div className={clsx("container","col",styles.chapter)}>
-        <p className={clsx(styles.number)}>1</p> 
+        <p className={clsx(styles.number)}>1</p>
         <div className={clsx(styles.hero_p)}>构建一个创作环境</div>
       </div>
         */}
@@ -177,17 +177,17 @@ function Home() {
         </div>
       </div>
 
-      
-      
+
+
         <div className="container">
           <p className={clsx(styles.subtitle2)}>联结同伴，自由松散</p>
           {/*
           <div className={clsx("container","col",styles.chapter)}>
-            <p className={clsx(styles.number)}>2</p> 
+            <p className={clsx(styles.number)}>2</p>
             <div className={clsx(styles.hero_p)}>维护一个互助社区</div>
           </div>
             */}
-        
+
           <div className={clsx("container", "row", styles.community)}>
 
             <div className={clsx(styles.circle1)}>
@@ -207,14 +207,15 @@ function Home() {
             </div>
           </div>
         </div>
-      
+
         <div className={clsx(styles.triangle_bottom)}></div>
         <div className={clsx(styles.bottom_sec)}>
           <p className={clsx(styles.subtitle3)}>支持我们</p>
           <p className={clsx(styles.subtitleNote1)}>如何支持？</p>
+          <p className={clsx(styles.subtitleNote1)}>占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位</p>
         </div>
         </div>
-      
+
     </Layout>
   );
 }

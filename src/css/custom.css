@@ -1,0 +1,163 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ffb81e;
+  --ifm-color-primary-dark: #ffaf01;
+  --ifm-color-primary-darker: #f2a600;
+  --ifm-color-primary-darkest: #c88900;
+  --ifm-color-primary-light: #ffc13b;
+  --ifm-color-primary-lighter: #ffc549;
+  --ifm-color-primary-lightest: #ffd374;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color:black;
+  --ifm-background-color: #fcfcfc !important;
+  --ifm-navbar-height: 4rem;
+  --ifm-navbar-item-padding-horizontal: 2.85rem; 
+  /* --ifm-navbar-item-padding-vertical: 0.25rem; */
+  /* --ifm-font-color-base: black; */
+  --ifm-navbar-link-color: white;
+  --ifm-color-content-secondary: #1a1a1a!important;/*右侧目录字体颜色，重新挑选修改！*/
+  --ifm-font-family-base: Poppin, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+    'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+  --ifm-font-family-monospace: Poppin, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+  --ifm-button-border-radius:2rem;
+  --ifm-button-padding-vertical: 0.775rem;
+
+}
+
+
+
+.navbar__link {
+  font-weight: bold;
+}
+
+
+.main-wrapper {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+video {
+  width: 100%;
+}
+
+.header-github-link:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23fff' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E") no-repeat;
+}
+html[data-theme=dark] .header-github-link:before {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23fff' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E") no-repeat;
+}
+
+.navbar__logo {
+  height: 100%;
+  margin-right: 0.5rem;
+}
+.navbar__items {
+  flex-grow: 1;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+.navbar__items--right {
+  flex: unset;
+}
+
+
+.button--info {
+  --ifm-button-border-color: var(--ifm-color-info);
+  background-color:white;
+  border-width: 0;
+  color:#ffb81e;
+  margin: 0 1rem;
+  box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
+}
+
+.button--info:not(.button--outline):hover {
+  color:#1a1a1a;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.button--info:active,
+    .button--info.button--active {
+      --ifm-button-border-color: white;
+      --ifm-button-background-color: white;
+
+      background-color: white;
+      border-color: white;
+    }
+
+.modalVideo {
+  width: 80vw!important;
+}
+
+.ReactModal__Overlay {
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5)!important;
+}
+.ReactModal__Content {
+  background-color: var(--ifm-navbar-background-color)!important;
+  border-color: var(--ifm-navbar-background-color)!important;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 !important; /*改不了*/
+}
+
+.footer {
+  background-color: #000000;
+  color: var(--ifm-footer-color);
+  padding: var(--ifm-footer-padding-vertical)
+    var(--ifm-footer-padding-horizontal);
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+h1[class^='margin-bottom--sm blogPostTitle'] {
+  color:blue;
+}
+
+
+.footer__links {
+  padding-bottom: 4rem;
+}
+.footer__link-item {
+  color: var(--ifm-footer-link-color);
+  line-height: 2;
+  /* padding: 4.5rem 0; */
+  text-align: center;
+}
+
+.footer__items {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  padding-left: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 966px) {
+  .navbar__items {
+    justify-content: unset;
+  }
+}

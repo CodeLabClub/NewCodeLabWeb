@@ -73,7 +73,7 @@ module.exports = {
           items:[
             {
               label:'下载',
-              to: 'https://www.codelab.club/blog/codelab-download/'
+              to: 'https://www-old.codelab.club/blog/codelab-download/'
             },
           ]
         },

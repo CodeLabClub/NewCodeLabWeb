@@ -120,7 +120,7 @@ function Home() {
           <p className={clsx(styles.subtitle1)}>延伸至可编程空间</p>
           <p className={clsx(styles.subtitleNote)}>在 CodeLab Adapter 的驱动下，实现软件、硬件，虚拟动画角色、物理实体、AI 的互动联通</p>
           <div className={clsx("container text--center padding-top--md padding-bottom--md",styles.spacevideo)} style={{background: 'white', fontSize: 0}}>
-            <Video src="https://scratch3-files.just4fun.site/play.mp4" poster="/img/play.png"/>
+            <Video src="https://scratch3-files.just4fun.site/play.mp4" poster="/img/Play.png"/>
           </div>
         </div>
           <div className="container padding-top-lg">

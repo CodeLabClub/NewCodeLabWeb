@@ -86,7 +86,7 @@ function Home() {
         {/*<div className={clsx(styles.triangle_up2)}></div>*/}
         <div className={clsx(styles.autoVideo)}>
           <video preload="auto" loop muted autoPlay playsInline className={styles.autoVideoPlayer}>
-            <source src="https://scratch3-files.just4fun.site/Codelabvideos2.mp4" type="video/mp4"></source>
+            <source src="https://scratch3-files.just4fun.site/1595309037265826.mp4" type="video/mp4"></source>
           </video>
           <div className={clsx(styles.videoOverlay)}></div>
         </div>
@@ -110,7 +110,7 @@ function Home() {
         <div className={clsx("container",styles.start)}>
           <p className={clsx(styles.subtitle1)}>让我们从 Scratch 开始</p>
           <p className={clsx(styles.subtitleNote)}>色彩、卡通、音乐、运动、交互全在这里，由此进入动画故事、交互游戏、程序软件的幕后创作</p>
-          <iframe className={styles.iframe} src="https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3"/>
+          <iframe className={styles.iframe} src="https://scratch3v3.codelab.club/?sb3url=https://scratch3-files.just4fun.site/wakemeup.sb3"/>
           <p className="text--center margin-top--lg">
             <a href="https://scratch.codelab.club/projects/editor/" target="_blank"><button className="button button--info margin-bottom--md">立即开始 Scratch 创作</button></a>
             <a href="https://scratch.codelab.club" target="_blank"><button className="button button--info margin-bottom--md">先去看看大家的作品</button></a>
@@ -120,7 +120,7 @@ function Home() {
           <p className={clsx(styles.subtitle1)}>延伸至可编程空间</p>
           <p className={clsx(styles.subtitleNote)}>在 CodeLab Adapter 的驱动下，实现软件、硬件，虚拟动画角色、物理实体、AI 的互动联通</p>
           <div className={clsx("container text--center padding-top--md padding-bottom--md",styles.spacevideo)} style={{background: 'white', fontSize: 0}}>
-            <Video src="/img/play.mp4" poster="/img/play.png"/>
+            <Video src="https://scratch3-files.just4fun.site/play.mp4" poster="/img/play.png"/>
           </div>
         </div>
           <div className="container padding-top-lg">

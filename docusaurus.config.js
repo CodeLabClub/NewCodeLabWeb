@@ -124,11 +124,14 @@ module.exports = {
     ],
   ],
   scripts: [
-    'https://unpkg.com/video.js/dist/video.min.js',
+    'https://cdn.jsdelivr.net/npm/video.js/dist/video.min.js',
     '/script/settheme.js'
   ],
   stylesheets: [
-    'https://unpkg.com/video.js/dist/video-js.min.css',
-    'https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css'
+    // https://unpkg.com/video.js/dist/video-js.min.css
+    // 
+    //'https://unpkg.com/video.js/dist/video-js.min.css',
+    'https://cdn.jsdelivr.net/npm/video.js/dist/video-js.min.css',
+    'https://cdn.jsdelivr.net/npm/@videojs/themes@1/dist/fantasy/index.css'
   ]
 };

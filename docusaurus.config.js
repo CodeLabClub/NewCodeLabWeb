@@ -24,7 +24,7 @@ module.exports = {
           /*
           to: 'projects',
             */
-          href:'https://codelab-adapter-docs.codelab.club/user_guide/gallery/',
+          href:'https://adapter.codelab.club/user_guide/gallery/',
           label: '演示案例',
           /*
           activeBasePath: 'projects',
@@ -32,7 +32,7 @@ module.exports = {
           position: 'left',
          },
         {
-          href: 'https://codelab-adapter-docs.codelab.club/',
+          href: 'https://adapter.codelab.club/',
           activeBasePath: 'docs/adapter',
           label: '文档',
           position: 'left',

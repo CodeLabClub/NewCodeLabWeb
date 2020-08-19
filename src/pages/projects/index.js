@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useLayoutEffect } from 'react';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import styles from './styles.module.css';
@@ -9,11 +9,11 @@ import useThemeContext from '@theme/hooks/useThemeContext';
 import Modal from 'react-modal';
 const videos = require('../../../static/video_config.json')
 
-
+/*
 const Header = function () {
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   return (
-    <header /*className={clsx('hero', styles.heroBanner)}*/>
+    <header>
       <div className={clsx('hero', styles.heroBanner)}>
         <div className="container">
           <p className={clsx(styles.herosubtitle , isDarkTheme)}>演示案例</p>
@@ -23,6 +23,7 @@ const Header = function () {
       <div className={clsx(styles.triangle_top)}></div>
     </header>)
 }
+ */
 
 export const VideoRow = function ({title, videos, ...props}) {
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
@@ -37,7 +38,8 @@ export const VideoRow = function ({title, videos, ...props}) {
       right                 : 'auto',
       bottom                : 'auto',
       marginRight           : '-50%',
-      transform             : 'translate(-50%, -50%)'
+      transform             : 'translate(-50%, -50%)',
+      padding: '0'
     }
   };
 
@@ -45,7 +47,7 @@ export const VideoRow = function ({title, videos, ...props}) {
     aspectRatio:"16:9",
     fluid: true,
     controls: true,
-    autoplay: true,
+    autoplay: false,
     preload: 'auto'
   }
 
@@ -66,11 +68,10 @@ export const VideoRow = function ({title, videos, ...props}) {
       player.dispose()
       setIsOpen(false);
     }
-
   }
 
   return (
-    <div className="margin-top--lg margin-bottom--lg">
+    <div className="margin-top--log margin-bottom--log">
       {
         title ?
           <p className={clsx('hero__subtitle', isDarkTheme && styles.headerFontColor)}>{title}</p> : null
@@ -78,17 +79,25 @@ export const VideoRow = function ({title, videos, ...props}) {
       <div className="row">
         {
           videos.map((video, index) => (
-            <div className={clsx('col col--3')} key={index}>
+            <div className={clsx('col col--4')} key={index}>
               <div>
                 <video
                   src={video.src}
+                  /*poster="/static/img/Play.PNG"*/
                   className={clsx(styles.video)}
-                  onClick={() => openModal(video)}
-                >
-                    <source src={video.src} type="video/mp4" />
+                  onClick={() => openModal(video)}>
+                    <source src={video.src} type="video/mp4"/>
                 </video>
-                <p className={clsx('text--center', isDarkTheme && styles.headerFontColor)}>{video.title}</p>
+                <p className={clsx('text--center', isDarkTheme && styles.headerFontTitle)}>{video.title}</p>
               </div>
+            
+                {/*
+                < div className={clsx(styles.videoName)}>
+                  <p className={clsx('text--left', isDarkTheme && styles.headerFontNum)}>by CodeLab</p>
+                  <p className={clsx('text--center', isDarkTheme && styles.headerFontTitle)}>{video.title}</p>
+                </div>
+                */}
+              
             </div>
           ))
         }
@@ -113,7 +122,6 @@ export const VideoRow = function ({title, videos, ...props}) {
               <source src={currVideo.src} type="video/mp4" />
           </video> : null
         }
-
       </Modal>
     </div>
   )
@@ -122,19 +130,31 @@ export const VideoRow = function ({title, videos, ...props}) {
 function Projects() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
-  
-
-
+  useLayoutEffect(() => {
+    window.$(".stack").lettering();
+  }, [])
   return (
     <Layout title="Projects">
+      {/*
       <Header/>
-      <main className={clsx("container")}>
-        <VideoRow title="来自CodeLab" videos={videos['来自CodeLab']}/>
-        <VideoRow title="来自社区" videos={videos['来自社区']}/>
-      </main>
+      */}
+      <div className={clsx(styles.mainPage)}>
+        <div className={clsx(styles.titleSec, 'cover')}>
+          {/*
+            <span className={clsx(styles.fancytitle1, 'stack')}>Let's &nbsp;</span>
+            <span className={clsx(styles.fancytitle1, 'stack')}>&nbsp; Play!</span>
+          
+            <h1 className={clsx(styles.fancytitle2, 'stack')}>无惧简陋与粗糙</h1>
+            */}
+            <h1 className={clsx(styles.fancytitle2, 'stack')}>在玩乐中创作与表达</h1>
+        </div>
+        <main className={clsx("container")}>
+          <VideoRow title="" videos={videos['来自CodeLab']}/>         
+          <VideoRow title="" videos={videos['来自社区']}/>
+        </main>
+      </div>
     </Layout>
   );
-
 }
 
 export default Projects;

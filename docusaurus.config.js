@@ -21,24 +21,39 @@ module.exports = {
           position: 'left'
         },
         {
-          /*
           to: 'projects',
-            */
-          href:'https://codelab-adapter-docs.codelab.club/user_guide/gallery/',
-          label: '演示案例',
+          /*
+            href:'https://adapter.codelab.club/user_guide/gallery/',
+           */
+          label: '玩给你看',
           /*
           activeBasePath: 'projects',
            */
           position: 'left',
-         },
+        },
         {
-          href: 'https://codelab-adapter-docs.codelab.club/',
-          activeBasePath: 'docs/adapter',
+          
+          href: 'https://adapter.codelab.club/',
+          /*
+          to: 'docs/adapter',         
+          activeBasePath:'docs/adapter',
+           */
           label: '文档',
           position: 'left',
         },
-        { href: 'https://www.codelab.club/blog/', label: '博客', position: 'left'},
-        { href: 'https://www.codelab.club/blog/about-codelab-club/', label:'关于我们', position:'left'},
+        { 
+          to: 'blog', 
+          /*
+          activeBasePath:'blog',
+           */
+          label: '博客', 
+          position: 'left'
+        },
+        { 
+          to: '/blog/2018/11/08/about-codelab-club', 
+          label:'关于我们', 
+          position:'left'
+        },
         {
           label: '',
           href: 'https://github.com/CodeLabClub',
@@ -64,7 +79,7 @@ module.exports = {
           items:[
             {
               label:'博客圈',
-              to: 'https://www.codelab.club/blog/'
+              to: 'blog'
             },
           ]
         },
@@ -73,7 +88,7 @@ module.exports = {
           items:[
             {
               label:'下载',
-              to: 'https://www.codelab.club/blog/codelab-download/'
+              to: 'blog/2020/08/20/tools'
             },
           ]
         },
@@ -82,7 +97,7 @@ module.exports = {
           items:[
             {
               label:'回到未来',
-              to: 'https://www.codelab.club/blog/'
+              to: 'blog'
             },
           ]
         },
@@ -124,8 +139,10 @@ module.exports = {
     ],
   ],
   scripts: [
+    'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js',
     'https://cdn.jsdelivr.net/npm/video.js/dist/video.min.js',
-    '/script/settheme.js'
+    '/script/settheme.js',
   ],
   stylesheets: [
     // https://unpkg.com/video.js/dist/video-js.min.css

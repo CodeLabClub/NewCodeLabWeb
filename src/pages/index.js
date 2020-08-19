@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useLayoutEffect} from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -44,6 +44,9 @@ function Feature({imageUrl, title, description}) {
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+  useLayoutEffect(() => {
+    window.$(".stack").lettering();
+  }, [])
 
   return (
     <Layout
@@ -51,8 +54,9 @@ function Home() {
       // title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <div className={clsx(styles.welcome)}>
-       <h1 className={clsx(styles.helloWorld)}>Hello, world!</h1>
-       <h1 className={clsx(styles.story)}>我们想讲一个<br></br>好故事</h1>
+       <span className={clsx(styles.helloWorld,'stack')}>Hello, &nbsp;</span>
+       <span className={clsx(styles.helloWorld,'stack')}>&nbsp; world!</span>
+       <h1 className={clsx(styles.story,'stack')}>我们想讲一个<br></br>好故事</h1>
       </div>
 
 
@@ -86,7 +90,7 @@ function Home() {
         {/*<div className={clsx(styles.triangle_up2)}></div>*/}
         <div className={clsx(styles.autoVideo)}>
           <video preload="auto" loop muted autoPlay playsInline className={styles.autoVideoPlayer}>
-            <source src="https://scratch3-files.just4fun.site/1595309037265826.mp4" type="video/mp4"></source>
+            <source src="https://scratch3-files.just4fun.site/CodeLabVideos3_5m.mp4" type="video/mp4"></source>
           </video>
           <div className={clsx(styles.videoOverlay)}></div>
         </div>
@@ -110,7 +114,7 @@ function Home() {
         <div className={clsx("container",styles.start)}>
           <p className={clsx(styles.subtitle1)}>让我们从 Scratch 开始</p>
           <p className={clsx(styles.subtitleNote)}>色彩、卡通、音乐、运动、交互全在这里，由此进入动画故事、交互游戏、程序软件的幕后创作</p>
-          <iframe className={styles.iframe} src="https://scratch3v3.codelab.club/?sb3url=https://scratch3-files.just4fun.site/wakemeup.sb3"/>
+          <iframe className={styles.iframe} src="https://scratch3v3.codelab.club/?sb3url=https://scratch3-files.just4fun.site/Wake_me_up_now_3m.sb3"/>
           <p className="text--center margin-top--lg">
             <a href="https://scratch.codelab.club/projects/editor/" target="_blank"><button className="button button--info margin-bottom--md">立即开始 Scratch 创作</button></a>
             <a href="https://scratch.codelab.club" target="_blank"><button className="button button--info margin-bottom--md">先去看看大家的作品</button></a>
@@ -120,7 +124,7 @@ function Home() {
           <p className={clsx(styles.subtitle1)}>延伸至可编程空间</p>
           <p className={clsx(styles.subtitleNote)}>在 CodeLab Adapter 的驱动下，实现软件、硬件，虚拟动画角色、物理实体、AI 的互动联通</p>
           <div className={clsx("container text--center padding-top--md padding-bottom--md",styles.spacevideo)} style={{background: 'white', fontSize: 0}}>
-            <Video src="https://scratch3-files.just4fun.site/play.mp4" poster="/img/play.png"/>
+            <Video src="https://scratch3-files.just4fun.site/play.mp4" poster="/img/Play.png"/>
           </div>
         </div>
           <div className="container padding-top-lg">
@@ -129,8 +133,8 @@ function Home() {
               <Link to="/projects"><button className="button button--info margin-bottom--md">更多演示案例</button></Link>
               <Link to="/docs"><button className="button button--info margin-bottom--md">阅读技术文档</button></Link>
               */}
-              <a href="https://codelab-adapter-docs.codelab.club/user_guide/gallery/" target="_blank"><button className="button button--info margin-bottom--md">更多演示案例</button></a>
-              <a href="https://codelab-adapter-docs.codelab.club/" target="_blank"><button className="button button--info margin-bottom--md">阅读技术文档</button></a >
+              <a href="https://adapter.codelab.club/user_guide/gallery/" target="_blank"><button className="button button--info margin-bottom--md">更多演示案例</button></a>
+              <a href="https://adapter.codelab.club/" target="_blank"><button className="button button--info margin-bottom--md">阅读技术文档</button></a >
             </p>
           </div>
         </div>
@@ -149,18 +153,18 @@ function Home() {
                 <h3>
                   <a href="https://mp.weixin.qq.com/s/1IJIHCKaqZeJki8hWiAKuw" target="_blank">Scratch 编程暑期公益课程</a>
                 </h3>
-                <p>暑期重头，本周开始</p>
+                <p>暑期进行中</p>
               </article>
             </div>
             <div className= 'col'>
               <article className={clsx(styles.box)}>
                 <a className={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/3.4.1-release/" target="_blank">
-                  <img src="/img/adapter3.4.png" alt = "CodeLab Adapter 3.4 发布"></img>
+                  <img src="/img/封面.png" alt = "CodeLab Adapter 3.4 发布"></img>
                 </a>
                 <h3>
-                  <a href="https://www.codelab.club/blog/3.4.1-release/" target="_blank">CodeLab Adapter 3.4 发布</a>
+                  <a href="https://www-old.codelab.club/blog/release-3-5/" target="_blank">CodeLab Adapter 3.5 发布</a>
                 </h3>
-                <p>从此完整（full）、精简（lite）任君选</p>
+                <p>CodeLab Scratch社区的创作平台将作为Scratch入口</p>
               </article>
             </div>
           <div className= 'col'>
@@ -191,7 +195,7 @@ function Home() {
           <div className={clsx("container", "row", styles.community)}>
 
             <div className={clsx(styles.circle1)}>
-              <a href="https://scratch.codelab.club/explore/projects/all/" target="_blank"><div>Scratch 社区</div></a>
+              <a href="https://scratch.codelab.club/" target="_blank"><div>Scratch 社区</div></a>
             </div>
             <div className={clsx(styles.plus1, 'col', 'col--1')}>
               <p>+</p>
@@ -203,7 +207,7 @@ function Home() {
               <p>+</p>
             </div>
             <div className={clsx(styles.circle3)}>
-              <a href="https://www.codelab.club/blog/" target="_blank"><div>博客圈</div></a>
+              <a href="/blog"><div>博客圈</div></a>
             </div>
           </div>
         </div>

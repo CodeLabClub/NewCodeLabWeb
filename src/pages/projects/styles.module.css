@@ -4,6 +4,8 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*
 
 .heroBanner {
   padding: 1rem 0;
@@ -13,17 +15,58 @@
   background-color: #ffb81e;
   color: black;
 }
+ */
 
-.herotitle {
-  font-size: 3rem;
-  color: black;
-}
-
+ /*
 .herosubtitle {
   font-size: 2rem;
   color:black;
   padding-top: 1rem;
 }
+ */
+ 
+ /*
+.triangle_top {
+ 
+  border-style: solid;
+  border-width: 60px 50vw 0;
+  color: #ffb81e;
+  border-color: #ffb81e transparent transparent transparent;
+  width: 1140px;
+}
+ */
+
+
+.mainPage {
+  background-color: black!important; 
+  /*
+  background-image: radial-gradient(circl,#0a0a0a,black);
+   */
+}
+
+.titleSec {
+  padding-top:5vh;
+  display: block;
+  background-color: black;
+  margin-bottom:5vh;
+  text-align:center;
+  padding-bottom: 2vh;
+}
+
+.fancytitle1 {
+  font-size:7vw;
+  color:white;
+  padding-top:1rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.fancytitle2 {
+  font-size:5vw;
+  color:white;
+  padding-bottom:5vh;
+  padding-top:3vh;
+}
+
 
 @media screen and (max-width: 966px) {
   .heroBanner {
@@ -38,6 +81,7 @@
   justify-content: center;
 }
 
+
 .features {
   display: flex;
   align-items: center;
@@ -45,32 +89,37 @@
   width: 100%;
 }
 
+
 .featureImage {
   height: 200px;
   width: 200px;
 }
 
-
-.headerFontColor {
-  color: black;
+/*
+.headerFontNum {
+  color: white;
+  padding-left:10px;
+  font-weight: bold;
+  font-size: 15px;
 }
+*/
 
-.triangle_top {
- 
-  border-style: solid;
-  border-width: 60px 50vw 0;
-  color: #ffb81e;
-  border-color: #ffb81e transparent transparent transparent;
-  width: 1140px;
+.headerFontTitle {
+  color: white;
+  padding-bottom:4rem;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 
 .video {
   width: 100%;
   cursor: pointer;
-  box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
-
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+  position: relative;
 }
+
 .modalVideo {
   width: 80vw;
 }

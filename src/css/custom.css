@@ -30,6 +30,7 @@
     'Liberation Mono', 'Courier New', monospace;
   --ifm-button-border-radius:2rem;
   --ifm-button-padding-vertical: 0.775rem;
+  --ifm-color-content:#1a1a1a;
 
 }
 
@@ -133,11 +134,17 @@ html[data-theme=dark] .header-github-link:before {
   font-weight: bold;
 }
 
-
+/*
 h1[class^='margin-bottom--sm blogPostTitle'] {
   color:blue;
+  font-size:2rem;
 }
 
+h2[class^='margin-bottom--sm blogPostTitle'] {
+  color:blue;
+  font-size:1rem;
+}
+*/
 
 .footer__links {
   padding-bottom: 4rem;
@@ -160,4 +167,90 @@ h1[class^='margin-bottom--sm blogPostTitle'] {
   .navbar__items {
     justify-content: unset;
   }
+}
+
+.cover {
+  color: white;
+  margin: 0;
+  display: block;
+ /* box-shadow: 0em 0em 5em rgba(10,10,10,0.7); */
+}
+
+.stack {
+  font-size: 10em;
+  line-height: 0.7em;
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+}
+
+.char1{
+  z-index: 12;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char2{
+  z-index: 11;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char3{
+  z-index: 10;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char4{
+  z-index: 9;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char5{
+  z-index: 8;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char6{
+  z-index: 7;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char7{
+  z-index: 6;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char8{
+  z-index: 5;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char9{
+  z-index: 4;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char10{
+  z-index: 3;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char11{
+  z-index: 2;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
+}
+
+.char12{
+  z-index: 1;
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  margin-left:-0.1em;
 }

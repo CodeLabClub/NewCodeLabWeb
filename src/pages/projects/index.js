@@ -70,6 +70,21 @@ export const VideoRow = function ({title, videos, ...props}) {
     }
   }
 
+  useLayoutEffect(() => {
+    const observer = window.lozad('.lozad', {
+      load: (el) => {
+        el.src = el.getAttribute('data-src');
+        // Custom implementation to load an element
+        // e.g. el.src = el.getAttribute('data-src');
+      },
+      loaded: (el) => {
+        el.removeAttribute('poster')
+        el.classList.add('loaded');
+      }
+    }); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
+  })
+
   return (
     <div className="margin-top--log margin-bottom--log">
       {
@@ -82,22 +97,22 @@ export const VideoRow = function ({title, videos, ...props}) {
             <div className={clsx('col col--4')} key={index}>
               <div>
                 <video
-                  src={video.src}
-                  /*poster="/static/img/Play.PNG"*/
-                  className={clsx(styles.video)}
-                  onClick={() => openModal(video)}>
-                    <source src={video.src} type="video/mp4"/>
-                </video>
+                  type="video/mp4"
+                  poster="/static/img/Play.PNG"
+                  data-src={video.src}
+                  className={clsx(styles.video, 'lozad')}
+                  onClick={() => openModal(video)}
+                />
                 <p className={clsx('text--center', isDarkTheme && styles.headerFontTitle)}>{video.title}</p>
               </div>
-            
+
                 {/*
                 < div className={clsx(styles.videoName)}>
                   <p className={clsx('text--left', isDarkTheme && styles.headerFontNum)}>by CodeLab</p>
                   <p className={clsx('text--center', isDarkTheme && styles.headerFontTitle)}>{video.title}</p>
                 </div>
                 */}
-              
+
             </div>
           ))
         }
@@ -143,13 +158,13 @@ function Projects() {
           {/*
             <span className={clsx(styles.fancytitle1, 'stack')}>Let's &nbsp;</span>
             <span className={clsx(styles.fancytitle1, 'stack')}>&nbsp; Play!</span>
-          
+
             <h1 className={clsx(styles.fancytitle2, 'stack')}>无惧简陋与粗糙</h1>
             */}
             <h1 className={clsx(styles.fancytitle2, 'stack')}>在玩乐中创作与表达</h1>
         </div>
         <main className={clsx("container")}>
-          <VideoRow title="" videos={videos['来自CodeLab']}/>         
+          <VideoRow title="" videos={videos['来自CodeLab']}/>
           <VideoRow title="" videos={videos['来自社区']}/>
         </main>
       </div>

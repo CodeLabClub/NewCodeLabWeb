@@ -32,26 +32,26 @@ module.exports = {
           position: 'left',
         },
         {
-          
+
           href: 'https://adapter.codelab.club/',
           /*
-          to: 'docs/adapter',         
+          to: 'docs/adapter',
           activeBasePath:'docs/adapter',
            */
           label: '文档',
           position: 'left',
         },
-        { 
-          to: 'blog', 
+        {
+          to: 'blog',
           /*
           activeBasePath:'blog',
            */
-          label: '博客', 
+          label: '博客',
           position: 'left'
         },
-        { 
-          to: '/blog/2018/11/08/about-codelab-club', 
-          label:'关于我们', 
+        {
+          to: '/blog/2018/11/08/about-codelab-club',
+          label:'关于我们',
           position:'left'
         },
         {
@@ -139,6 +139,7 @@ module.exports = {
     ],
   ],
   scripts: [
+    'https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js',
     'https://cdn.jsdelivr.net/npm/video.js/dist/video.min.js',
@@ -146,7 +147,7 @@ module.exports = {
   ],
   stylesheets: [
     // https://unpkg.com/video.js/dist/video-js.min.css
-    // 
+    //
     //'https://unpkg.com/video.js/dist/video-js.min.css',
     'https://cdn.jsdelivr.net/npm/video.js/dist/video-js.min.css',
     'https://cdn.jsdelivr.net/npm/@videojs/themes@1/dist/fantasy/index.css'

@@ -24,9 +24,18 @@
   --ifm-button-border-radius:0rem;
   --ifm-button-padding-vertical: 0.5rem;
   --ifm-color-content:#1a1a1a;
-  --ifm-global-radius: 0rem;
+  --ifm-global-radius: 2px;
 }
 
+code {
+  background-color: #ffb81e;
+  border-radius: 2px;
+  color: black;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: var(--ifm-code-font-size);
+  margin: 2px;
+ 
+}
 .markdown > h1 {
   --ifm-h1-font-size: 2rem;
 

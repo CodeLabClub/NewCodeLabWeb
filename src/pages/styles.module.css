@@ -221,7 +221,7 @@
 }
 
 .subtitle1 {
-  font-size: 3vw;
+  font-size: 4vw;
   text-align:center;
   color:black;
   padding-top: 6vh;
@@ -253,7 +253,7 @@
 }
 
 .subtitle2 {
-  font-size: 3vw;
+  font-size: 4vw;
   text-align:center;
   color:black;
   padding-bottom: 3vh;
@@ -401,7 +401,7 @@
   width: 15vw;
   max-width: 15vw;
   height: 15vw;
-  border:0.3rem solid #1a1a1a;
+  border:0.25rem solid #1a1a1a;
   border-radius:15vw;
   text-align: center;
   font-size: 1.5vw;

@@ -158,22 +158,22 @@ function Home() {
             </div>
             <div className= 'col'>
               <article className={clsx(styles.box)}>
-                <a className={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/3.4.1-release/" target="_blank">
-                  <img src="/img/封面.png" alt = "CodeLab Adapter 3.4 发布"></img>
+                <a className={clsx(styles.imagefeature)} href="/blog/2020/08/14/3.5-release/">
+                  <img src="/img/封面.png" alt = "CodeLab Adapter 3.5 发布"></img>
                 </a>
                 <h3>
-                  <a href="https://www-old.codelab.club/blog/release-3-5/" target="_blank">CodeLab Adapter 3.5 发布</a>
+                  <a href="/blog/2020/08/14/3.5-release/">CodeLab Adapter 3.5 发布</a>
                 </h3>
                 <p>CodeLab Scratch社区的创作平台将作为Scratch入口</p>
               </article>
             </div>
           <div className= 'col'>
             <article className={clsx(styles.box)}>
-              <a className={clsx(styles.imagefeature)} href="https://www.codelab.club/blog/david-p1/" target="_blank">
+              <a className={clsx(styles.imagefeature)} href="/blog/2020/07/09/CodeLab冒险记（一）">
                 <img src="/img/寻宝记.png" alt = "CodeLab冒险记"></img>
               </a>
               <h3>
-                <a href="https://www.codelab.club/blog/david-p1/" target="_blank">CodeLab 冒险记（一）</a>
+                <a href="/blog/2020/07/09/CodeLab冒险记（一）">CodeLab 冒险记（一）</a>
               </h3>
               <p>以实习报告为始，且看何为终</p>
             </article>

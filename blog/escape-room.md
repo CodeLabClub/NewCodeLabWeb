@@ -24,12 +24,12 @@ tags: ["programming"]
 
 >  “两只老虎”的例子给了我一个启发，用户在场景中演奏特定曲目，识别后解锁。曲目的选取则与故事内容发生关联。
 
-{/*，既然我们可以为空间里如此多的物理实体编程，是否可以通过物体的彼此互动，就像。比方说*/}
+<!--，既然我们可以为空间里如此多的物理实体编程，是否可以通过物体的彼此互动，就像。比方说-->
 
 # 两只老虎、传感器与萨满巫师
 @李懿提到的`两只老虎`是我们此前做的一个演示：将三个小伙伴的手掌转化为钢琴的三个按键(`Do-Re-Mi`)。接触手掌时，如同按下钢琴键。
 
-<video width="400" src="/video/%E4%B8%A4%E5%8F%AA%E8%80%81%E8%99%8E.mp4" controls="controls"></video>
+<video width="400" src="https://www-old.codelab.club/video/%E4%B8%A4%E5%8F%AA%E8%80%81%E8%99%8E.mp4" controls="controls"></video>
 
 在这个例子中，通过一个传感器，采集到人体的接触信号，经过简单的编程，就可以将人与人的接触转化为音符。
 
@@ -99,7 +99,7 @@ CodeLab构建了[CodeLab Adapter](https://adapter.codelab.club/)这个通用工�
 
 也欢迎阅读本文的密室逃脱从业者联系我们：）
 
-{/*
+<!--
 # 一些想象空间
 [环球影城
     广告位
@@ -113,7 +113,7 @@ CodeLab构建了[CodeLab Adapter](https://adapter.codelab.club/)这个通用工�
 leeyi 展示内容 网红 解密
 
 将参与一个`生物实验室`的共建，提供计算平台和设备 物理计算 dynamicland
-*/}
+-->
 
 
 # 参考

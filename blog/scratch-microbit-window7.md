@@ -4,7 +4,7 @@ author: 种瓜
 date: 2019-01-10T19:00:00+08:00
 ---
 
-{/*转载自 适应bootstrap的*/}
+<!--转载自 适应bootstrap的-->
 <div className="alert alert-success">原文地址：<a href="https://blog.just4fun.site/Scratch3-micro:bit-Windows7.html">Scratch3.0、micro:bit与Windows7</a></div>
 
 <img className="img-responsive" src="/img/scratch-microbit_d401c6cc.png" />

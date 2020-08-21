@@ -61,7 +61,7 @@ CodeLab Adapter extension_eim 的源码，我们也已经更新到 Github 上: [
 
 需要注意的是，你需要将网站运行为 https(`webpack-dev-server --https`)来与[CodeLab Adapter](https://codelab-adapter-docs.codelab.club)通信。
 
-{/*
+<!--
 [CodeLab Adapter](https://codelab-adapter-docs.codelab.club)目前接受以下 http origin 与它通信:
 
 - 127.0.0.1
@@ -72,7 +72,7 @@ CodeLab Adapter extension_eim 的源码，我们也已经更新到 Github 上: [
 
 
 第三方平台接入的条款我们正在制定中。目前大家可以现在本地测试。
-*/}
+-->
 
 
 ## 参考

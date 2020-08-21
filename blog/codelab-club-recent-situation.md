@@ -102,7 +102,7 @@ codelab的志愿者们对此并不满意。
 
 >  硅谷的标配是升降桌 可以调节高度的 宜家有便宜版本
 
-{/* https://docs.google.com/document/d/1P-TpOeezInzj0ZeflJsbUToVAUDJM3NtghQYjE8PauE/edit */}
+<!--https://docs.google.com/document/d/1P-TpOeezInzj0ZeflJsbUToVAUDJM3NtghQYjE8PauE/edit -->
 
 关于展示区她也给出了很棒的建议:
 
@@ -110,14 +110,14 @@ codelab的志愿者们对此并不满意。
 
 
 
-{/*
+<!--
 # 线上社区
 我们在[codelab.club](https://www.codelab.club/)主页中写道:
 
 >  线下方面，codelab.club将在全国主要城市，利用周末时间，组织志愿者、借用场地，开展编程活动；线上方面，codelab.club将构建先进的少儿编程平台，在积木化编程里加入开源硬件、物联网和人工智能；同时我们将构建活跃的用户社区，鼓励家长、教育者、学习者参与其中；我们也乐于与其他公益组织展开合作，让编程与更广泛的社会活动结合
 
 线上
-*/}
+-->
 
 # 万物积木化
 [codelab-adapter](https://codelab-adapter-docs.codelab.club/)是codelab.club构建的基础设施之一。[codelab-adapter](https://codelab-adapter-docs.codelab.club/)目标是使万物积木化，帮助没有编程经验又热爱创造的人，更容易地去实现他们的创意。

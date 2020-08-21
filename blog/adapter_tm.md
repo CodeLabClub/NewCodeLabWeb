@@ -29,11 +29,11 @@ Teachable Machine 是什么? 我们引用其主页的介绍:
 
 ## 展示一下
 
-<video width="40%" src="/video/google_tf_prediction.mp4" controls="controls"></video>
+<video width="40%" src="https://www-old.codelab.club/video/google_tf_prediction.mp4" controls="controls"></video>
 
 更完整的介绍：
 
-<video width="80%" src="/video/google_tm_demo.mp4" controls="controls"></video>
+<video width="80%" src="https://www-old.codelab.club/video/google_tm_demo.mp4" controls="controls"></video>
 
 ## 如何使用？
 
@@ -83,13 +83,13 @@ Teachable Machine 接入到了 CodeLab Adapter 之后，可以与 CodeLab Adapte
 
 ![](https://adapter.codelab.club/img/adapter_party.jpeg)
 
-{/*
+<!--
 在CodeLab Adapter的内测版本中，支持[Teachable Machine](https://teachablemachine.withgoogle.com/)导出的model，使其与CodeLab Adapter开放
 
 我们计划将这项实验功能加入到下个版本里。
-*/}
+-->
 
-{/*
+<!--
 之后与CodeLab Adapter一同使用它。(上传)
 
 ### 在线使用
@@ -114,7 +114,7 @@ https://github.com/wwj718/TeachableMachine4adapter
 https://teachablemachine.withgoogle.com/models/Xubn6ODo/
 
 剪刀 布 和 空
-*/}
+-->
 
 # 一个演示
 
@@ -122,7 +122,7 @@ https://teachablemachine.withgoogle.com/models/Xubn6ODo/
 
 下边的例子展示了在 CodeLab Adapter 中加载《身体姿态:头部倾斜》，加载之后我们就可以将 Teachable Machine 的能力带入到 Scratch 里（以及 CodeLab Adapter 支持的另外 34+编程语言！）
 
-<video width="80%" src="/video/adapter_google_teachable_machine.mp4" controls="controls"></video>
+<video width="80%" src="https://www-old.codelab.club/video/adapter_google_teachable_machine.mp4" controls="controls"></video>
 
 # 参考
 

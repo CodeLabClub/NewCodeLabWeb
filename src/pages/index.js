@@ -123,7 +123,7 @@ function Home() {
         <div className="padding-top--lg padding-bottom--lg">
           <p className={clsx(styles.subtitle1)}>延伸至可编程空间</p>
           <p className={clsx(styles.subtitleNote)}>在 CodeLab Adapter 的驱动下，实现软件、硬件，虚拟动画角色、物理实体、AI 的互动联通</p>
-          <div className={clsx("container text--center padding-top--md padding-bottom--md",styles.spacevideo)} style={{background: 'white', fontSize: 0}}>
+          <div className={clsx("container text--center padding-top--md padding-bottom--md",styles.spacevideo)} style={{background: 'white', fontSize: 0,}}>
             <Video src="https://scratch3-files.just4fun.site/play.mp4" poster="/img/Play.png"/>
           </div>
         </div>
@@ -217,7 +217,7 @@ function Home() {
           <p className={clsx(styles.subtitle3)}>支持我们</p>
           <p className={clsx(styles.subtitleNote1)}>CodeLab 是一个非营利组织，这种组织形态让我们能全力以赴追逐使命。
           如果我们不去做，这些值得去做的事情，短期内似乎就不会发生<br></br>如果没有你的资助，我们成功的机会便很渺茫。
-          如果你愿意提供资助，请< a href=" " style = {{color:"#D8572A"}} target="_blank">联系我们</ a></p>
+          如果你愿意提供资助，<a href="mailto:name@email.com" style = {{color:"white"}} target="_blank">请联系我们</a></p>
         </div>
         </div>
 

@@ -10,7 +10,7 @@ tags: ["programming"]
 
 >  可是，她的轮子在哪里？  -- 爱因斯坦(2岁半)
 
-{/*欢迎到CodeLab体验*/}
+<!--欢迎到CodeLab体验-->
 
 # 前言
 爱因斯坦2岁半的时候，他的妹妹出生，父母抱给他看，他以为是要给他一个玩具，问到："可是，她的轮子在哪里？"
@@ -23,12 +23,12 @@ toio是个惊人的玩具，不只是有轮子。
 
 <!--truncate-->
 
-{/*基本的方块 感应器 将玩法变为套件 社区*/}
+<!--基本的方块 感应器 将玩法变为套件 社区-->
 
 # 一睹为快
-{/*
+<!--
 看几个视频
-*/}
+-->
 
 先来看几个我们在CodeLab Neverland里玩耍toio时拍摄的视频:
 
@@ -36,11 +36,11 @@ toio是个惊人的玩具，不只是有轮子。
 ### 模拟生物
 毛毛虫
 
-<video width="600px" src="/video/toio2.mp4" controls="controls"></video>
+<video width="600px" src="https://www-old.codelab.club/video/toio2.mp4" controls="controls"></video>
 
 裤子
 
-<video width="600px" src="/video/toio1.mp4" controls="controls"></video>
+<video width="600px" src="https://www-old.codelab.club/video/toio1.mp4" controls="controls"></video>
 
 ### 怎么做到的
 初次看到这些视频，多数人会有两个反应。
@@ -76,7 +76,7 @@ toio究竟是如何做到视频里的这些行为呢？
 然而，与你的小女友不同，这不是打情骂俏，`位置，方向和时间`是一个严肃的回答，而且它没有下文，它正是利用toio构建各类模拟生物的技巧所在。
 
 # 位置，方向和时间 
-toio是一个小方块，长宽都为32毫米, 我们可以将小方块视为一个机器人。{/*它的轮子由高性能电机驱动。*/}
+toio是一个小方块，长宽都为32毫米, 我们可以将小方块视为一个机器人。<!--它的轮子由高性能电机驱动。-->
 
 把toio放在视频中的垫子上时，toio能知道自身在垫子上的绝对位置。
 
@@ -163,14 +163,14 @@ toio是一个简单的机器人，看起来只是一个朴实的小方块。
 我们已经将toio接入到了CodeLab Scratch，它已融入Neverland大家庭，它可以与Neverland空间中的任何事物互动。看一些例子:
 
 ### 给我一个toio，我可以转动地球
-<video width="300px" src="/img/Rotating-the-earth%20.mp4" controls="controls"></video>
+<video width="300px" src="https://www-old.codelab.club/img/Rotating-the-earth%20.mp4" controls="controls"></video>
 
 
 ### 在你转身之后，岁月黯淡无光
-<video width="300px" src="/img/toio_neverland_logo_light.mp4" controls="controls"></video>
+<video width="300px" src="https://www-old.codelab.club/img/toio_neverland_logo_light.mp4" controls="controls"></video>
 
 ### 天空没有留下鸟的痕迹，但toio已飞过
-<video width="300px" src="/img/toio_fly.mp4" controls="controls"></video>
+<video width="300px" src="https://www-old.codelab.club/img/toio_fly.mp4" controls="controls"></video>
 
 
 ### 复现etoys里的教程
@@ -178,15 +178,15 @@ toio是一个简单的机器人，看起来只是一个朴实的小方块。
 
 第一个例子，与etoys首页的例子相似。
 
-<video width="300px" src="/img/toio-etoys2.mp4" controls="controls"></video>
+<video width="300px" src="https://www-old.codelab.club/img/toio-etoys2.mp4" controls="controls"></video>
 
 第二个例子由Neverland体验者构建(第一次编程)，很类似etoys教程里，绘制物体运动轨迹的例子。
 
-<video width="300px" src="/img/toio_etoys.mp4" controls="controls"></video>
+<video width="300px" src="https://www-old.codelab.club/img/toio_etoys.mp4" controls="controls"></video>
 
 
 
-{/*
+<!--
 # 教育意义
 复现etoys
 什么是好的玩具
@@ -200,13 +200,13 @@ toio是一个简单的机器人，看起来只是一个朴实的小方块。
     这就是我为何要花一个周末这篇文章
 
 冷凛的美 艺术品
-*/}
+-->
 
-{/*
+<!--
 练习写作 千头万绪 
 分布式工作 
 像写程序
-*/}
+-->
 
 # 参考
 *  [toio.io](https://toio.io/)
@@ -217,4 +217,4 @@ toio是一个简单的机器人，看起来只是一个朴实的小方块。
 *  [让人思考的玩具](https://mp.weixin.qq.com/s/Sg7M5tWY5R5hNtCEIhN5Aw)
 *  [github.com/toio](https://github.com/toio)
 *  [toio lab](https://www.youtube.com/c/toiobySonyJP/)
-   {/*创造超越玩具和游戏的新价值*/}
+   <!--创造超越玩具和游戏的新价值-->

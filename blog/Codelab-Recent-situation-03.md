@@ -54,6 +54,7 @@ CodeLab的演讲PPT、Neverland的亮灯仪式，都由`CodeLab`构建的工具�
 ### 理事会议
 仪式结束后，CodeLab召开了自成立以来的第一次理事会议。目前CodeLab的四位理事为：
 
+<p>{[ '程晨', '罗云', '曾铮', '吴种瓜' ].sort(() => Math.random() - 0.5).join('、')}</p>
 
 理事的排名`不分先后`，我们用程序实现了随机显示，每次刷新页面，排序都会变化。 
 
@@ -401,10 +402,10 @@ CodeLab Mindstorms涉及的内容我们将以翻译者的名义(CodeLab志愿者
 *  [scratch3_knn](https://github.com/Scratch3Lab/scratch3_knn)
 
 
-{/*
+<!--
 接受申请 小程序
 codelab 启动仪式
-*/}
+-->
 
 # 合作与交流
 

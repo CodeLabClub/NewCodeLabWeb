@@ -92,7 +92,7 @@ EIM Monitor 致力于在灵活与简易之间取得一个平衡，让新手能�
 
 ### Yanshee 插件
 
-![](https://www.ubtechedu.com/Uploads/image/20181119/5bf267e6c6ccc.png)
+<!--![](https://www.ubtechedu.com/Uploads/image/20181119/5bf267e6c6ccc.png)-->
 
 [Yanshee](https://www.ubtechedu.com/show-59.html) 是一个开源人形机器人教学平台， 面向高中和大学生开发，提供专业开源学习软件。
 

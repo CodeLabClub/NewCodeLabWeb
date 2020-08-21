@@ -3,7 +3,7 @@ title: "基于兴趣的学习面临的诘难"
 date: 2018-10-7
 ---
 
-{/*转载自 适应bootstrap的*/}
+<!--转载自 适应bootstrap的-->
 <div className="alert alert-success">原文地址：<a href="https://blog.just4fun.site/interest-based-learning.html">基于兴趣的学习面临的诘难</a></div>
 
 

@@ -1,11 +1,11 @@
 module.exports = {
   title: 'CodeLab',
   tagline: '传递编程的乐趣，鼓励孩子成为数字时代的创作者',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://www.codelab.club.com',
   baseUrl: '/',
   favicon: 'img/favicon.png',
   organizationName: 'CodeLab', // Usually your GitHub org/user name.
-  projectName: 'WebDemo', // Usually your repo name.
+  projectName: 'NewCodeLabWeb', // Usually your repo name.
   themeConfig: {
     disableDarkMode: true,
     defaultDarkMode: true,
@@ -130,7 +130,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/CodeLabClub/NewCodeLabWeb/tree/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

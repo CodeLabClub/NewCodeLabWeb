@@ -14,7 +14,7 @@ tags: ["codelab"]
 
 这也是一个很好的案例，展示最新的 [CodeLab Adapter 的开放连接能力](https://www.codelab.club/blog/3-release/)， 生长出了何等程度的灵活性。
 
-{/*more-->
+<!--more-->
 <video src="https://adapter.codelab.club/video/1589296982429059.mp4" controls="controls"></video>
 
 <video src="https://adapter.codelab.club/video/1589296982422368.mp4" controls="controls"></video>

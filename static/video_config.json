@@ -28,9 +28,119 @@
     "来自CodeLab": [
 
         {
-            "src": "https://adapter.codelab.club/video/1540219015667808.mp4 ",
-            "title": "巴甫洛夫的机器人",
+            "src": "https://codelab-adapter-docs.codelab.club/video/wand_catapult_demo.mp4 ",
+            "title": "Fire！1",
             "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/wand_catapult.mp4 ",
+            "title": "Fire！2",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1593328552202841.mp4 ",
+            "title": "Hey Siri 1",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1593410656522462.mp4 ",
+            "title": "Hey Siri 2",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1593428681227193.mp4 ",
+            "title": "Hey Siri 3",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1589296982429059.mp4 ",
+            "title": "COVID-19 1",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1589296982422368.mp4 ",
+            "title": "COVID-19 2",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1589459621915320.mp4",
+            "title": "桌面编程1",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1589459630916864.mp4 ",
+            "title": "桌面编程2",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1589977785885032.mp4 ",
+            "title": "小型解释器",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1590154622682774.mp4 ",
+            "title": "spelling",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1590237395592969.mp4 ",
+            "title": "皮卡与皮卡丘",
+            "num":"3"
+        }, 
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1590237319828796.mp4 ",
+            "title": "如何画一只会跑的独角兽🦄",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/42.mp4 ",
+            "title": "42（DynamicTable4Math）",
+            "num":"3"
+        },      
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1590665913541756.mp4 ",
+            "title": "动画原理1",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1590665910081123.mp4 ",
+            "title": "动画原理2",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1591182636036039.mp4 ",
+            "title": "纸糊方向盘1",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1591187790289712.mp4",
+            "title": "纸糊方向盘2",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1591509029108719.mp4",
+            "title": "纸糊方向盘3",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1592219388632217.mp4",
+            "title": "震动检测器",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1592575084486393.mp4",
+            "title": "生日贺卡",
+            "num":"3"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1597283986388211.mp4",
+            "title": "GameShell 1",
+            "num":"5"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1597283973481982.mp4",
+            "title": "GameShell 2",
+            "num":"6"
         },
 
         {
@@ -50,10 +160,14 @@
         },
         {
             "src": "https://adapter.codelab.club/video/1583984194594670.mp4 ",
-            "title": "读书与思考",
+            "title": "读书与思考1",
             "num":"8"
         },
-        
+        {
+            "src": "https://adapter.codelab.club/video/读书与思考.mp4 ",
+            "title": "读书与思考2",
+            "num":"8"
+        },
         {
             "src": "https://adapter.codelab.club/video/1587801240738968.mp4",
             "title": "积木消失了",
@@ -72,6 +186,11 @@
         {
             "src": "https://adapter.codelab.club/video/AR.mp4 ",
             "title": "鼻梁上的老花镜（增强现实）",
+            "num":"15"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/img/bitbot.mp4",
+            "title": "无线控制bit:bot",
             "num":"15"
         },
         {
@@ -143,11 +262,6 @@
             "src": "https://adapter.codelab.club/video/dynamicland_02.mp4",
             "title": "拧动棱镜2",
             "num":"31"
-        },
-        {
-            "src": "https://adapter.codelab.club/video/jupyter_scratch.mp4",
-            "title": "Jupyter + Scratch",
-            "num":"37"
         },
         {
             "src": "https://adapter.codelab.club/video/leju_codelab.mp4 ",
@@ -318,14 +432,45 @@
             "src": "https://adapter.codelab.club/video/闭眼请熄灯.mp4",
             "title": "闭眼请熄灯",
             "num":"101"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/img/dp_vision.mp4",
+            "title": "使用本地机器视觉",
+            "num":"101"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/img/gesture_light.mp4",
+            "title": "手势控制客厅灯光",
+            "num":"101"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/img/door_tv.mp4",
+            "title": "门与电视联动",
+            "num":"101"
+        },
+        {
+            "src": "https://adapter.codelab.club/video/jupyter_scratch.mp4",
+            "title": "Jupyter + Scratch",
+            "num":"37"
         }
+
         
     ],
     "来自社区": [
         
         {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1589960907435316.mp4",
+            "title": "欢迎来到CodeLab（Yanshee）",
+            "num":"52"
+        },
+        {
             "src": "https://adapter.codelab.club/video/toio-etoys.mp4",
             "title": "Toio etoys",
+            "num":"52"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/img/paper_switch_magic.mp4",
+            "title": "纸做的开关",
             "num":"52"
         },
         {
@@ -342,6 +487,11 @@
             "src": "https://adapter.codelab.club/video/toio泡泡龙.mp4",
             "title": "Toio泡泡龙",
             "num":"58"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/1593762499427152.mp4 ",
+            "title": "RoboMaster & Motion Sensor",
+            "num":"61"
         },
         {
             "src": "https://adapter.codelab.club/video/vector_labo.mp4 ",
@@ -467,6 +617,16 @@
         {
             "src": "https://adapter.codelab.club/video/1539392124109888.mp4",
             "title": "冲啊，先驱音速",
+            "num":"2"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/img/microbit_mi.mp4",
+            "title": "micro:bit开/关灯",
+            "num":"2"
+        },
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/img/mc_404game.mp4",
+            "title": "利用传感器做体感游戏",
             "num":"2"
         }
 

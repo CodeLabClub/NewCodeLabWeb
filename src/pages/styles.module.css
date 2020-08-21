@@ -8,8 +8,8 @@
 
 
  :root {
-  --ifm-link-color: #1a1a1a;
-  --ifm-link-hover-color: #ffb81e;
+  --ifm-link-color: #ffb81e;
+  --ifm-link-hover-color:#ffb81e;
  }
 
  /*
@@ -43,7 +43,7 @@
   font-size: 6.5vw;
   color:white;
   margin-top: 2vh;
-  line-height: 7.5rem;
+  line-height: 12vh;
   padding-bottom: 5vh;
   margin-bottom: 0;
   display: flex;
@@ -91,7 +91,7 @@
 
 .mission {
   text-align:center;
-  font-size: 2.7rem;
+  font-size: 2.7vw;
   margin-top: 0;
   color:white;
   font-weight: bold;
@@ -175,7 +175,7 @@
 
   position: relative;
   border-style: solid;
-  border-width: 60px 50vw 0;
+  border-width: 12vh 50vw 0;
   color: #ffb81e;
   border-color: transparent #ffb81e #ffb81e #ffb81e;
 
@@ -196,12 +196,12 @@
 }
 
 .triangle_bottom {
-  margin-top:3rem;
+  margin-top:3vh;
   position: relative;
   bottom: 0;
   left: 0;
   border-style: solid;
-  border-width: 60px 50vw 0;
+  border-width: 12vh 50vw 0;
   color: #ffb81e;
   border-color: transparent #ffb81e #ffb81e #ffb81e;
   margin-bottom: 0;
@@ -220,64 +220,60 @@
 
 }
 
-
 .subtitle1 {
-  font-size: 3rem;
+  font-size: 3vw;
   text-align:center;
   color:black;
-  padding-bottom: 0rem;
-  padding-top: 4rem;
+  padding-top: 6vh;
   font-weight: bold;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  /*text-shadow:  0 20px 25px #c2c2c2, 0 40px 60px #c2c2c2;*/
+  margin-bottom:0;
+  margin-top: 2vh;
   display: flex;
   justify-content: center;
-
 }
 
 .subtitleNote {
-  font-size:1rem;
+  font-size:1.2vw;
   color: #adadad;
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
   display: flex;
   justify-content: center;
 }
 
 .subtitleNote1 {
-  margin-top:2.5rem;
-  font-size:1.2rem;
+  margin-top:4vh;
+  font-size:1.5vw;
   color: black;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1vh;
   padding-bottom: 0;
   font-weight: 500;
 
 }
 
 .subtitle2 {
-  font-size: 3rem;
+  font-size: 3vw;
   text-align:center;
   color:black;
-  padding-bottom: 1rem;
-  padding-top:6rem;
+  padding-bottom: 3vh;
+  padding-top:10vh;
   font-weight: bold;
-  margin-bottom: 4rem;
-  margin-top: 6rem;
+  margin-bottom: 6vh;
+  margin-top: 10vh;
   display: flex;
   justify-content: center;
 }
 
 .subtitle3 {
-  font-size: 3rem;
+  font-size: 3vw;
   text-align:center;
   color:black;
   padding-bottom: 0rem;
-  padding-top:1rem;
+  padding-top:1vh;
   font-weight: bold;
   margin-bottom: 0rem;
-  margin-top: 1rem;
+  margin-top: 4vh;
   display: flex;
   justify-content: center;
 }
@@ -292,7 +288,7 @@
 }
 
 .heroBanner {
-  padding: 1.5rem 0;
+  padding: 1vh 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -331,14 +327,14 @@
 .iframe {
   width: 100%;
   height: calc(var(--ifm-container-width) / 16 * 11);
-  border: 2px solid;
-  /*box-shadow: 0 4px 15px 0 rgba(0,0,0, .1);*/
+  border: 0.2vw solid;
+  box-shadow: 0 4px 15px 0 rgba(0,0,0, .1);
   display: block;
-  box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
-  color: white;
-  margin-top:5rem;
+  /*box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);*/
+  margin-top:8vh;
   background-color: white;
-  padding:0.5rem;
+  padding:0;
+  border-color: white;
 
 }
 
@@ -363,7 +359,8 @@
 
 .spacevideo {
   box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
-  margin-top: 5rem;
+  margin-top: 3rem;
+  padding:0;
 }
 
 
@@ -401,13 +398,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  max-width: 200px;
-  height: 200px;
-  border:5px solid #1a1a1a;
-  border-radius:200px;
+  width: 15vw;
+  max-width: 15vw;
+  height: 15vw;
+  border:0.3rem solid #1a1a1a;
+  border-radius:15vw;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: bold;
 }
 
@@ -420,14 +417,12 @@
   /* width:800px;
   height: 300px; */
   padding-bottom:4rem;
-  padding: top 3rem;
-
 }
 
 .plus1,
 .plus2 {
   justify-content: center;
-  font-size: 5rem;
+  font-size: 4rem;
   color:#1a1a1a;
   display: flex!important;
   align-items: center;

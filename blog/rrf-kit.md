@@ -49,7 +49,7 @@ categories: ["少儿编程"]
 
 先来看一段官方的介绍视频:
 
-<video width="80%" src="/video/rrf.mp4" controls="controls"></video>
+<video width="80%" src="https://www-old.codelab.club/video/rrf.mp4" controls="controls"></video>
 
 ### 套件构成
 ![](https://blog.just4fun.site/post/img/rrf_kits_blocks.png)

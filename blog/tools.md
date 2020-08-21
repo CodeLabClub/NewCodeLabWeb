@@ -57,7 +57,7 @@ v3.3.2:
   *  ref: [How do I connect the micro:bit to my computer](https://support.microbit.org/support/solutions/articles/19000013984-how-do-i-connect-the-micro-bit-to-my-computer)
 
 
-{/*暂未使用-->
+<!--暂未使用-->
 <!--
 ## Chrome
 *  [Windows]()

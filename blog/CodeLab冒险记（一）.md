@@ -58,7 +58,7 @@ slug: "david-p1"
 
 <br />
 
-<img src="/img/boxsand0.jpg" alt="/img/boxsand.jpg" style={{zoom: "120%"}} />
+<img src="/img/boxsand.jpg" alt="/img/boxsand.jpg" style={{zoom: "120%"}} />
 
 <br />
 

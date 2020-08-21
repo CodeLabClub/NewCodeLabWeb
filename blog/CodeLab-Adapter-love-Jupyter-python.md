@@ -23,7 +23,7 @@ tags: ["programming"]
 
 我们想到Jupyter + CodeLab Adapter。活动结束回到酒店洗完澡，做了个原型:
 
-<video width="600px" src="/video/jupyter_scratch.mp4" controls="controls"></video>
+<video width="600px" src="https://www-old.codelab.club/video/jupyter_scratch.mp4" controls="controls"></video>
 
 对应源码(调整后):
 
@@ -68,7 +68,7 @@ Jupyter是目前最理想Python/数据分析/人工智能的编程教育环境�
 CodeLab Adapter 1.0致力于将万物带入Scratch，实现`education as life`的目标。CodeLab Adapter 2.0则将万物带入到Python教育中。物联网、人工智能、开源硬件，你现在可以使用Python在Jupyter中与这些东西交互。
 
 ### 机器人教学
-<video width="600px" src="/video/jupyter_vector.mp4" controls="controls"></video>
+<video width="600px" src="https://www-old.codelab.club/video/jupyter_vector.mp4" controls="controls"></video>
 
 涉及的代码如下:
 
@@ -128,12 +128,12 @@ for i in range(3):
 ![](/img/notebook_js_python_5dd7081e.png)
 
 
-{/*
+<!--
 # 没有display不刷新，只运行一次
 # 注意 流的问题
 # 从摄像头取照片
 # 硬件相关 adapter js通道 python运行
-*/}
+-->
 
 
 # 参考

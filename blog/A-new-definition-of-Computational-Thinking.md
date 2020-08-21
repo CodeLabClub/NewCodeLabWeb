@@ -5,7 +5,7 @@ date: 2019-06-26
 tags: ["programming"]
 ---
 
-{/*转载自 适应bootstrap的*/}
+<!--转载自 适应bootstrap的-->
 <div className="alert alert-success">原文地址：<a href="https://computinged.wordpress.com/2019/04/29/what-is-computational-thinking-its-the-friction-that-we-want-to-minimize/">A new definition of Computational Thinking</a>
 , 翻译: 廖曼江(CodeLab志愿者)
 </div>
@@ -36,7 +36,8 @@ David说：
 
 还有许多其他“思维”声称可以为学生提供关键技能。正如 [耶鲁大学这篇有趣的文章](https://news.yale.edu/2019/03/26/math-not-computer-science-was-grace-hoppers-first-language) 指出的那样，海军上将Grace Hopper可能更多地支持“数学思维”而不是“计算思维”。 诸如“分解”或“抽象”之类的技能包含在计算思维的许多定义中（例如[这篇博客](https://geekyteacher.blog/2018/06/04/computational-thinking-decomposition/)），而且在计算中确实需要这些技能。但这些技能最初属于数学、工程和科学，我认为这些学科的教师可能更适合教授这些技能并衡量它们。计算可以在学习分解和抽象方面发挥重要作用，但这些技能并不只属于计算或计算思维类。那么，计算的独特之处是什么呢？
 
-### 人机交互与计算思维之间的张力{/*紧张关系*/}
+### 人机交互与计算思维之间的张力
+<!--紧张关系-->
 
 在我生活的计算机科学方面，我的研究领域是人机交互。我在CHI, DIS, CSCW, VL/HCC和UIST上发表过文章。Cuny，Snyder和Wing的定义很难让我与人机交互研究员协调一致。人机交互研究的目的是为了“表征问题及其解决方案，从而使解决方案能够以一种由信息加工媒介有效执行的形式来表示。”以将用户必须学习的知识最小化，人机交互正试图让用户更容易用计算机思考他们想要考虑的事情。计算思维是关于你需要用计算机思考什么的思维。
 

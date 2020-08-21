@@ -15,7 +15,7 @@ author: "种瓜"
 <!--truncate-->
 
 
-<video width="80%" src="/video/1583729439575050.mp4" controls="controls"></video>
+<video width="80%" src="https://www-old.codelab.club/video/1583729439575050.mp4" controls="controls"></video>
 
 我们于2019年5月份完成CodeLab Neverland。 接受外部访问后，陆续收到许多访问预约，前后也接待了不少教育从业者/IT从业者(`>100`)。
 
@@ -106,7 +106,7 @@ CodeLab Neverland的架构图如上所示。 它由三部分构成:
 # 社区版 与 商业版本
 提到社区版，对应的自然是`商业版本`。
 
-开源社区似乎对`商业`带着某种抵触情绪。 {/*觉得他们无非是一群自己也不编程的人，做着一些自己都不吃的狗粮，靠铺天盖地的广告贩卖焦虑和意淫，卖给一群缺乏想象力和辨识能力的人。*/}
+开源社区似乎对`商业`带着某种抵触情绪。 <!--觉得他们无非是一群自己也不编程的人，做着一些自己都不吃的狗粮，靠铺天盖地的广告贩卖焦虑和意淫，卖给一群缺乏想象力和辨识能力的人。-->
 
 当然，编程教育里，有不少商业做的不走心。但是，我们依然看到[adafruit](https://www.adafruit.com/)、[toio](https://toio.io/)、[cozmo](https://anki.com/en-us/cozmo.html)这些伟大的商业项目。
 

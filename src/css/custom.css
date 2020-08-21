@@ -16,35 +16,52 @@
   --ifm-color-primary-lightest: #ffd374;
   --ifm-code-font-size: 95%;
   --ifm-navbar-background-color:black;
-  --ifm-background-color: #fcfcfc !important;
+  --ifm-background-color: white !important;
   --ifm-navbar-height: 4rem;
   --ifm-navbar-item-padding-horizontal: 2.85rem; 
-  /* --ifm-navbar-item-padding-vertical: 0.25rem; */
-  /* --ifm-font-color-base: black; */
   --ifm-navbar-link-color: white;
   --ifm-color-content-secondary: #1a1a1a!important;/*右侧目录字体颜色，重新挑选修改！*/
-  --ifm-font-family-base: Poppin, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
-    'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol';
-  --ifm-font-family-monospace: Poppin, SFMono-Regular, Menlo, Monaco, Consolas,
-    'Liberation Mono', 'Courier New', monospace;
-  --ifm-button-border-radius:2rem;
-  --ifm-button-padding-vertical: 0.775rem;
+  --ifm-button-border-radius:0rem;
+  --ifm-button-padding-vertical: 0.5rem;
   --ifm-color-content:#1a1a1a;
-
+  --ifm-global-radius: 0rem;
 }
 
+.markdown > h1 {
+  --ifm-h1-font-size: 2rem;
+
+  margin-bottom: calc(
+    var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading)
+  );
+  margin-top: calc(var(--ifm-h1-vertical-rhythm-top) * var(--ifm-leading));
+}
+.markdown > h2 {
+  --ifm-h2-font-size: 1.5rem;
+
+  margin-bottom: calc(
+    var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading)
+  );
+  margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * var(--ifm-leading));
+}
+.markdown > h3 {
+  --ifm-h3-font-size: 1.2rem;
+
+  margin-bottom: calc(
+    var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading)
+  );
+  margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * var(--ifm-leading));
+}
 
 
 .navbar__link {
   font-weight: bold;
 }
 
-
 .main-wrapper {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
 video {
   width: 100%;
 }
@@ -64,6 +81,7 @@ html[data-theme=dark] .header-github-link:before {
   height: 100%;
   margin-right: 0.5rem;
 }
+
 .navbar__items {
   flex-grow: 1;
   justify-content: space-between;
@@ -74,18 +92,13 @@ html[data-theme=dark] .header-github-link:before {
   flex: unset;
 }
 
-
 .button--info {
-  --ifm-button-border-color: var(--ifm-color-info);
+    --ifm-button-border-color: black;
   background-color:white;
-  border-width: 0;
-  color:#ffb81e;
-  margin: 0 1rem;
-  box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
-}
-
-.button--info:not(.button--outline):hover {
-  color:#1a1a1a;
+  border-width: 0.2rem;
+  color:black;
+  margin: 1rem 1rem;
+  /*box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);*/
 }
 
 .docusaurus-highlight-code-line {
@@ -95,14 +108,10 @@ html[data-theme=dark] .header-github-link:before {
   padding: 0 var(--ifm-pre-padding);
 }
 
-.button--info:active,
-    .button--info.button--active {
-      --ifm-button-border-color: white;
-      --ifm-button-background-color: white;
-
-      background-color: white;
-      border-color: white;
-    }
+.button--info:not(.button--outline):hover {
+  --ifm-button-background-color: var(--ifm-color-info-dark);
+  --ifm-button-border-color: #ffb81e;
+}
 
 .modalVideo {
   width: 80vw!important;
@@ -112,6 +121,7 @@ html[data-theme=dark] .header-github-link:before {
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.5)!important;
 }
+
 .ReactModal__Content {
   background-color: var(--ifm-navbar-background-color)!important;
   border-color: var(--ifm-navbar-background-color)!important;
@@ -121,7 +131,6 @@ html[data-theme=dark] .header-github-link:before {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0 !important; /*改不了*/
 }
 
 .footer {
@@ -149,6 +158,7 @@ h2[class^='margin-bottom--sm blogPostTitle'] {
 .footer__links {
   padding-bottom: 4rem;
 }
+
 .footer__link-item {
   color: var(--ifm-footer-link-color);
   line-height: 2;

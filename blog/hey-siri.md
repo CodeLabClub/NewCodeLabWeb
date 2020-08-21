@@ -7,7 +7,7 @@ author: CodeLab
 categories: ["CodeLab"]
 ---
 
-将 Siri 接入到 Scratch，并于 CodeLab 可编程空间里的一切互动.
+将 Siri 接入到 Scratch，并与 CodeLab 可编程空间里的一切互动.
 
 <!--truncate-->
 

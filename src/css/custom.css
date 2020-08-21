@@ -18,7 +18,7 @@
   --ifm-navbar-background-color:black;
   --ifm-background-color: white !important;
   --ifm-navbar-height: 4rem;
-  --ifm-navbar-item-padding-horizontal: 2.85rem; 
+  --ifm-navbar-item-padding-horizontal: 2.85rem;
   --ifm-navbar-link-color: white;
   --ifm-color-content-secondary: #1a1a1a!important;/*右侧目录字体颜色，重新挑选修改！*/
   --ifm-button-border-radius:0rem;
@@ -183,6 +183,10 @@ h2[class^='margin-bottom--sm blogPostTitle'] {
 }
 
 @media screen and (max-width: 966px) {
+  :root {
+    --ifm-color-content: #c2c2c2;
+  }
+
   .navbar__items {
     justify-content: unset;
   }
@@ -199,77 +203,77 @@ h2[class^='margin-bottom--sm blogPostTitle'] {
   font-size: 10em;
   line-height: 0.7em;
   word-wrap: break-word;
-  overflow-wrap: break-word; 
+  overflow-wrap: break-word;
 }
 
 .char1{
   z-index: 12;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char2{
   z-index: 11;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char3{
   z-index: 10;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char4{
   z-index: 9;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char5{
   z-index: 8;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char6{
   z-index: 7;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char7{
   z-index: 6;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char8{
   z-index: 5;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char9{
   z-index: 4;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char10{
   z-index: 3;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char11{
   z-index: 2;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }
 
 .char12{
   z-index: 1;
-  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9); 
+  text-shadow:0 0.05em 0.12em rgba(0,0,0,0.9);
   margin-left:-0.1em;
 }

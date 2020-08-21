@@ -1,3 +1,8 @@
+const codeblockTheme = require('prism-react-renderer/themes/palenight')
+// 可选theme  https://github.com/FormidableLabs/prism-react-renderer/tree/master/src/themes
+// 覆盖背景色
+codeblockTheme.plain.backgroundColor = '#000000'
+
 module.exports = {
   title: 'CodeLab',
   tagline: '传递编程的乐趣，鼓励孩子成为数字时代的创作者',
@@ -113,6 +118,10 @@ module.exports = {
       /*copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,*/
       copyright: `©CodeLab`,
     },
+    prism: {
+      theme: codeblockTheme,
+      darkTheme: codeblockTheme,
+    },
   },
   presets: [
     [
@@ -130,7 +139,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/CodeLabClub/NewCodeLabWeb/tree/master/blog/',
+            'https://github.com/CodeLabClub/NewCodeLabWeb/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

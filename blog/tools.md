@@ -12,10 +12,10 @@ author: "CodeLab"
 
 ## CodeLab Scratch Desktop(离线版)
 
-v3.3.2:
+v3.4.2:
 
--   [Windows](https://scratch3-files.just4fun.site/CodeLab.Scratch%203.3.2-win.zip) (Windows7 及以上)
--   [MacOS](https://scratch3-files.just4fun.site/CodeLab%20Scratch%203.3.2-mac.zip)
+-   [Windows](https://scratch3-files.just4fun.site/CodeLab-Scratch-win-3-4-2.zip) (Windows7 及以上)
+-   [MacOS](https://scratch3-files.just4fun.site/CodeLab-Scratch-mac-3-4-2.zip)
 
 ## CodeLab Adapter
 
@@ -23,10 +23,10 @@ v3.3.2:
 
 同时支持CodeLab Scratch在线版和离线版。
 
-## Scratch Link
+## Scratch Link(1.3.66)
 
--   [Windows](http://scratch3-files.just4fun.site/ScratchLinkSetup.msi)
--   [MacOS](http://scratch3-files.just4fun.site/ScratchLinkSetup.pkg)
+-   [Windows](https://scratch3-files.just4fun.site/windows_1.3.66.zip)
+-   [MacOS](https://scratch3-files.just4fun.site/mac_1.3.66.zip)
 
 ## Chrome
 

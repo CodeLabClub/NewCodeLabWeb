@@ -137,4 +137,4 @@ Adapter Version 目前已经添加到 env 中，可供外部应用程序查询�
 
 [下载最新 Adapter](https://adapter.codelab.club/user_guide/install/)。
 
-配合 [CodeLab Scratch](http://scratch3v3.codelab.club/) 使用时，建议刷新浏览器缓存。
+配合 [CodeLab Scratch](https://scratch3v3.codelab.club/) 使用时，建议刷新浏览器缓存。

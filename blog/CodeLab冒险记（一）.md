@@ -287,7 +287,7 @@ Kay 只花了几秒钟来解答， Newell 却花了半个小时以上都解不�
 
 <div style={{textAlign:"center"}}>
 <figure className="video_container">
-  <iframe src="http://scratch3-files.just4fun.site/%E9%87%8D%E5%8A%9B%E6%95%88%E5%BA%94.mp4" frameBorder="0" allowFullScreen={true}> </iframe>
+  <iframe src="https://scratch3-files.just4fun.site/%E9%87%8D%E5%8A%9B%E6%95%88%E5%BA%94.mp4" frameBorder="0" allowFullScreen={true}> </iframe>
 </figure>
 </div>
 <div style={{textAlign:"center"}}> CodeLab 的展示视频 重力效应</div>
@@ -753,7 +753,7 @@ miniKanren会回答:append
 15. Nintendo, n.d. _Super Mario Bros World 1-1_. [image] Available at: <https://images.nintendolife.com/546be0c4a8ab5/super-mario-bros-world-1-1-weve-all-seen-this-opening-far-too-many-times.original.jpg> [Accessed February 2020].
 16. \2020. _Ivan Sutherland_. [image] Available at: <https://3.bp.blogspot.com/-aQj-6aLorzc/W5ANW5WxrbI/AAAAAAADSFw/zf4oATiZDjEmLbJQmIp3C6GtUPguK8UUgCLcBGAs/s1600/ivan-sutherland.JPG> [Accessed 9 July 2020].
 17. Victor, B., 2013. _References For "The Future Of Programming"_. [online] Worrydream.com. Available at: <http://worrydream.com/dbx/> [Accessed January 2020].
-18. Codelab, 2020. _重力效应_. [video] Available at: <http://scratch3-files.just4fun.site/%E9%87%8D%E5%8A%9B%E6%95%88%E5%BA%94.mp4> [Accessed February 2020].
+18. Codelab, 2020. _重力效应_. [video] Available at: <https://scratch3-files.just4fun.site/%E9%87%8D%E5%8A%9B%E6%95%88%E5%BA%94.mp4> [Accessed February 2020].
 19. MIT's Lincoln Labs, 1963. _Ivan Sutherland Sketchpad Demo_. [video] Available at: <https://www.youtube.com/watch?v=6orsmFndx_o> [Accessed February 2020].
 20. En.wikipedia.org. n.d. _Metaprogramming_. [online] Available at: <https://en.wikipedia.org/wiki/Metaprogramming> [Accessed June 2020].
 21. En.wikipedia.org. n.d. _Lisp_. [online] Available at: <https://en.wikipedia.org/wiki/Lisp> [Accessed June 2020].

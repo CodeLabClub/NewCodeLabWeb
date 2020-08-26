@@ -23,11 +23,11 @@ CodeLab是一个非营利组织而不是一家公司。CodeLab是免费的，但
 
 教育是我们极为关心的一块，我们希望将创造与教育融合。编程作为载体，来实现我们的目标。
 
-编程这个词听起来有点唬人，有点冰冷，有点不近人情。这个词勾起的想象，多半是一个木讷的人，黑着眼圈驮着背，盯着黑乎乎的屏幕，屏幕上满是数字、符号和字母。但编程也可以平易近人又充满乐趣，可以是大家聚会时[击掌奏乐](https://codelab-adapter-docs.codelab.club/user_guide/gallery/)，可以是冬夜里[卧床关灯](https://codelab-adapter-docs.codelab.club/user_guide/gallery/),可以让你儿时的[玩具四驱车变得和动画片里一样智能](https://codelab-adapter-docs.codelab.club/user_guide/gallery/);可以让你搭建一个智慧家庭，在你年迈的老奶奶夜里起床时，自动开灯。
+编程这个词听起来有点唬人，有点冰冷，有点不近人情。这个词勾起的想象，多半是一个木讷的人，黑着眼圈驮着背，盯着黑乎乎的屏幕，屏幕上满是数字、符号和字母。但编程也可以平易近人又充满乐趣，可以是大家聚会时[击掌奏乐](https://www.codelab.club/projects/)，可以是冬夜里[卧床关灯](https://www.codelab.club/projects/),可以让你儿时的[玩具四驱车变得和动画片里一样智能](https://www.codelab.club/projects/);可以让你搭建一个智慧家庭，在你年迈的老奶奶夜里起床时，自动开灯。
 
-《理想国》里说:"言语是一种比蜡还容易随意捏造的材料", 它如此灵活，能够用来与朋友逗乐，用来表达你的思想，用来创造诗歌与小说；编程就像言语，它同样可以用来表达你的想法，用来与朋友逗乐，以及，用来创造。它让你与世间的万物沟通，你可以用它创造一个飞行器，制作一个[体感游戏](https://codelab-adapter-docs.codelab.club/user_guide/gallery/),或是让自己的房间变得智能。你可以在朋友生日那天，在Ta进门的一刻，将手中的魔杖一挥，在空中划一个字母L的轨迹，瞬间，点亮房间里五彩的灯光。在CodeLab，你将轻松做出这样的魔杖。如果你愿意，你可以将CodeLab看作霍格沃茨(Hogwarts)。
+《理想国》里说:"言语是一种比蜡还容易随意捏造的材料", 它如此灵活，能够用来与朋友逗乐，用来表达你的思想，用来创造诗歌与小说；编程就像言语，它同样可以用来表达你的想法，用来与朋友逗乐，以及，用来创造。它让你与世间的万物沟通，你可以用它创造一个飞行器，制作一个[体感游戏](https://www.codelab.club/projects/),或是让自己的房间变得智能。你可以在朋友生日那天，在Ta进门的一刻，将手中的魔杖一挥，在空中划一个字母L的轨迹，瞬间，点亮房间里五彩的灯光。在CodeLab，你将轻松做出这样的魔杖。如果你愿意，你可以将CodeLab看作霍格沃茨(Hogwarts)。
 
-事实上，新的技术往往都接近[魔法](https://codelab-adapter-docs.codelab.club/user_guide/gallery/)。
+事实上，新的技术往往都接近[魔法](https://www.codelab.club/projects/)。
 
 弗兰西斯·培根在17世纪说: "知识就是力量"(Knowledge is power)。今天，应该没什么人会反对这句话了。但问题是我们如何有效获得这种力量呢?教科书式的知识罗列多半是枯燥无味的，我们努力去记忆，却收效甚微，当然，通过努力记忆和练习往往可以考得不错成绩，但你希望得到的是知识，而不是考试成绩，这两者的不同，杜威论述了很多。知识、逻辑和理性都不具有主动性。不排除一些人天生对微积分、形式系统和康德感兴趣，但更多的人，热情可能来自于帮助家人与朋友、恶作剧以及制作有趣的东西。CodeLab希望做的，便是与你一起去寻找热情所在，一旦找到那些让你热血沸腾之事，你便会开始对知识感兴趣，因为知识能帮你更好地实现目标，接下来你将愉快且高效地掌握所需的知识。在这点上，我们喜欢[约翰·杜威(John Dewey)](https://zh.wikipedia.org/zh/%E7%BA%A6%E7%BF%B0%C2%B7%E6%9D%9C%E5%A8%81) 、[罗素(Bertrand Russell)](https://zh.wikipedia.org/zh-hans/%E4%BC%AF%E7%89%B9%E5%85%B0%C2%B7%E7%BD%97%E7%B4%A0)、[皮亚杰(Jean Piaget)](https://zh.wikipedia.org/zh-hans/%E8%AE%93%C2%B7%E7%9A%AE%E4%BA%9E%E5%82%91)、[艾伦·凯(Alan Curtis Kay)](https://zh.wikipedia.org/zh-hans/%E8%89%BE%E4%BC%A6%C2%B7%E5%87%AF)、[派普特(Seymour Papert)](https://en.wikipedia.org/wiki/Seymour_Papert)和[密契尔(Mitchel Resnick)](https://en.wikipedia.org/wiki/Mitchel_Resnick)的建议。
 

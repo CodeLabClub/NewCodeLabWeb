@@ -56,6 +56,12 @@ v3.4.2:
 *  <a href="http://scratch3-files.just4fun.site/mbedWinSerial_16466%20%283%29.exe" target="_blank">Windows serial driver(for earlier versions of Windows, (Windows 7, Vista) )</a>
   *  ref: [How do I connect the micro:bit to my computer](https://support.microbit.org/support/solutions/articles/19000013984-how-do-i-connect-the-micro-bit-to-my-computer)
 
+## CodeLab Logo
+* PNG 格式
+![PNG格式](https://adapter.codelab.club/img/codelab_logo.png)
+
+* SVG 格式
+![SVG格式](https://adapter.codelab.club/img/codelab_logo.svg)
 
 <!--暂未使用-->
 <!--

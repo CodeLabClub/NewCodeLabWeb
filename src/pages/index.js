@@ -112,11 +112,11 @@ function Home() {
       <div className={clsx(styles.env)}>
         <div className={styles.yellowLine}></div>
         <div className={clsx("container",styles.start)}>
-          <p className={clsx(styles.subtitle1)}>让我们从 Scratch 开始</p>
-          <p className={clsx(styles.subtitleNote)}>色彩、卡通、音乐、运动、交互全在这里，由此进入动画故事、交互游戏、程序软件的幕后创作</p>
+          <p className={clsx(styles.subtitle1)}>让我们从这里开始</p>
+          <p className={clsx(styles.subtitleNote)}>色彩、卡通、音乐、运动、交互全在此，由此进入动画故事、交互游戏、程序软件的幕后创作</p>
           <iframe className={styles.iframe} src="https://scratch3v3.codelab.club/?sb3url=https://scratch3-files.just4fun.site/Wake_me_up_now_3m.sb3"/>
           <p className="text--center margin-top--lg">
-            <a href="https://scratch.codelab.club/projects/editor/" target="_blank"><button className="button button--info margin-bottom--md">立即开始 Scratch 创作</button></a>
+            <a href="https://scratch.codelab.club/projects/editor/" target="_blank"><button className="button button--info margin-bottom--md">立即开始创作</button></a>
             <a href="https://scratch.codelab.club" target="_blank"><button className="button button--info margin-bottom--md">先去看看大家的作品</button></a>
           </p>
 
@@ -148,10 +148,10 @@ function Home() {
             <div className= 'col'>
               <article className={clsx(styles.box)}>
                 <a className={clsx(styles.imagefeature)} href="https://mp.weixin.qq.com/s/1IJIHCKaqZeJki8hWiAKuw" target="_blank">
-                  <img src="/img/暑期课程.png" alt = "Scratch编程暑期公益课程"></img>
+                  <img src="/img/暑期课程.png" alt = "创意编程暑期公益课程"></img>
                 </a>
                 <h3>
-                  <a href="https://mp.weixin.qq.com/s/1IJIHCKaqZeJki8hWiAKuw" target="_blank">Scratch 编程暑期公益课程</a>
+                  <a href="https://mp.weixin.qq.com/s/1IJIHCKaqZeJki8hWiAKuw" target="_blank">创意编程暑期公益课程</a>
                 </h3>
                 <p>暑期进行中</p>
               </article>
@@ -164,7 +164,7 @@ function Home() {
                 <h3>
                   <a href="/blog/2020/08/14/3.5-release/">CodeLab Adapter 3.5 发布</a>
                 </h3>
-                <p>CodeLab Scratch社区的创作平台将作为Scratch入口</p>
+                <p>将CodeLab创作平台社区作为入口</p>
               </article>
             </div>
           <div className= 'col'>
@@ -195,7 +195,7 @@ function Home() {
           <div className={clsx("container", "row", styles.community)}>
 
             <div className={clsx(styles.circle1)}>
-              <a href="https://scratch.codelab.club/" target="_blank"><div>Scratch 社区</div></a>
+              <a href="https://scratch.codelab.club/" target="_blank"><div>社区</div></a>
             </div>
             <div className={clsx(styles.plus1, 'col', 'col--1')}>
               <p>+</p>

@@ -1,7 +1,8 @@
 const codeblockTheme = require('prism-react-renderer/themes/palenight')
 // 可选theme  https://github.com/FormidableLabs/prism-react-renderer/tree/master/src/themes
 // 覆盖背景色
-codeblockTheme.plain.backgroundColor = '#000000'
+codeblockTheme.plain.backgroundColor = '#000'
+codeblockTheme.plain.color = '#ffffff'
 
 module.exports = {
   title: 'CodeLab',
@@ -22,7 +23,7 @@ module.exports = {
       links: [
         {
           href: 'https://scratch.codelab.club',
-          label:'Scratch 社区',
+          label:'创作平台',
           position: 'left'
         },
         {

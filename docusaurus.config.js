@@ -112,7 +112,7 @@ module.exports = {
           items:[
             {
               label:'在知乎',
-              to: 'bhttps://www.zhihu.com/people/codelab-83'
+              to: 'https://www.zhihu.com/people/codelab-83'
             },
           ]
         },

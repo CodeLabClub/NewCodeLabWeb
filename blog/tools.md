@@ -3,6 +3,7 @@ title: "CodeLab 下载页"
 date: 2020-08-20
 slug: "codelab-download"
 author: "CodeLab"
+tags: ["CodeLab相关","Adapter"]
 ---
 <!--truncate-->
 ## CodeLab Scratch Online(在线版，免安装)

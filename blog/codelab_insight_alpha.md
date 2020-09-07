@@ -2,8 +2,7 @@
 date: 2020-02-19
 title: "CodeLab Insight 发布 Alpha 版"
 Slug: "CodeLab-Insight-alpha"
-tags: ["codelab"]
-categories: ["codelab"]
+tags: ["技术文档","CodeLab相关","编程学习"]
 author: "种瓜"
 ---
 

@@ -2,7 +2,7 @@
 title: 发布 CodeLab Adapter 3.2
 author: CodeLab
 date: 2020-05-10
-tags: ["CodeLab相关","Adapter","技术文档“]
+tags: ["CodeLab相关","Adapter","技术文档"]
 ---
 
 <img classNameName="img-responsive" src="https://adapter.codelab.club/img/42b96f90be7f9884c9702fc5cd5279fb.png" />

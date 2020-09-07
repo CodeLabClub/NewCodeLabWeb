@@ -2,7 +2,7 @@
 title: "CodeLab Adapter v2 接入第三方平台"
 author: 种瓜
 date: 2019-09-27
-tags: ["adapter"]
+tags: ["Adapter","技术文档","CodeLab相关"]
 ---
 
 ## 开放连接

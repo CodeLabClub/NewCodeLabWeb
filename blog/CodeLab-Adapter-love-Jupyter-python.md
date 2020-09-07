@@ -2,7 +2,7 @@
 title: "CodeLab Adapter ❤️ Jupyter/Python"
 author: 种瓜
 date: 2019-07-30
-tags: ["programming"]
+tags: ["技术文档","编程学习","CodeLab❤选","Adapter","Python"]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "[译]计算思维的新定义"
 author: 廖曼江
 date: 2019-06-26
-tags: ["programming"]
+tags: ["计算机历史与文化","编程理念"]
 ---
 
 <!--转载自 适应bootstrap的-->

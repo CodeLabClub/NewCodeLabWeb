@@ -2,7 +2,7 @@
 date: 2020-05-31
 title: "CodeLab DynamicTable: A Seeing World"
 Slug: CodeLab-DynamicTable-A-Seeing-World
-tags: ["CodeLab"]
+tags: ["CodeLab相关","计算机历史与文化","编程学习","Adapter",“DynamicTable”]
 author: CodeLab
 categories: ["CodeLab"]
 ---

@@ -2,7 +2,7 @@
 title: "CodeLab Adapter v2"
 author: 种瓜
 date: 2019-08-26
-tags: ["programming"]
+tags: ["技术文档","Adapter","CodeLab相关"]
 ---
 
 <img className="img-responsive" src="/img/water_727df488.png" />

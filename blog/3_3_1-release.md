@@ -2,7 +2,7 @@
 title: 发布 CodeLab Adapter 3.3.1
 author: CodeLab
 date: 2020-06-07
-tags: ["codelab"]
+tags: ["CodeLab相关","技术文档","Adapter"]
 ---
 
 <img className="img-responsive" src="http://adapter.codelab.club/img/WechatIMG1946.jpeg" />

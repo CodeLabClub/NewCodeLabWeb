@@ -108,13 +108,13 @@ module.exports = {
           ]
         },
       ],
-      /*
+/*     
       logo: {
         // href: 'https://github.com',
         alt: 'qrcode',
         src: 'img/codelab_wechat.jpg'
       },
-      */
+*/       
 
       /*copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,*/
       copyright: `©CodeLab`,

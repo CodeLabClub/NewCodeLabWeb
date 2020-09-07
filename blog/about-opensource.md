@@ -2,6 +2,7 @@
 title: "开源项目与开源社区"
 author: 种瓜
 date: 2019-09-09
+tags: ["计算机历史与文化","编程学习"]
 ---
 
 <img className="img-responsive" src="/img/opensource_log_93329a6e.png" />

@@ -1,8 +1,8 @@
 ---
 title: "[译]儿童学习的背景"
-author: 杨柳青
+author: snownstone
 date: 2019-06-26
-tags: ["programming"]
+tags: ["计算机历史与文化","编程学习"]
 ---
 
 <!--转载自 适应bootstrap的-->

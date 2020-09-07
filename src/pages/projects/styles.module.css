@@ -105,7 +105,7 @@
 */
 
 .headerFontTitle {
-  color: white;
+  color: white!important;
   padding-bottom:4rem;
   font-size: 15px;
   font-weight: 600;

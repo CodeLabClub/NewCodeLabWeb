@@ -2,7 +2,7 @@
 title: 发布 CodeLab Adapter 3.0
 author: CodeLab
 date: 2020-04-17
-tags: ["codelab"]
+tags: ["CodeLab相关","技术文档","Adapter"]
 ---
 
 > real playing -- Alan Kay

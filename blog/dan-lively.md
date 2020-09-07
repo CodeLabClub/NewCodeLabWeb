@@ -2,7 +2,7 @@
 date: 2020-01-19
 title: "Dan Ingalls 与 Lively"
 Slug: Dan-Ingalls-and-Lively
-tags: ["programming"]
+tags: ["计算机历史与文化","CodeLab❤选"]
 categories: ["编程"]
 author: "种瓜"
 ---

@@ -2,7 +2,7 @@
 title: CodeLab Wiki
 author: CodeLab
 date: 2020-03-30
-tags: ["codelab"]
+tags: ["CodeLab相关","Adapter","编程学习"]
 ---
 
 <img className="img-responsive" src="/img/adapter_party.jpeg" />

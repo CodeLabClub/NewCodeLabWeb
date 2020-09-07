@@ -2,7 +2,7 @@
 date: 2020-05-22
 title: "spelling"
 Slug: spelling
-tags: ["codelab"]
+tags: ["玩给你看","DynamicTable","Adapter"]
 ---
 
 <img className="img-responsive" src="https://adapter.codelab.club/img/WechatIMG1499.jpeg" />

@@ -2,7 +2,7 @@
 title: "关于CodeLab"
 author: 种瓜
 date: 2018-11-08
-tags: ["codelab"]
+tags: ["CodeLab相关"]
 ---
 
 <img className="img-responsive" src="/img/creative_6bc22f2f.png" />

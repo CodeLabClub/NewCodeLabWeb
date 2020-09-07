@@ -2,7 +2,7 @@
 title: "游戏化编程是个好主意吗？"
 author: 种瓜
 date: 2019-06-25
-tags: ["programming"]
+tags: ["编程学习","Neverland"]
 ---
 
 <img className="img-responsive" src="/img/game_code_d0e83807.png" />

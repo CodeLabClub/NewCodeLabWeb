@@ -2,7 +2,7 @@
 title: CodeLab暗号之Scratch
 author: CodeLab
 date: 2020-04-22
-tags: ["codelab"]
+tags: ["CodeLab相关","编程学习","CodeLab❤选"]
 ---
 
 <img className="img-responsive" src="/img/CodeLabScratch.png" />

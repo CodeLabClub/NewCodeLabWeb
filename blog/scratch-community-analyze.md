@@ -2,6 +2,7 @@
 title: "scratch社区一览"
 author: 种瓜
 date: 2018-07-26T13:32:00+08:00
+tags: ["编程学习"]
 ---
 
 <div className="alert alert-success">原文地址：<a href="https://blog.just4fun.site/scratch-community-analyze.html">scratch社区一览</a></div>

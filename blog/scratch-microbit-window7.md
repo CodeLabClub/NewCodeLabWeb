@@ -2,6 +2,7 @@
 title: "Scratch3.0、micro:bit与Windows7"
 author: 种瓜
 date: 2019-01-10T19:00:00+08:00
+tags: ["技术文档","编程学习","Adapter"]
 ---
 
 <!--转载自 适应bootstrap的-->

@@ -2,7 +2,7 @@
 date: 2020-06-02
 title: "CodeLab DynamicTable: 一个可实施的技术方案"
 Slug: CodeLab-DynamicTable-an-instance
-tags: ["CodeLab"]
+tags: ["CodeLab相关","技术文档","Adapter","DynamicTable"]
 author: CodeLab
 categories: ["CodeLab"]
 ---

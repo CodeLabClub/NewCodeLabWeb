@@ -2,6 +2,7 @@
 title: "构建并发布一个 CodeLab Adapter 插件"
 author: 种瓜
 date: 2019-09-10
+tags: ["技术文档","编程学习","Adapter","Python"]
 ---
 
 <img className="img-responsive" src="/img/toys_party.jpeg" />

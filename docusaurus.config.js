@@ -107,6 +107,24 @@ module.exports = {
             },
           ]
         },
+        {
+          title: null,
+          items:[
+            {
+              label:'在知乎',
+              to: 'bhttps://www.zhihu.com/people/codelab-83'
+            },
+          ]
+        },
+        {
+          title: null,
+          items:[
+            {
+              label:'在B站',
+              to: 'https://space.bilibili.com/607249092'
+            },
+          ]
+        },
       ],
 /*     
       logo: {

@@ -103,7 +103,7 @@ export const VideoRow = function ({title, videos, ...props}) {
                   className={clsx(styles.video, 'lozad')}
                   onClick={() => openModal(video)}
                 />
-                <p className={clsx('text--center', isDarkTheme && styles.headerFontTitle)}>{video.title}</p>
+                <p className={clsx('text--center', styles.headerFontTitle)}>{video.title}</p>
               </div>
 
                 {/*

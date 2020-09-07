@@ -73,7 +73,7 @@ tages: [CodeLab相关]
 -   [为什么 Python 对于基础编程课程中的初学者来说是一门很棒的语言](https://github.com/CodeLabClub/codelab-mindstorms/blob/master/%E8%AF%91%E6%96%87/python-teaching.md)
 -   [Kill Math: 让数学不只是符号](https://github.com/CodeLabClub/codelab-mindstorms/blob/master/%E8%AF%91%E6%96%87/kill-math.md)
 -   [Dynamicland, 可视空间和设计工坊](https://thinkhard.tech/2019/06/13/on-dynamicland/)
--   [空间编程、物理计算与密室逃脱](https://codelab.club/blog/2019/06/25/escape-room)
+-   [空间编程、物理计算与密室逃脱](https://codelab.club/blog/2019/06/25/escape-room/)
 -   [两种硬件编程风格的比较](https://codelab.club/blog/2018/07/25/Hardware-Programming-style)
 -   [Scratch 拓展最佳实践 -- 以 Cozmo 为例](https://codelab.club/blog/2020/04/26/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
 -   [CodeLab Adapter 深度连接 micro:bit 生态](https://codelab.club/blog/2019/11/16/microbit-adapter)

@@ -94,7 +94,7 @@ export const VideoRow = function ({title, videos, ...props}) {
       <div className="row">
         {
           videos.map((video, index) => (
-            <div className={clsx('col col--4')} key={index}>
+            <div className={clsx('col col--6')} key={index}>
               <div>
                 <video
                   type="video/mp4"
@@ -163,7 +163,7 @@ function Projects() {
             */}
             <h1 className={clsx(styles.fancytitle2, 'stack')}>在玩乐中创作与表达</h1>
         </div>
-        <main className={clsx("container")}>
+        <main className={clsx(styles.newContainer)}>
           <VideoRow title="" videos={videos['来自CodeLab']}/>
           <VideoRow title="" videos={videos['来自社区']}/>
         </main>

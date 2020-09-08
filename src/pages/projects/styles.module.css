@@ -123,3 +123,11 @@
 .modalVideo {
   width: 80vw;
 }
+
+.newContainer {
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+}

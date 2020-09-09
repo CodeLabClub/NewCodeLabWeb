@@ -157,6 +157,16 @@ function Projects() {
         <div className={clsx(styles.titleSec, 'cover')}>
             <h1 className={clsx(styles.fancytitle2, 'stack')}>在玩乐中创作与表达</h1>
         </div>
+        <div className={clsx(styles.navContainer)}>
+          <div className={clsx(styles.filter)}>
+            <button className={clsx(styles.tag1)}>全部</button>
+            <button className={clsx(styles.tags)}>魔法</button>
+            <button className={clsx(styles.tags)}>DynamicTable</button>
+            <button className={clsx(styles.tags)}>机器人</button>
+            <button className={clsx(styles.tags)}>物联网</button>
+            <button className={clsx(styles.tags)}>开源硬件</button>
+          </div>
+        </div>
         <main className={clsx(styles.newContainer)}>
           <VideoRow title="" videos={videos['横版视频']}/>
           <VideoRow title="" videos={videos['竖版视频']}/>

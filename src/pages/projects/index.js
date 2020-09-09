@@ -155,17 +155,11 @@ function Projects() {
       */}
       <div className={clsx(styles.mainPage)}>
         <div className={clsx(styles.titleSec, 'cover')}>
-          {/*
-            <span className={clsx(styles.fancytitle1, 'stack')}>Let's &nbsp;</span>
-            <span className={clsx(styles.fancytitle1, 'stack')}>&nbsp; Play!</span>
-
-            <h1 className={clsx(styles.fancytitle2, 'stack')}>无惧简陋与粗糙</h1>
-            */}
             <h1 className={clsx(styles.fancytitle2, 'stack')}>在玩乐中创作与表达</h1>
         </div>
         <main className={clsx(styles.newContainer)}>
-          <VideoRow title="" videos={videos['来自CodeLab']}/>
-          <VideoRow title="" videos={videos['来自社区']}/>
+          <VideoRow title="" videos={videos['横版视频']}/>
+          <VideoRow title="" videos={videos['竖版视频']}/>
         </main>
       </div>
     </Layout>

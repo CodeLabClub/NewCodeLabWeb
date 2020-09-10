@@ -24,10 +24,10 @@
   padding-top: 1rem;
 }
  */
- 
+
  /*
 .triangle_top {
- 
+
   border-style: solid;
   border-width: 60px 50vw 0;
   color: #ffb81e;
@@ -38,7 +38,7 @@
 
 
 .mainPage {
-  background-color: black!important; 
+  background-color: black!important;
   /*
   background-image: radial-gradient(circl,#0a0a0a,black);
    */
@@ -145,7 +145,7 @@
   justify-content: center;
 }
 
-.tags {
+.tag {
   color: white;
   padding: 0.5rem 1rem;
   border: solid white 1.5px;
@@ -153,9 +153,12 @@
   margin:0 1rem;
   background-color:black;
   font-size:1.5rem;
+  outline: none;
+  cursor: pointer;
 }
 
-.tag1 {
+.tagActive {
+  outline: none;
   color: white;
   padding: 0.5rem 1rem;
   border: solid white 1.5px;

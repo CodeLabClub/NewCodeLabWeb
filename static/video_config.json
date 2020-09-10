@@ -28,21 +28,29 @@
             "src": "https://adapter.codelab.club/video/IMG_0657_1598435455275317.mp4 ",
             "title": "魔法烟花秀",
             "id": "3",
-            "tags": "魔法",
+            "tags": ["魔法"],
             "weight": ""
         },
         {
             "src": "https://codelab-adapter-docs.codelab.club/video/1590154622682774.mp4 ",
             "title": "spelling",
             "id": "3",
+<<<<<<< HEAD
             "tags": "DynamicTable",
+=======
+            "tags": ["开源硬件"],
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "weight": ""
         },
         {
             "src": "https://codelab-adapter-docs.codelab.club/video/1592575084486393.mp4",
             "title": "生日贺卡",
             "id": "3",
+<<<<<<< HEAD
             "tags": ["DynamicTable","物联网"],
+=======
+            "tags": ["开源硬件"],
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "weight": ""
         },
         {
@@ -84,14 +92,14 @@
             "src": "https://codelab-adapter-docs.codelab.club/video/1589296982429059.mp4 ",
             "title": "COVID-19 1",
             "id": "3",
-            "tags": "DynamicTable",
+            "tags": ["DynamicTable"],
             "weight": ""
         },
         {
             "src": "https://codelab-adapter-docs.codelab.club/video/1589296982422368.mp4 ",
             "title": "COVID-19 2",
             "id": "3",
-            "tags": "DynamicTable",
+            "tags": ["DynamicTable"],
             "weight": ""
         },
         {
@@ -169,7 +177,11 @@
             "src": "https://codelab-adapter-docs.codelab.club/video/wand_catapult_demo.mp4 ",
             "title": "Fire！2",
             "id": "3",
+<<<<<<< HEAD
             "tags": "开源硬件",
+=======
+            "tags": ["DynamicTable"],
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "weight": ""
         },
 
@@ -177,7 +189,11 @@
             "src": "https://codelab-adapter-docs.codelab.club/video/1593410656522462.mp4 ",
             "title": "Hey Siri 2",
             "id": "3",
+<<<<<<< HEAD
             "tags": ["物联网", "机器人"],
+=======
+            "tags": ["DynamicTable"],
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "weight": ""
         },
         {
@@ -192,21 +208,33 @@
             "src": "https://codelab-adapter-docs.codelab.club/video/1589459621915320.mp4",
             "title": "桌面编程1",
             "id": "3",
+<<<<<<< HEAD
             "tags": ["DynamicTable","机器人"],
+=======
+            "tags": ["DynamicTable"],
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "weight": ""
         },
         {
             "src": "https://codelab-adapter-docs.codelab.club/video/1589459630916864.mp4 ",
             "title": "桌面编程2",
             "id": "3",
+<<<<<<< HEAD
             "tags": ["DynamicTable","机器人"],
+=======
+            "tags": ["DynamicTable"],
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "weight": ""
         },
         {
             "src": "https://codelab-adapter-docs.codelab.club/video/1589977785885032.mp4 ",
             "title": "小型解释器",
             "id": "3",
+<<<<<<< HEAD
             "tags": ["DynamicTable","机器人"],
+=======
+            "tags": ["DynamicTable"],
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "weight": ""
         },
 
@@ -214,7 +242,7 @@
             "src": "https://codelab-adapter-docs.codelab.club/video/1591182636036039.mp4 ",
             "title": "纸糊方向盘1",
             "id": "3",
-            "tags": "DynamicTable",
+            "tags": ["DynamicTable"],
             "weight": ""
         },
         {
@@ -235,7 +263,7 @@
             "src": "https://codelab-adapter-docs.codelab.club/video/1592219388632217.mp4",
             "title": "震动检测器",
             "id": "3",
-            "tags": "DynamicTable",
+            "tags": ["DynamicTable"],
             "weight": ""
         },
 
@@ -250,7 +278,7 @@
             "src": "https://codelab-adapter-docs.codelab.club/video/1597283973481982.mp4",
             "title": "GameShell 2",
             "id": "6",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
@@ -261,10 +289,17 @@
             "weight": ""
         },
         {
+<<<<<<< HEAD
             "src": "https://adapter.codelab.club/video/重力效应.mp4 ",
             "title": "重力效应",
             "id": "100",
             "tags": "",
+=======
+            "src": "https://adapter.codelab.club/video/1576905372587643.mp4",
+            "title": "Seeing Spaces",
+            "id": "6",
+            "tags": ["开源硬件"],
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "weight": ""
         },
         {
@@ -407,21 +442,21 @@
             "src": "https://adapter.codelab.club/video/1588665494072465.mp4",
             "title": "我的世界Minecraft",
             "id": "13",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/1588741044537372.mp4",
             "title": "Sonic Pi",
             "id": "14",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/AR.mp4 ",
             "title": "鼻梁上的老花镜（增强现实）",
             "id": "15",
-            "tags": "AI",
+            "tags": ["AI"],
             "weight": ""
         },
         {
@@ -435,14 +470,14 @@
             "src": "https://adapter.codelab.club/video/adapter_google_teachable_machine.mp4",
             "title": "Teachable Machine",
             "id": "18",
-            "tags": "AI",
+            "tags": ["AI"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/arduino.mp4",
             "title": "接入arduino",
             "id": "19",
-            "tags": "开源硬件",
+            "tags": ["开源硬件"],
             "weight": ""
         },
         {
@@ -456,10 +491,34 @@
             "src": "https://adapter.codelab.club/video/blockly_cozmo.mp4 ",
             "title": "Cozmo接入在线课程平台",
             "id": "22",
-            "tags": "机器人",
+            "tags": ["机器人"],
             "weight": ""
         },
+<<<<<<< HEAD
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/body_programming.mp4",
+            "title": "Body Programming",
+            "id": "23",
+            "tags": ["DynamicTable","物联网"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/candy_vector.mp4 ",
+            "title": "Candy Language for Vector",
+            "id": "24",
+            "tags": ["AI","机器人"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/codelab_ipad.mp4",
+            "title": "空间魔方开关",
+            "id": "25",
+            "tags": ["物联网"],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/codelab有嘻哈.mp4 ",
             "title": "CodeLab有嘻哈",
@@ -467,22 +526,56 @@
             "tags": ["开源硬件","物联网"],
             "weight": ""
         },
+<<<<<<< HEAD
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/cosplayhi渡边君.mp4 ",
+            "title": "渡边君",
+            "id": "27",
+            "tags": ["机器人"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/cube symphony.mp4 ",
+            "title": "魔方交响乐",
+            "id": "28",
+            "tags": ["物联网"],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/dlib_face.mp4 ",
             "title": "人脸地标（Python程序接入Scratch）",
             "id": "29",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/hi渡边君.mp4",
             "title": "Hi 渡边君",
             "id": "35",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
+<<<<<<< HEAD
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/dynamicland_01.mp4 ",
+            "title": "拧动棱镜1",
+            "id": "30",
+            "tags": ["DynamicTable"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/dynamicland_02.mp4",
+            "title": "拧动棱镜2",
+            "id": "31",
+            "tags": ["DynamicTable"],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/leju_codelab.mp4 ",
             "title": "CodeLab X Leju Robot",
@@ -490,27 +583,82 @@
             "tags": ["机器人","物联网"],
             "weight": ""
         },
+<<<<<<< HEAD
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/magic-eye-tracker.mp4 ",
+            "title": "霍格沃兹模式1",
+            "id": "39",
+            "tags": ["魔法"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/magic_joy_con.mp4",
+            "title": "霍格沃兹模式2",
+            "id": "40",
+            "tags": ["魔法"],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/python_neverland.mp4",
             "title": "I am reading！",
             "id": "43",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/scratch-smart-home.mp4",
             "title": "运动检测开关灯",
             "id": "44",
-            "tags": "AI",
+            "tags": ["AI"],
             "weight": ""
         },
+<<<<<<< HEAD
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/scratch_rainrow.mp4",
+            "title": "彩虹的旋律",
+            "id": "45",
+            "tags": ["AI"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/tm_scratch_dy.mp4 ",
+            "title": "CodeLab Adapter ❤ Teachable Machine",
+            "id": "51",
+            "tags": ["AI","DynamicTable"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/toio_candy.mp4",
+            "title": "谁动了我的糖果",
+            "id": "53",
+            "tags": ["AI","机器人"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/toio_music.mp4",
+            "title": "Toio Music Interface1",
+            "id": "55",
+            "tags": ["机器人"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/toio_music2.mp4",
+            "title": "Toio Music Interface2",
+            "id": "56",
+            "tags": ["机器人"],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/turnofflight_byfinger.mp4 ",
             "title": "收工，吃饭",
             "id": "59",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
@@ -524,38 +672,75 @@
             "src": "https://adapter.codelab.club/video/wechat.mp4",
             "title": "做一个微信聊天界面",
             "id": "65",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/wechat_extension.mp4",
             "title": "微信插件",
             "id": "66",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
+<<<<<<< HEAD
 
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/where-did-the-human-go.mp4 ",
+            "title": "Cozmo vs Vector: Where did the human go?",
+            "id": "68",
+            "tags": ["机器人"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/一场烟火.mp4",
+            "title": "一场烟火",
+            "id": "69",
+            "tags": ["DynamicTable"],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/两只老虎.mp4",
             "title": "击掌奏乐",
             "id": "70",
-            "tags": "开源硬件",
+            "tags": ["开源硬件"],
             "weight": ""
         },
         {
+<<<<<<< HEAD
+=======
+            "src": "https://adapter.codelab.club/video/二进制.mp4",
+            "title": "二进制",
+            "id": "71",
+            "tags": ["DynamicTable"],
+            "weight": ""
+        },
+        {
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
             "src": "https://adapter.codelab.club/video/击灭那盏灯.mp4",
             "title": "击灭那盏灯2",
             "id": "72",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
+<<<<<<< HEAD
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/命运之手.mp4",
+            "title": "命运之手",
+            "id": "73",
+            "tags": ["机器人"],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/姿势乐谱.mp4",
             "title": "姿势乐谱",
             "id": "74",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
 
@@ -563,86 +748,120 @@
             "src": "https://adapter.codelab.club/video/小房间与大房间.mp4",
             "title": "小房间与大房间",
             "id": "88",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
+<<<<<<< HEAD
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/山寨版龟派气功.mp4",
+            "title": "山寨版龟派气功",
+            "id": "89",
+            "tags": ["AI"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/手势窗帘.mp4",
+            "title": "手势窗帘",
+            "id": "90",
+            "tags": ["物联网"],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/掌控板.mp4",
             "title": "掌控版",
             "id": "92",
-            "tags": "开源硬件",
+            "tags": ["开源硬件"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/智能音箱.mp4",
             "title": "智能音箱",
             "id": "93",
-            "tags": "AI",
+            "tags": ["AI"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/模拟器.mp4",
             "title": "模拟器（by 联想研究院）",
             "id": "94",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/灵光一现.mp4 ",
             "title": "灵光一现",
             "id": "95",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/眼动仪.mp4 ",
             "title": "眼动仪",
             "id": "96",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/自制门禁.mp4",
             "title": "自制门禁",
             "id": "97",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
+<<<<<<< HEAD
 
+=======
+        {
+            "src": "https://adapter.codelab.club/video/蜡笔调色盘.mp4",
+            "title": "蜡笔调色盘",
+            "id": "98",
+            "tags": ["物联网"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/重力效应.mp4 ",
+            "title": "重力效应",
+            "id": "100",
+            "tags": [],
+            "weight": ""
+        },
+>>>>>>> 1decc4e67f8a39e30422c442fe97bacc35b2e9a5
         {
             "src": "https://adapter.codelab.club/video/闭眼请熄灯.mp4",
             "title": "闭眼请熄灯",
             "id": "101",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://codelab-adapter-docs.codelab.club/img/dp_vision.mp4",
             "title": "使用本地机器视觉",
             "id": "101",
-            "tags": "AI",
+            "tags": ["AI"],
             "weight": ""
         },
         {
             "src": "https://codelab-adapter-docs.codelab.club/img/gesture_light.mp4",
             "title": "手势控制客厅灯光",
             "id": "101",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://codelab-adapter-docs.codelab.club/img/door_tv.mp4",
             "title": "门与电视联动",
             "id": "101",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/jupyter_scratch.mp4",
             "title": "Jupyter + Scratch",
             "id": "37",
-            "tags": "",
+            "tags": [],
             "weight": ""
         }
     ],
@@ -658,7 +877,7 @@
             "src": "https://adapter.codelab.club/video/toio-etoys.mp4",
             "title": "Toio etoys",
             "id": "52",
-            "tags": "机器人",
+            "tags": ["机器人"],
             "weight": ""
         },
         {
@@ -672,7 +891,7 @@
             "src": "https://adapter.codelab.club/video/toio_fly.mp4 ",
             "title": "天空没有留下鸟的痕迹，但Toio已飞过",
             "id": "54",
-            "tags": "机器人",
+            "tags": ["机器人"],
             "weight": ""
         },
         {
@@ -686,7 +905,7 @@
             "src": "https://adapter.codelab.club/video/toio泡泡龙.mp4",
             "title": "Toio泡泡龙",
             "id": "58",
-            "tags": "DynamicTable",
+            "tags": ["DynamicTable"],
             "weight": ""
         },
         {
@@ -728,42 +947,42 @@
             "src": "https://adapter.codelab.club/video/wechat_iot.mp4 ",
             "title": "Scratch X 微信 X IoT",
             "id": "67",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/拍案惊球.mp4",
             "title": "拍案惊球",
             "id": "91",
-            "tags": "DynamicTable",
+            "tags": ["DynamicTable"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/要有光.mp4",
             "title": "要有光",
             "id": "99",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/eye_light.mp4",
             "title": "目之所及",
             "id": "32",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/fly.mp4 ",
             "title": "四轴飞行器",
             "id": "33",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/game_adapter.mp4",
             "title": "接入3D游戏",
             "id": "34",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
         {
@@ -777,7 +996,7 @@
             "src": "https://adapter.codelab.club/video/1587120578222179.mp4",
             "title": "RoboMaster EP & Lego",
             "id": "10",
-            "tags": "机器人",
+            "tags": ["机器人"],
             "weight": ""
         },
         {
@@ -798,14 +1017,14 @@
             "src": "https://adapter.codelab.club/video/Rotating-the-earth .mp4 ",
             "title": "给我一个toio，我可以转动地球",
             "id": "17",
-            "tags": "机器人",
+            "tags": ["机器人"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/hungry_robot.mp4",
             "title": "Hungry Robot",
             "id": "36",
-            "tags": "机器人",
+            "tags": ["机器人"],
             "weight": ""
         },
         {
@@ -819,56 +1038,56 @@
             "src": "https://adapter.codelab.club/video/physics_leapmotion.mp4",
             "title": "Physics Extension + Leap Motion",
             "id": "42",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/supermarry.mp4",
             "title": "超级玛丽 & Leap Motion",
             "id": "46",
-            "tags": "",
+            "tags": [],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/switch_light.mp4 ",
             "title": "击灭那盏灯1",
             "id": "47",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/tello_joy_con.mp4",
             "title": "DJI Tello X Switch Joy-Con",
             "id": "48",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/tello_labo.mp4 ",
             "title": "DJI Tello X Switch Labo",
             "id": "49",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/tello_leapmotion.mp4",
             "title": "DJI Tello X Leap Motion",
             "id": "50",
-            "tags": "物联网",
+            "tags": ["物联网"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/1537510098140.mp4",
             "title": "控制优必选Alpha机器人",
             "id": "1",
-            "tags": "机器人",
+            "tags": ["机器人"],
             "weight": ""
         },
         {
             "src": "https://adapter.codelab.club/video/1539392124109888.mp4",
             "title": "冲啊，先驱音速",
             "id": "2",
-            "tags": "开源硬件",
+            "tags": ["开源硬件"],
             "weight": ""
         },
         {
@@ -882,7 +1101,7 @@
             "src": "https://codelab-adapter-docs.codelab.club/img/mc_404game.mp4",
             "title": "利用传感器做体感游戏",
             "id": "2",
-            "tags": "",
+            "tags": [],
             "weight": ""
         }
     ]

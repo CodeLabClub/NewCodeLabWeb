@@ -83,7 +83,7 @@ export const VideoRow = function ({title, videos, ...props}) {
       }
     }); // lazy loads elements with default selector as '.lozad'
     observer.observe();
-  })
+  }, [videos])
 
   return (
     <div className="margin-top--log margin-bottom--log">
@@ -94,7 +94,7 @@ export const VideoRow = function ({title, videos, ...props}) {
       <div className="row">
         {
           videos.map((video, index) => (
-            <div className={clsx('col col--6')} key={index}>
+            <div className={clsx('col col--6')} key={video.title}>
               <div>
                 <video
                   type="video/mp4"
@@ -142,12 +142,17 @@ export const VideoRow = function ({title, videos, ...props}) {
   )
 }
 
+const tags = ['全部', '魔法', 'DynamicTable', '机器人', '物联网', '开源硬件']
+
 function Projects() {
   const context = useDocusaurusContext();
+  const [currentTag, setCurrentTag] = useState('全部')
   const {siteConfig = {}} = context;
+
   useLayoutEffect(() => {
     window.$(".stack").lettering();
   }, [])
+
   return (
     <Layout title="Projects">
       {/*
@@ -159,17 +164,21 @@ function Projects() {
         </div>
         <div className={clsx(styles.navContainer)}>
           <div className={clsx(styles.filter)}>
-            <button className={clsx(styles.tag1)}>全部</button>
-            <button className={clsx(styles.tags)}>魔法</button>
-            <button className={clsx(styles.tags)}>DynamicTable</button>
-            <button className={clsx(styles.tags)}>机器人</button>
-            <button className={clsx(styles.tags)}>物联网</button>
-            <button className={clsx(styles.tags)}>开源硬件</button>
+            {
+              tags.map(tag => (
+                <button
+                  className={clsx(styles.tag, currentTag === tag && styles.tagActive)}
+                  onClick={() => setCurrentTag(tag)}
+                >
+                  { tag }
+                </button>)
+              )
+            }
           </div>
         </div>
         <main className={clsx(styles.newContainer)}>
-          <VideoRow title="" videos={videos['横版视频']}/>
-          <VideoRow title="" videos={videos['竖版视频']}/>
+          <VideoRow title="" videos={videos['横版视频'].filter(video => currentTag === '全部' || video.tags.includes(currentTag))}/>
+          <VideoRow title="" videos={videos['竖版视频'].filter(video => currentTag === '全部' || video.tags.includes(currentTag))}/>
         </main>
       </div>
     </Layout>

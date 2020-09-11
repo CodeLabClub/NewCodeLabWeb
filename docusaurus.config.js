@@ -80,6 +80,7 @@ module.exports = {
             },
           ]
         },
+/*
         {
           title: null,
           items:[
@@ -89,6 +90,7 @@ module.exports = {
             },
           ]
         },
+*/
         {
           title: null,
           items:[
@@ -98,12 +100,23 @@ module.exports = {
             },
           ]
         },
+/*
         {
           title: null,
           items:[
             {
               label:'回到未来',
               to: 'blog'
+            },
+          ]
+        },
+*/
+        {
+          title: null,
+          items:[
+            {
+              label:'微信公众号',
+              to: 'blog/2020/04/01/欢迎关注CodeLab微信公众号'
             },
           ]
         },

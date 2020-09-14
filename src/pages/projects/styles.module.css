@@ -147,18 +147,19 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
+  margin: 0 2rem 2rem 2rem;
+
 
 }
 
 .tag {
   color: white;
   padding: 0.2rem 0.5rem;
-  border: solid white 1.5px;
+  border: solid white 0.1vw;
   border-radius: 2.5rem;
   margin:0.5rem 1rem;
   background-color:black;
-  font-size:1rem;
+  font-size:1vw;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -169,11 +170,11 @@
   outline: none;
   color: white;
   padding: 0.2rem 0.5rem;
-  border: solid white 1.5px;
+  border: solid white 0.1vw;
   border-radius: 2.5rem;
   margin:0.5rem 1rem;
   background-color: #ffb81e;
-  font-size: 1rem;
+  font-size: 1vw;
   display: inline-block;
   vertical-align: middle;
 }

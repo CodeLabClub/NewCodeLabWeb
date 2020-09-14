@@ -29,6 +29,18 @@ v3.4.2:
 -   [Windows](https://scratch3-files.just4fun.site/windows_1.3.66.zip)
 -   [MacOS](https://scratch3-files.just4fun.site/mac_1.3.66.zip)
 
+在国内使用，需要修改本机 hosts 文件：
+
+添加如下规则:
+
+`127.0.0.1 device-manager.scratch.mit.edu`
+
+以下是不同系统的 hosts 文件所在位置
+
+*  Windows: C:\Windows\System32\drivers\etc\hosts
+*  Android: /system/etc/hosts
+*  Mac/Linux: /etc/hosts
+
 ## Chrome
 
 -   [Windows](http://scratch3-files.just4fun.site/ChromeSetup.exe)

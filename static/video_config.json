@@ -24,12 +24,18 @@
         }
     ],
     "横版视频": [
-        
         {
             "src": "https://adapter.codelab.club/video/1588994952631075.mp4",
-            "title": "Give you some sunshine",
-            "id": "3",
+            "title": "给你一点阳光",
+            "title-cn": "Give you some sunshine",
             "tags": ["机器人", "物联网"],
+            "关键字":[],
+            "介绍":"",
+            "想法":"",
+            "材料":["硬件", "软件：xx", "纸张"],
+            "源码":"社区项目",
+            "制作步骤": "",
+            "id": "3",
             "weight": ""
         },
         {

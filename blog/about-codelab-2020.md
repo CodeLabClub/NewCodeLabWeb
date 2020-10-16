@@ -1,34 +1,9 @@
 ---
 title: "关于 CodeLab"
 author: CodeLab
-date: 2020-09-20
+date: 2020-09-25
 tags: ["CodeLab相关"]
 ---
-
-<!--
-通俗易懂，不宜太长
-
-大纲
-    是什么
-        组织性质, 使命
-        介绍CodeLab里的编程
-        组织参与者
-        重点变化
-        todo 不宜太长
-    在做什么
-        创作环境 社区 内容 活动 club运营方案
-        结合提供的服务
-        非营利组织 提供的服务 ，及其价值
-        产品
-    未来计划
-        来玩 未来社 开放空间 分享我们的活动方案 club运营方案
-        之前的计划 ， 多个方面
-        Neverland2.0
-        club扩散
-    如何参与
-        CodeLab 是一个非营利组织，这种组织形态让我们能全力以赴追逐使命。 如果我们不去做，这些值得去做的事情，短期内似乎就不会发生
-        如果没有你的参与，我们成功的机会便很渺茫。 如果你愿意参与其中，请联系我们
--->
 
 <img className="img-responsive" src="https://adapter.codelab.club/img/codelab_logo.png" />
 
@@ -41,6 +16,8 @@ tags: ["CodeLab相关"]
 我们的使命是:
 
 > 传递编程的乐趣，鼓励孩子成为数字时代的创作者。
+
+<!--more-->
 
 我们希望与你一起追随热情，制作有趣的项目，寻找志同道合的同伴，一起去表达与创造。
 
@@ -60,66 +37,35 @@ tags: ["CodeLab相关"]
 
 《理想国》里说:「言语是一种比蜡还容易随意捏造的材料」, 它如此灵活，能够用来与朋友逗乐，用来表达你的思想，用来创造诗歌与小说；编程就像言语，它同样可以用来表达你的想法，用来与朋友逗乐，以及，用来表达和创造。它让你与世间的万物沟通，你可以用它指挥一台飞行器，制作一个[体感游戏](https://www.codelab.club/projects/)。或者在朋友生日那天，在 Ta 进门的一刻，将手中的魔杖一挥，在空中划一个字母 L 的轨迹，瞬间，点亮房间里五彩的灯光。 在 CodeLab，你将轻松做出这样的魔杖，并对周围的世界施以魔法。如果你愿意，可以将 CodeLab 看作霍格沃茨(Hogwarts)。
 
-<!--
-
-它被我们设计成一个可编程的大陆--一个充满可能性的大陆。
-
-新的技术往往都接近[魔法](https://www.codelab.club/projects/)。
-
-弗兰西斯·培根在 17 世纪说: 「知识就是力量(Knowledge is power)」。今天，应该没什么人会反对这句话了。但问题是我们如何有效获得这种力量呢?教科书式的知识罗列多半是枯燥无味的，我们努力去记忆，却收效甚微，当然，通过努力记忆和练习往往可以考得不错成绩，但你希望得到的是知识，而不是考试成绩，这两者的不同，杜威论述了很多。知识、逻辑和理性都不具有主动性。不排除一些人天生对微积分、形式系统和康德感兴趣，但更多的人，热情可能来自于帮助家人与朋友、恶作剧以及制作有趣的东西。CodeLab 希望做的，便是与你一起去寻找热情所在，一旦找到那些让你热血沸腾之事，你便会开始对知识感兴趣，因为知识能帮你更好地实现目标，接下来你将愉快且高效地掌握所需的知识。
--->
-
-<!--在这点上，我们喜欢[约翰·杜威(John Dewey)](https://zh.wikipedia.org/zh/%E7%BA%A6%E7%BF%B0%C2%B7%E6%9D%9C%E5%A8%81) 、[罗素(Bertrand Russell)](https://zh.wikipedia.org/zh-hans/%E4%BC%AF%E7%89%B9%E5%85%B0%C2%B7%E7%BD%97%E7%B4%A0)、[皮亚杰(Jean Piaget)](https://zh.wikipedia.org/zh-hans/%E8%AE%93%C2%B7%E7%9A%AE%E4%BA%9E%E5%82%91)、[艾伦·凯(Alan Curtis Kay)](https://zh.wikipedia.org/zh-hans/%E8%89%BE%E4%BC%A6%C2%B7%E5%87%AF)、[派普特(Seymour Papert)](https://en.wikipedia.org/wiki/Seymour_Papert)和[密契尔(Mitchel Resnick)](https://en.wikipedia.org/wiki/Mitchel_Resnick)的建议。-->
-
 ---
 
 CodeLab 是一个非营利组织， 第一笔捐赠来自罗云先生, 这笔捐赠让我们得以全力以赴做这件事情。有了这笔捐赠之后，我们在广州有了办公室，有了几位全职员工。罗云先生热心于教育事业,给予 CodeLab 多方面的支持,目前也是 CodeLab 的理事之一。
 
 在很多人看来，我们可能有些不切实际，说得好听一点，有些理想主义。我们选择做那些我们认为有意义的事，而不是那些"速效"之事。
 
-<!-- 感谢早期推动着 CodeLab 的所有人。我将这份名单列出，名字不分先后。哈哈，我们做到了真正意义上的`不分先后`，用的便是`编程`，我写了几行代码来随机排列人名，你每次刷新页面，排序都将不同 :)
-
-<p>{['陈爱华', '程晨', '陈海权', '罗云', '崔欣', '沈煜', '刘鑫', '李懿','瞿旻', '钱振方', '左翔', '孙彬彬','曾铮', '吴种瓜' ].sort(() => Math.random() - 0.5).join('、')}</p>
-
-希望这份名单不断加长，也希望参与其中的每个人，热爱贡献、分享与创造的过程。
--->
-
-<!--
-消磨周日午后光阴的，哲学、徒步与骑车.
- 但我大部分的你们，不会成为职业程序员，毕竟世上有趣的事情那么多，选择。所以你不必去背什么算法、数据结构，不必去记那些恼人标点符号规则。就像，我们给你一些逻辑积木块，去堆叠你的想法与创意。5分钟，你就可以起步
- 我们认为这是值得做的，所以我们开始
-
-
-我们不能帮你在C语言考试里多考5分，我们可能对于你要获得奥林匹克，也不会有什么立竿见影的效果。 -->
-
 虽然我们有些"不切实际"，但在具体执行上，却希望尽可能做到合理、高效，我们阅读[彼得·德鲁克](https://zh.wikipedia.org/zh/%E5%BD%BC%E5%BE%97%C2%B7%E5%BE%B7%E9%B2%81%E5%85%8B)的《非营利组织的管理》、约翰·杜威的《学校与社会》、伯特兰·罗素的《论教育》、伊藤穰一的《爆裂》、米切尔•雷斯尼克的《终生幼儿园》、以及 Y Combinator 的《YC 创业课》。我们去学习[code.org](https://code.org/learn)、[code club](https://www.codeclub.org.uk/)、[microbit](http://microbit.org)、[raspberrypi](https://raspberrypi.org)以及[scratch](https://scratch.mit.edu/)等 优秀的非营利项目的策略。
-
-<!--
-我们不赞同目前这个领域大家做的大部分事情。
-要做好这件事，仅靠这些还远不够，我们希望你能加入进来，一起去探索、分享和创造。
--->
 
 # 在做什么?
 
-CodeLab 成立于 2018 年底，到今年年底，将满 2 周岁。
+CodeLab 成立于 2018 年底，到 2020 年底，将满 2 周岁。
 
 在过去一年多的时间里，我们追随使命，探索编程教育的各种可能性，我们将大多数的时间花在基础设施的构建上。
 
 ## 编程环境
 
-今天的孩子大多是通过 Scratch，或者由它所启发的图形化编程工具，进入计算机世界。 Smalltalk 社区和 MIT Media Lab 在过去十多年里， 对图形化编程做了出色的工作。
+今天的孩子大多是通过 Scratch，或者由它所启发的图形化编程工具，进入计算机世界。 Smalltalk 社区和 MIT Media Lab 在过去十多年里， 对图形化编程做了出色的探索工作。
 
 CodeLab 在基础设施上的工作始于这样一个疑惑: 新的技术不断涌现，从 AI 到物联网，从开源硬件到虚拟现实，计算机比过去有更强的表现力，我们如何将这些表现力释放出来，供孩子们自由表达与创作？ 正如 Scratch 尝试站在「表达媒介(Media)」的角度对 LOGO 做出改进，我们能对 Scratch 做出什么改进呢？
 
-对这个问题的回答，我们主要受到 Smalltalk 社区的影响(Scratch 也是 Smalltalk 社区文化的一个产物)，目前我们交出的答复是: [CodeLab Adapter](https://adapter.codelab.club/)。
+对这个问题的回答，我们主要受到 Smalltalk 社区的影响(我们将 Scratch 视为 Smalltalk 社区文化的一个产物)，目前我们交出的答复是: [CodeLab Adapter](https://adapter.codelab.club/)。
 
 > CodeLab Adapter 是一个由 Python 构建的软件(构建在消息之上(Everything Is a Message))， 致力于连接万物，无论是软件还是硬件，无论是 AI、开源硬件、现实世界的物体、还是虚拟世界的动画角色，接入 CodeLab Adapter，皆可彼此互动。
 
-我们的想法是构建一个开放的消息系统，让一切事物(Object)在系统中自由交流(Talk), 这主要受到 Alan Kay 的消息/对象模型的影响。
+我们的想法是构建一个开放的消息系统，让一切事物(Object)在系统中自由交流(Talk)。 这主要受到 Alan Kay 的消息/对象模型的影响。
 
 当我们将[CodeLab Adapter](https://adapter.codelab.club/)接入 Scratch 时。 Scratch 得到接入任何事物的能力，如此一来，孩子们便可在创作环境中自由表达，甚至将现实世界作为可编程的材料， 此时孩子仿佛处在一个可编程的大陆中(land)。[CodeLab Adapter](https://adapter.codelab.club/)独立于 Scratch，它可以赋予任何编程语言这种能力。
 
-相比于在美国法语培训班学法语的孩子，在法国学法语的孩子之所以能够流利地言说法语，是因为他处在法语的世界(land)里。
+相比于在美国法语培训班学法语的孩子，在法国学法语的孩子能够更流利地言说法语，因为他处在法语的世界(land)里。
 
 我们也想为孩子们构建一个环境，环境中的事物皆可通过编程与之沟通，在这个可编程环境里，学习编程，就如在法国学习法语。
 
@@ -140,7 +86,7 @@ CodeLab Neverland 是一个:
 
 的**开放**空间。
 
-<video width=80% src="https://scratch3-files.just4fun.site/CodeLabVideos3_5m.mp4" controls="controls"></video>
+<video width="80%" src="https://scratch3-files.just4fun.site/CodeLabVideos3_5m.mp4" controls="controls"></video>
 
 Neverland 也是我们的办公室，我们在其中办公，在其中编程，在其中玩乐，在其中做一些有趣的探索和创作。
 
@@ -172,81 +118,9 @@ CodeLab 社区才开放不久，还有许多不足。 但如果你偏好开放�
 
 在 2020 年的暑假里，我们分别探索了线下和线上的两期编程活动，效果令人满意，尤其是孩子表现出来的热情以及创意的多元化。这些实施的材料近期也会开放在官网，供 CodeLab 志愿者在不同地方实施它。
 
-截止到今年年底，我们计划发布 3 门 mooc 课程, 分别围绕 Scratch 入门、Python 入门以及 CodeLab 可编程空间。这三门课程，会有别于市面上的内容，我们希望它足够有趣，让孩子一开始就"玩起来"(real playing)。
+截止到今年年底，我们计划发布 3 门 mooc 课程, 分别围绕 Scratch 入门、Python 入门以及 CodeLab 可编程空间。这三门课程，会有别于市面上的内容，我们希望它足够有趣，让孩子一开始就"玩起来"(`real playing`)。
 
-此外，我们还计划开放 16 个 workshop 的实施方案。 并上线新的技术文档（提升可理解性）。
-
-<!--
-CodeLab将探索多种club模式，构建编程教育的基础设施，科普。我们力图做到中立、客观，不蹭热点不站队:)
-
-线下方面，CodeLab 将在全国主要城市，利用周末时间，组织志愿者、借用场地，开展编程活动；
-线上方面，CodeLab 将构建先进的编程平台，在积木化编程里加入开源硬件、物联网和人工智能；
-同时我们将构建活跃的用户社区，鼓励志愿者、学习者、创造者参与其中；
-我们也乐于与其他公益组织展开合作，让编程与更广泛的社会活动结合。
-
-我们目前的办公室在广州，我们会先在广州探索各种 club 的模式，一旦运转流畅，我们就在全国各地去开展活动。
-
-# 接下来我们准备做的一些事
-
-
-### 鲁滨逊计划
-
-    *  培养志愿者
-    *  漂流
-    *  动手打造
-    *  play
-    *  wedo2，ev3，租赁式
-    *  交互设计、空间编程、物联网、人工智能、情景剧。
-
-
-`鲁滨逊计划`是一项漂流计划，CodeLab 将拥有各类新奇有趣的东西，从人工智能机器人、体感设备到[OpenBCI](https://openbci.com/)(脑电波传感器)，他们都是可编程的。我们定期在办公室组织活动，邀请该计划的参与者参观、谈论这些最新最有趣的东西。大家可以轮流将它们带回家保管，用它们学习编程与创造。之后我们鼓励你到 CodeLab 分享你的创造历程。
-
-### Homebrew Coding Club
-
-
-    *  爱好者小组
-    *  会员通信，邮件组。微信群会冷掉。
-    那天晚上是我一生中最重要的夜晚之一。
-
-> 你想创造自己的火星车吗?抑或是体感游戏，机器人，智能房屋? 如果是的话，来参加与你志趣相投的人们的聚会吧！
-
-Homebrew Coding Club 的想法来自[家酿计算机俱乐部](https://en.wikipedia.org/wiki/Homebrew_Computer_Club)。家酿计算机俱乐部是硅谷的早期的计算机爱好者小组，他们定期聚会，彼此分享新的信息和技术。
-
-家酿计算机俱乐部的第一次聚会前, 发布的传单上写着:
-
-> 你想搭建自己的计算机吗？抑或是终端机，电视机，打印机？如果是的话，来参加与你志趣相投的人们的聚会吧！
-
-乔布斯、沃兹尼亚克、比尔·盖茨都曾是其中的成员。沃兹尼亚克后来提到:
-
-> 那天晚上是我一生中最重要的夜晚之一。
-
-Homebrew Coding Club 的目的在于让爱好者们分享最新的资讯，了解当前全球最有意思的项目。并在其中找到自己的同伴。Homebrew Coding Club 采用邀请制，你可以邀请你周围那些最富创造性的人加入，如果小组中，有过半成员认为 Ta 做过的项目足够有趣，则予以通过。
-
-### Neverland(永无乡)
-
-
-    *  开放办公室
-        *  kinect
-        *  智能家居
-
-
-Neverland(永无乡)是 CodeLab 活动空间的名字。作为 CodeLab 办公室的一部分。CodeLab 的办公室是开放的, 我们在其中办公，在其中编程，在其中玩乐，在其中做一些有趣的探索和创作。
-
-Neverland 名字来自《小飞侠彼得·潘》,是故事中的一座海岛。在永无乡里，人们永远长不大。
-
-> 后来，他领着我飞到了永无乡，那儿还有仙子，还有海盗，还有印第安人，还有人鱼的礁湖；还有地下的家，还有那间小屋子。 --《小飞侠彼得·潘》
-
-我们将在 Neverland 里做许多有趣的事，我们准备在其中实现空间编程，亲手编程将它打造为一个智慧空间，我们准备在其中创作情景剧、体感游戏，以及构建令人热血沸腾的[Dynamicland](https://blog.just4fun.site/the-next-big-thing-is-a-room.html)。所有这些你都可以参与进来，他们像搭积木一样地简单。在这个过程中，你将学习人工智能、物联网和虚拟现实。
-
-### 漫游者计划
-
-我在[Hungry Robot - Eat everything](https://blog.just4fun.site/Hungry-Robot-Eat-everything.html#_9)中表述了漫游者计划。
-
-NASA(美国国家航空航天局)做了一个开源项目: [JPL Open Source Rover Project](https://github.com/nasa-jpl/open-source-rover)，这是 NASA[漫游者号火星车](https://zh.wikipedia.org/zh-hans/%E7%81%AB%E6%98%9F%E6%8E%A2%E6%B5%8B%E6%BC%AB%E6%B8%B8%E8%80%85)的教育版本。
-
-漫游者计划的想法是，定期组织大家一起制作有趣的项目，像上边提到的火星车。在制作的过程中，大家分工协作，没有人扮演指导者和老师。大家可能会遇到困难，需要一起解决。在这个过程中，参与者将看到真实项目的制作过程，有困惑，需要思考，最后解决它。如果家长带着孩子一起参加，让一个孩子看到困惑是如何产生的，知识和思考又是如何帮助解决问题的，我们相信会比按照说明书组装完事，有价值得多。漫游者计划中，所有人都将面对未知、获得成长。我们喜欢杜威说的: 教育的目的是它本身。而不是为了达成某个任务。
-
--->
+此外，我们还计划开放 16 个 workshop 的实施方案。 并上线新的[技术文档](https://adapter.codelab.club/)（提升可理解性）。
 
 # 未来计划
 
@@ -254,9 +128,9 @@ NASA(美国国家航空航天局)做了一个开源项目: [JPL Open Source Rove
 ![](https://adapter.codelab.club/img/codelab_plan.png)
 -->
 
-![](https://adapter.codelab.club/img/codelab_branch.png)
+![](/img/codelab_branch.png)
 
-我们计划从 2 个角度谈论我们在未来计划做的事情:
+我们计划从 2 个角度谈论 CodeLab 在未来计划做的事情:
 
 -   服务
 -   产品
@@ -268,9 +142,7 @@ CodeLab 是一个非营利组织，非营利组织一般会向社会提供某项
 我们对社会提供两项服务:
 
 -   CodeLab 线上社区
--   CodeLab 线下Club
-
-我们计划持续高服务的质量。
+-   CodeLab 线下 Club
 
 我们希望 CodeLab 线上社区能成为一个开放、中立、友好、充满想象力的社区。 我们相信非营利组织形态能很好推动这项事业。
 
@@ -326,7 +198,7 @@ Just for fun, just for you :)
 -   《终生幼儿园》
 -   [关于 CodeLab(旧版)](https://www.codelab.club/blog/2018/11/08/about-codelab-club)
 -   [CodeLab 官网](https://www.codelab.club/)
--   [CodeLab 近况与未来_02](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/codelab-recent-situation-and-future/)
+-   [CodeLab 近况与未来\_02](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/codelab-recent-situation-and-future/)
 -   [CodeLab Adapter](https://adapter.codelab.club/)
 -   [CodeLab 可编程空间背后的理念与设计原则](https://codelab.club/blog/2020/04/29/%E5%8F%AF%E7%BC%96%E7%A8%8B%E7%A9%BA%E9%97%B4)
 -   [CodeLab DynamicTable: A Seeing World](https://codelab.club/blog/2020/05/31/DynamicTable/)

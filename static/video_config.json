@@ -25,6 +25,13 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/1603782783858008.mp4",
+            "title": "浏览器里的 Smalltalk & Scratch & CodeLab Adapter",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/smalltalk-scratch.mp4",
             "title": "Smalltalk & Scratch",
             "id": "3",
@@ -33,7 +40,7 @@
         },
         {
             "src": "https://adapter.codelab.club/video/新的marker.mp4",
-            "title": "DynamicTable 原型2",
+            "title": "DynamicTable marker 原型2",
             "id": "3",
             "tags": ["物联网"],
             "weight": ""

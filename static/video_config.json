@@ -25,6 +25,13 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/12d30ae7cb52dcb0e894d7c9371da8.MP4",
+            "title": "将Python提升到Smalltalk-like沉浸式编程环境",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/1603782783858008.mp4",
             "title": "浏览器里的 Smalltalk & Scratch & CodeLab Adapter",
             "id": "3",
@@ -43,6 +50,13 @@
             "title": "DynamicTable marker 原型2",
             "id": "3",
             "tags": ["物联网"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/1604400289579774.mp4",
+            "title": "OSC 转 midi",
+            "id": "3",
+            "tags": [],
             "weight": ""
         },
         {

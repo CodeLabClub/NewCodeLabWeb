@@ -1,25 +1,21 @@
 ---
-title: 在阅读中认识CodeLab——博文汇总
+title: "在阅读中认识CodeLab——博文汇总"
 author: CodeLab
-date: 2020-09-07
-tages: [CodeLab相关]
+date: 2020-11-05
+tages: ["CodeLab相关"]
 ---
 
 ## CodeLab 相关
-
-<!--
-* [关于CodeLab](https://codelab.club/blog/2018/11/08/about-codelab-club)
-* CodeLab 近况_04
-* CodeLab Adapter 3.4 发布
--->
 
 -   [CodeLab Adapter](https://adapter.codelab.club/)
 -   [社区版 Neverland](https://codelab.club/blog/2020/03/09/Neverland-community)
 -   [CodeLab 可编程空间背后的理念与设计原则](https://codelab.club/blog/2020/04/29/%E5%8F%AF%E7%BC%96%E7%A8%8B%E7%A9%BA%E9%97%B4)
 -   [CodeLab DynamicTable: A Seeing World](https://codelab.club/blog/2020/05/31/DynamicTable)
 -   [CodeLab DynamicTable: 一个可实施的技术方案](https://codelab.club/blog/2020/06/02/dynamictable-an-instance)
+-   [创意计算授课实践与总结](https://codelab.club/blog/2020/10/16/创意计算授课实践与总结)
 -   [第一期的直播演示项目](https://codelab.club/blog/2020/06/15/%E7%AC%AC%E4%B8%80%E6%9C%9F%E7%9A%84%E7%9B%B4%E6%92%AD%E5%B1%95%E7%A4%BA%E9%A1%B9%E7%9B%AE)
 -   [当我们谈论编程时，其实是在谈论玩乐与创作](https://codelab.club/blog/2020/06/28/%E5%BD%93%E6%88%91%E4%BB%AC%E8%B0%88%E8%AE%BA%E7%BC%96%E7%A8%8B%E6%97%B6%EF%BC%8C%E5%85%B6%E5%AE%9E%E6%98%AF%E5%9C%A8%E8%B0%88%E8%AE%BA%E7%8E%A9%E4%B9%90%E4%B8%8E%E5%88%9B%E4%BD%9C)
+-   [CodeLab实习记](https://codelab.club/blog/2020/11/05/daysatcodelabbykunhao)
 -   [在 CodeLab 的难忘时光](https://codelab.club/blog/2020/02/17/%E5%82%B2%E7%84%B6%E5%AE%9E%E4%B9%A0%E7%AC%94%E8%AE%B0)
 -   [CodeLab 冒险记（一）](https://codelab.club/blog/2020/07/09/CodeLab%E5%86%92%E9%99%A9%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89)
 -   [加入我们](https://codelab.club/blog/2019/12/04/join-us)
@@ -28,6 +24,7 @@ tages: [CodeLab相关]
 -   [CodeLab 近况与未来\_02](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/codelab-recent-situation-and-future/)
 -   [CodeLab 近况\_01](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/codelab-club-recent-situation/)
 -   [CodeLab 近况](https://codelab.club/blog/2018/12/18/codelab-club-recent-situation)
+-   [CodeLab Adapter 3.7 发布](https://codelab.club/blog/2020/11/03/3.7-release)
 -   [CodeLab Adapter 3.5 发布](https://codelab.club/blog/2020/08/14/3.5-release)
 -   [CodeLab Adapter 3.3 发布](https://codelab.club/blog/2020/06/07/3_3_1-release)
 -   [CodeLab Adpater 3.2 发布](https://codelab.club/blog/2020/05/10/3_2-release)

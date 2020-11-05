@@ -16,14 +16,14 @@
   --ifm-color-primary-lightest: #ffd374;
   --ifm-code-font-size: 95%;
   --ifm-navbar-background-color:black;
-  --ifm-background-color: white !important;
+  --ifm-background-color:white!important;
   --ifm-navbar-height: 4rem;
   --ifm-navbar-item-padding-horizontal: 2.85rem;
   --ifm-navbar-link-color: white;
   --ifm-color-content-secondary: #1a1a1a!important;/*右侧目录字体颜色，重新挑选修改！*/
   --ifm-button-border-radius:0rem;
   --ifm-button-padding-vertical: 0.5rem;
-  --ifm-color-content:#1a1a1a;
+  --ifm-color-content:#1a1a1a!important;
   --ifm-global-radius: 2px;
 }
 

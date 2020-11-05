@@ -158,22 +158,22 @@ function Home() {
             </div>
             <div className= 'col'>
               <article className={clsx(styles.box)}>
-                <a className={clsx(styles.imagefeature)} href="/blog/2020/11/03/3.7-release">
+                <a className={clsx(styles.imagefeature)} href="/blog/2020/11/03/3.7-release" target="_blank">
                   <img src="/img/adapter373.png" alt = "CodeLab Adapter 3.7 发布"></img>
                 </a>
                 <h3>
-                  <a href="/blog/2020/08/14/3.5-release/">CodeLab Adapter 3.7 发布</a>
+                  <a href="/blog/2020/11/03/3.7-release" target="_blank">CodeLab Adapter 3.7 发布</a>
                 </h3>
                 <p></p>
               </article>
             </div>
           <div className= 'col'>
             <article className={clsx(styles.box)}>
-              <a className={clsx(styles.imagefeature)} href="/blog/2020/11/05/daysatcodelabbykunhao">
+              <a className={clsx(styles.imagefeature)} href="/blog/2020/11/05/daysatcodelabbykunhao" target="_blank">
                 <img src="/img/talk.jpg" alt = "CodeLab实习记"></img>
               </a>
               <h3>
-                <a href="/blog/2020/11/05/daysatcodelabbykunhao">CodeLab 实习记</a>
+                <a href="/blog/2020/11/05/daysatcodelabbykunhao" target="_blank">CodeLab 实习记</a>
               </h3>
               <p></p>
             </article>

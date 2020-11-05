@@ -182,7 +182,10 @@ module.exports = {
   scripts: [
     'https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js',
-    'https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js',
+    {
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js',
+      rel: 'preload',
+    },   
     'https://cdn.jsdelivr.net/npm/video.js/dist/video.min.js',
     '/script/settheme.js',
   ],
@@ -195,6 +198,6 @@ module.exports = {
     {
       href:'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap',
       rel:'preload',
-    }
+    },
   ]
 };

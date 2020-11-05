@@ -191,6 +191,10 @@ module.exports = {
     //
     //'https://unpkg.com/video.js/dist/video-js.min.css',
     'https://cdn.jsdelivr.net/npm/video.js/dist/video-js.min.css',
-    'https://cdn.jsdelivr.net/npm/@videojs/themes@1/dist/fantasy/index.css'
+    'https://cdn.jsdelivr.net/npm/@videojs/themes@1/dist/fantasy/index.css',
+    {
+      href:'https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Lato:wght@700&display=swap',
+      rel:'preload',
+    }
   ]
 };

@@ -4,7 +4,8 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ 
+ /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
 
 
  :root {

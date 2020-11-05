@@ -1,13 +1,13 @@
 ---
 title: "[译]儿童学习的背景"
-author: snownstone
+author: "snownstone"
 date: 2019-06-26
 tags: ["计算机历史与文化","编程学习"]
 ---
 
 <!--转载自 适应bootstrap的-->
 <div className="alert alert-success">原文地址：<a href="http://www.squeakland.org/resources/articles/article.jsp?id=1003">Background On How Children Learn</a>
-, 作者: Alan Kay, 翻译: 杨柳青(CodeLab志愿者)
+, 作者: Alan Kay, 翻译: snownstone(CodeLab志愿者)
 </div>
 
 <img className="img-responsive" src="/img/child_learn_60c65659.png" />

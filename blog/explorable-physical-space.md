@@ -1,7 +1,7 @@
 ---
 date: 2020-05-12
 title: "支持交互探索的 CodeLab可编程空间"
-Slug: explorable-physical-space
+slug: explorable-physical-space
 author: CodeLab
 tags: ["玩给你看","Adapter","DynamicTable","Neverland"]
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2020-04-01
 title: "欢迎扫码关注CodeLab微信公众号"
-Slug: codelab-wechat-subscribe
+slug: codelab-wechat-subscribe
 tags: ["CodeLab相关"]
 author: CodeLab
 ---

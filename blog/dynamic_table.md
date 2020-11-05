@@ -1,7 +1,7 @@
 ---
 date: 2020-05-14
 title: "CodeLab DynamicTable"
-Slug: CodeLab-DynamicTable
+slug: CodeLab-DynamicTable
 author: CodeLab
 tags: ["玩给你看","Adapter","DynamicTable"]
 ---

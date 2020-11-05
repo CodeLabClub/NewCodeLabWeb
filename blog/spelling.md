@@ -1,7 +1,7 @@
 ---
 date: 2020-05-22
 title: "spelling"
-Slug: spelling
+slug: spelling
 tags: ["玩给你看","DynamicTable","Adapter"]
 ---
 

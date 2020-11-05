@@ -141,57 +141,49 @@ function Home() {
       </div>
 
 
-      <div className={clsx( styles.activity)}>
+      <div className={clsx(styles.activity)}>
         <div className={clsx("container", styles.activity)}>
           <p className={clsx(styles.subtitle1)}>空间内，以下正发生</p>
           <div className='row'>
             <div className= 'col'>
               <article className={clsx(styles.box)}>
-                <a className={clsx(styles.imagefeature)} href="https://mp.weixin.qq.com/s/1IJIHCKaqZeJki8hWiAKuw" target="_blank">
-                  <img src="/img/暑期课程.png" alt = "创意编程暑期公益课程"></img>
+                <a className={clsx(styles.imagefeature)} href="blog/2020/10/16/创意计算授课实践与总结/" target="_blank">
+                  <img src="/img/cover.JPG" alt = "创意计算授课实践与总结"></img>
                 </a>
                 <h3>
-                  <a href="https://mp.weixin.qq.com/s/1IJIHCKaqZeJki8hWiAKuw" target="_blank">创意编程暑期公益课程</a>
+                  <a href="blog/2020/10/16/创意计算授课实践与总结/" target="_blank">创意计算授课实践与总结</a>
                 </h3>
-                <p>暑期进行中</p>
+                <p></p>
               </article>
             </div>
             <div className= 'col'>
               <article className={clsx(styles.box)}>
-                <a className={clsx(styles.imagefeature)} href="/blog/2020/08/14/3.5-release/">
-                  <img src="/img/封面.png" alt = "CodeLab Adapter 3.5 发布"></img>
+                <a className={clsx(styles.imagefeature)} href="/blog/2020/11/03/3.7-release">
+                  <img src="/img/adapter373.png" alt = "CodeLab Adapter 3.7 发布"></img>
                 </a>
                 <h3>
-                  <a href="/blog/2020/08/14/3.5-release/">CodeLab Adapter 3.5 发布</a>
+                  <a href="/blog/2020/08/14/3.5-release/">CodeLab Adapter 3.7 发布</a>
                 </h3>
-                <p>将CodeLab创作平台社区作为入口</p>
+                <p></p>
               </article>
             </div>
           <div className= 'col'>
             <article className={clsx(styles.box)}>
-              <a className={clsx(styles.imagefeature)} href="/blog/2020/07/09/CodeLab冒险记（一）">
-                <img src="/img/寻宝记.png" alt = "CodeLab冒险记"></img>
+              <a className={clsx(styles.imagefeature)} href="/blog/2020/11/05/daysatcodelabbykunhao">
+                <img src="/img/talk.jpg" alt = "CodeLab实习记"></img>
               </a>
               <h3>
-                <a href="/blog/2020/07/09/CodeLab冒险记（一）">CodeLab 冒险记（一）</a>
+                <a href="/blog/2020/11/05/daysatcodelabbykunhao">CodeLab 实习记</a>
               </h3>
-              <p>以实习报告为始，且看何为终</p>
+              <p></p>
             </article>
           </div>
         </div>
       </div>
 
 
-
+      {/* 
         <div className="container">
-          <p className={clsx(styles.subtitle2)}>联结同伴，自由松散</p>
-          {/*
-          <div className={clsx("container","col",styles.chapter)}>
-            <p className={clsx(styles.number)}>2</p>
-            <div className={clsx(styles.hero_p)}>维护一个互助社区</div>
-          </div>
-            */}
-
           <div className={clsx("container", "row", styles.community)}>
 
             <div className={clsx(styles.circle1)}>
@@ -210,7 +202,9 @@ function Home() {
               <a href="/blog"><div>博客圈</div></a>
             </div>
           </div>
+        
         </div>
+      */}
 
         <div className={clsx(styles.triangle_bottom)}></div>
         <div className={clsx(styles.bottom_sec)}>

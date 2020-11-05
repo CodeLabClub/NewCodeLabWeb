@@ -1,7 +1,7 @@
 ---
 date: 2020-03-12
 title: "社区版CodeLab Neverland构建文档"
-Slug: "neverland-docs"
+slug: "neverland-docs"
 tags: ["CodeLab相关","技术文档","Neverland","Adapter"]
 categories: ["codelab"]
 author: "种瓜"

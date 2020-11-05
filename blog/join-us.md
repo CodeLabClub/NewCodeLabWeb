@@ -1,7 +1,7 @@
 ---
 date: 2019-12-04
 title: "加入我们"
-Slug: join-us
+slug: join-us
 tags: ["CodeLab相关"]
 categories: ["CodeLab"]
 author: "种瓜"

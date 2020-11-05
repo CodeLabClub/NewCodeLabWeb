@@ -1,7 +1,7 @@
 ---
 date: 2020-02-11
 title: "对《Scratch 社区数据分析与智能系统》的回复"
-Slug: "scratch-community-data-analysis-and-graph-server-reply"
+slug: "scratch-community-data-analysis-and-graph-server-reply"
 tags: ["CodeLab相关"]
 categories: ["scratch"]
 author: "snownstone"

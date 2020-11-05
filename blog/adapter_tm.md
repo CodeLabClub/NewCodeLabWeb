@@ -1,7 +1,7 @@
 ---
 date: 2019-12-04
 title: "CodeLab Adapter 接入 Teachable Machine"
-Slug: adapter-Teachable-Machine
+slug: adapter-Teachable-Machine
 tags: ["技术文档", "编程学习", "CodeLab❤选","Adapter"]
 categories: ["CodeLab"]
 author: "种瓜"

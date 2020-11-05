@@ -1,7 +1,7 @@
 ---
 date: 2019-11-13
 title: "Scratch增强计划"
-Slug: Enhance-Scratch3
+slug: Enhance-Scratch3
 aliases: ["/Enhance-Scratch3","/Enhance-Scratch3.html"]
 tags: ["技术文档","编程学习","Adapter","Python"]
 categories: ["少儿编程"]

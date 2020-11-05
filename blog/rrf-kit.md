@@ -1,7 +1,7 @@
 ---
 date: 2019-11-06
 title: "Revolution Robotics Challenge Kit: 为STEM教育注入变革的力量"
-Slug: rrf-kit
+slug: rrf-kit
 tags: ["编程学习","CodeLab❤选"]
 categories: ["少儿编程"]
 ---

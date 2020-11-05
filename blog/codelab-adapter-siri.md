@@ -1,7 +1,7 @@
 ---
 date: 2020-06-28
 title: "CodeLab ❤ Siri"
-Slug: codelab-like-siri
+slug: codelab-like-siri
 tags: ["技术文档","玩给你看","CodeLab❤选","Adapter","Neverland"]
 author: CodeLab
 categories: ["CodeLab"]

@@ -1,7 +1,7 @@
 ---
 date: 2019-11-13
 title: "Scratch项目解析器"
-Slug: Scratch-sb3-parser
+slug: Scratch-sb3-parser
 aliases: ["scratch-sb3-parser"]
 tags: ["技术文档","编程学习","Python"]
 categories: ["少儿编程"]

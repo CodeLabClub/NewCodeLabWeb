@@ -1,7 +1,7 @@
 ---
 date: 2019-11-29
 title: "[译]Smalltalk背后的设计原则"
-Slug: Design-Principles-Behind-Smalltalk
+slug: Design-Principles-Behind-Smalltalk
 tags: ["计算机历史与文化","CodeLab❤选"]
 categories: ["Smalltalk"]
 author: "种瓜"

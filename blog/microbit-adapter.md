@@ -1,7 +1,7 @@
 ---
 date: 2019-11-16
 title: "CodeLab Adapter 深度连接 micro:bit 生态"
-Slug: codelab-adapter-microbit-deep-connect
+slug: codelab-adapter-microbit-deep-connect
 tags: ["技术文档","编程学习","CodeLab❤选","Adapter"]
 author: "种瓜"
 categories: ["少儿编程"]

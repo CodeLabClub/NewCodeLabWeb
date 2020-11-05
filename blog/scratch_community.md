@@ -1,7 +1,7 @@
 ---
 date: 2020-02-11
 title: "Scratch 社区数据分析 与 智能系统"
-Slug: "scratch-community-data-analysis-and-graph-server"
+slug: "scratch-community-data-analysis-and-graph-server"
 tags: ["技术文档","CodeLab相关"]
 categories: ["scratch"]
 author: "种瓜"

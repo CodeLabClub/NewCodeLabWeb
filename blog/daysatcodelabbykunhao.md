@@ -1,7 +1,7 @@
 ---
 date: "2020-11-05"
 title: "CodeLab实习记"
-Slug: "DaysatCodeLabbyKunhao"
+slug: "DaysatCodeLabbyKunhao"
 tags: ["计算机历史与文化", "CodeLab相关", "编程学习"]
 author: "虹穆"
 ---

@@ -147,9 +147,11 @@ function Home() {
           <div className='row'>
             <div className= 'col'>
               <article className={clsx(styles.box)}>
-                <a className={clsx(styles.imagefeature)} href="blog/2020/10/16/创意计算授课实践与总结/" target="_blank">
+                <div className={clsx(styles.imageFeature)}>
+                <a href="blog/2020/10/16/创意计算授课实践与总结/" target="_blank">
                   <img src="/img/cover.JPG" alt = "创意计算授课实践与总结"></img>
                 </a>
+                </div>
                 <h3>
                   <a href="blog/2020/10/16/创意计算授课实践与总结/" target="_blank">创意计算授课实践与总结</a>
                 </h3>
@@ -158,9 +160,11 @@ function Home() {
             </div>
             <div className= 'col'>
               <article className={clsx(styles.box)}>
-                <a className={clsx(styles.imagefeature)} href="/blog/2020/11/03/3.7-release" target="_blank">
+                <div className={clsx(styles.imageFeature)}>
+                <a href="/blog/2020/11/03/3.7-release" target="_blank">
                   <img src="/img/adapter373.png" alt = "CodeLab Adapter 3.7 发布"></img>
                 </a>
+                </div>
                 <h3>
                   <a href="/blog/2020/11/03/3.7-release" target="_blank">CodeLab Adapter 3.7 发布</a>
                 </h3>
@@ -169,9 +173,11 @@ function Home() {
             </div>
           <div className= 'col'>
             <article className={clsx(styles.box)}>
-              <a className={clsx(styles.imagefeature)} href="/blog/2020/11/05/daysatcodelabbykunhao" target="_blank">
+              <div className={clsx(styles.imageFeature)}>
+              <a href="/blog/2020/11/05/daysatcodelabbykunhao" target="_blank">
                 <img src="/img/talk.jpg" alt = "CodeLab实习记"></img>
               </a>
+              </div>
               <h3>
                 <a href="/blog/2020/11/05/daysatcodelabbykunhao" target="_blank">CodeLab 实习记</a>
               </h3>

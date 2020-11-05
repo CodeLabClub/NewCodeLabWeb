@@ -56,7 +56,7 @@ module.exports = {
           position: 'left'
         },
         {
-          to: '/blog/2018/11/08/about-codelab-club',
+          to: '/blog/2020/09/25/about-codelab-2020',
           label:'关于我们',
           position:'left'
         },

@@ -1,4 +1,4 @@
-import React,{useLayoutEffect} from 'react';
+import React,{useEffect, useLayoutEffect} from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -44,7 +44,7 @@ function Feature({imageUrl, title, description}) {
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
-  useLayoutEffect(() => {
+  useEffect(() => {
     window.$(".stack").lettering();
   }, [])
 

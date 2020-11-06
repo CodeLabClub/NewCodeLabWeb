@@ -18,7 +18,7 @@ YO！我是虹穆，国内高校（华农）计算机专业大四学生一名，
 
 ---
 
-关注@种瓜的博客[_某行人_](https://blog.just4fun.site/)（被墙了）好一段时间，最初觉得博客里谈论到的事情很有趣，有的关于哲学，谈论柏拉图，波谱尔等哲学家，有的关于编程技术，然后顺藤摸瓜了解到 CodeLab。在阅读 [关于 CodeLab (旧版)](https://www.codelab.club/blog/2018/11/08/about-codelab-club/) 和 [加入我们（CodeLab）](https://blog.just4fun.site/post/随笔/join-us/#codelab-neverland) 后不明觉厉，同时又很兴奋，因为里面提及了许多我以往不曾了解过的内容，比如
+关注@种瓜的博客[_某行人_](https://blog.just4fun.site/)好一段时间，最初觉得博客里谈论到的事情很有趣，有的关于哲学，谈论柏拉图，波谱尔等哲学家，有的关于编程技术，然后顺藤摸瓜了解到 CodeLab。在阅读 [关于 CodeLab (旧版)](https://www.codelab.club/blog/2018/11/08/about-codelab-club/) 和 [加入我们（CodeLab）](https://blog.just4fun.site/post/随笔/join-us/#codelab-neverland) 后不明觉厉，同时又很兴奋，因为里面提及了许多我以往不曾了解过的内容，比如
 
 -   STEM
 -   建构主义

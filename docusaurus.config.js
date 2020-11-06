@@ -139,13 +139,13 @@ module.exports = {
           ]
         },
       ],
-/*     
+/*
       logo: {
         // href: 'https://github.com',
         alt: 'qrcode',
         src: 'img/codelab_wechat.jpg'
       },
-*/       
+*/
 
       /*copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,*/
       copyright: `©CodeLab`,
@@ -182,7 +182,11 @@ module.exports = {
   scripts: [
     'https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js',
+<<<<<<< HEAD
     'https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js',   
+=======
+    'https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js',
+>>>>>>> 8f21839de33a4cabee2579323e54e0ae79106b26
     'https://cdn.jsdelivr.net/npm/video.js/dist/video.min.js',
     '/script/settheme.js',
   ],
@@ -191,6 +195,7 @@ module.exports = {
     //
     //'https://unpkg.com/video.js/dist/video-js.min.css',
     'https://cdn.jsdelivr.net/npm/video.js/dist/video-js.min.css',
+<<<<<<< HEAD
     'https://cdn.jsdelivr.net/npm/@videojs/themes@1/dist/fantasy/index.css',
     {
       href:'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap',
@@ -198,5 +203,8 @@ module.exports = {
       as: 'style',
       onload: "this.rel='stylesheet'",
     },
+=======
+    'https://cdn.jsdelivr.net/npm/@videojs/themes@1/dist/fantasy/index.css'
+>>>>>>> 8f21839de33a4cabee2579323e54e0ae79106b26
   ]
 };

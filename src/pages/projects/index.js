@@ -99,7 +99,7 @@ export const VideoRow = function ({title, videos, ...props}) {
                 <video
                   type="video/mp4"
                   poster="/static/img/Play.PNG"
-                  data-src={video.src}
+                  data-src={video.src + '#t=0.001'}
                   className={clsx(styles.video, 'lozad')}
                   onClick={() => openModal(video)}
                 />

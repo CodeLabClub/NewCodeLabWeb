@@ -162,7 +162,7 @@ function Home() {
               <article className={clsx(styles.box)}>
                 <div className={clsx(styles.imageFeature)}>
                 <a href="/blog/2020/11/03/3.7-release" target="_blank">
-                  <img src="/img/adapter373.png" alt = "CodeLab Adapter 3.7 发布"></img>
+                  <img src="/img/adapter373.jpg" alt = "CodeLab Adapter 3.7 发布"></img>
                 </a>
                 </div>
                 <h3>

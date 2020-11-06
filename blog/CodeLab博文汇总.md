@@ -1,9 +1,19 @@
 ---
 title: "在阅读中认识CodeLab——博文汇总"
 author: CodeLab
-date: 2020-11-05
+date: 2020-11-06
 tages: ["CodeLab相关"]
 ---
+
+
+这既是一篇归纳性博文，又同时充当博客板块的公告板与目录，最新动态请看下方**最近更新** :)
+
+
+## 最近更新
+-   [CodeLab Adapter 3.7 发布](https://codelab.club/blog/2020/11/03/3.7-release)
+-   [创意计算授课实践与总结](https://codelab.club/blog/2020/10/16/创意计算授课实践与总结)
+-   [CodeLab实习记](https://codelab.club/blog/2020/11/05/daysatcodelabbykunhao)
+
 
 ## CodeLab 相关
 

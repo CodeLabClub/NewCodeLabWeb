@@ -13,10 +13,10 @@ tags: ["CodeLab相关","Adapter"]
 
 ## CodeLab Scratch Desktop(离线版)
 
-v3.7.2:
+v3.7.4:
 
--   [Windows](https://scratch3-files.just4fun.site/CodeLab-Scratch-win-3-7-2.zip) (Windows7 及以上)
--   [MacOS](https://scratch3-files.just4fun.site/CodeLab-Scratch-mac-3-7-2.zip)
+-   [Windows](https://scratch3-files.just4fun.site/CodeLab-Scratch-win-3-7-4.zip) (Windows7 及以上)
+-   [MacOS](https://scratch3-files.just4fun.site/CodeLab-Scratch-mac-3-7-4.zip)
 
 ## CodeLab Adapter
 

@@ -25,6 +25,13 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/1605187287307932.mp4",
+            "title": "Etoys & CodeLab Adapter(Python extension)",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/12d30ae7cb52dcb0e894d7c9371da8.MP4",
             "title": "将Python提升到Smalltalk-like沉浸式编程环境",
             "id": "3",

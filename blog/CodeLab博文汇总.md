@@ -10,6 +10,7 @@ tages: ["CodeLab相关"]
 
 
 ## 最近更新
+-   [Bash 指南译后记](/blog/2020/12/02/wordsafterbashguidetranslation)
 -   [CodeLab Adapter 3.7 发布](https://codelab.club/blog/2020/11/03/3.7-release)
 -   [创意计算授课实践与总结](https://codelab.club/blog/2020/10/16/创意计算授课实践与总结)
 -   [CodeLab实习记](https://codelab.club/blog/2020/11/05/daysatcodelabbykunhao)
@@ -78,6 +79,7 @@ tages: ["CodeLab相关"]
 -   [基于兴趣的学习面临的诘难](https://codelab.club/blog/2018/10/06/interest-based-learning)
 -   [编程作为一种思考方式](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/programming-as-a-way-of-thinking/)
 -   [为什么 Python 对于基础编程课程中的初学者来说是一门很棒的语言](https://github.com/CodeLabClub/codelab-mindstorms/blob/master/%E8%AF%91%E6%96%87/python-teaching.md)
+-   [Bash 指南译后记](/blog/2020/12/02/wordsafterbashguidetranslation)
 -   [Kill Math: 让数学不只是符号](https://github.com/CodeLabClub/codelab-mindstorms/blob/master/%E8%AF%91%E6%96%87/kill-math.md)
 -   [Dynamicland, 可视空间和设计工坊](https://thinkhard.tech/2019/06/13/on-dynamicland/)
 -   [空间编程、物理计算与密室逃脱](https://codelab.club/blog/2019/06/25/escape-room)

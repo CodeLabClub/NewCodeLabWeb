@@ -142,7 +142,7 @@ export const VideoRow = function ({title, videos, ...props}) {
   )
 }
 
-const tags = ['全部', '魔法', 'DynamicTable', '机器人', '物联网', '开源硬件']
+const tags = ['全部', '魔法', 'DynamicTable', '机器人', '物联网', '开源硬件','Neverland2']
 
 function Projects() {
   const context = useDocusaurusContext();

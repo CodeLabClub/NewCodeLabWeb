@@ -25,6 +25,13 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/1607421421434030.mp4",
+            "title": "数码宝贝: Cozmo",
+            "id": "3",
+            "tags": ["机器人", "Neverland2"],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/1605187287307932.mp4",
             "title": "Etoys & CodeLab Adapter(Python extension)",
             "id": "3",

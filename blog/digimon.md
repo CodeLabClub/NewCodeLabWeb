@@ -59,7 +59,7 @@ Neverland 2.0(可编程魔法空间) 是一项激动人心的计划，我们都�
 
 <video width="80%" src="https://adapter.codelab.club/video/1607421421434030.mp4" controls="controls"></video>
 
-我们构建了一个 Adapter digimon（数码宝贝）Python插件， Neverland 2.0 中的各种物体，将被贴上二维码之后，它们将转变为 digimon，可以响应用户的兴趣指向(Scratch 作为表达媒介)。
+我们构建了一个 Adapter digimon（数码宝贝）Python插件， Neverland 2.0 中的各种物体，被贴上二维码之后，它们将转变为 digimon，可以响应用户的兴趣指向(Scratch 作为表达媒介)。
 
 # 源码
 Scratch源码 已经分享到 CodeLab Scratch 社区: [neverland2原型之 数码宝贝](https://create.codelab.club/projects/8070/)

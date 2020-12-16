@@ -43,7 +43,7 @@ CodeLab 是一个非营利组织， 第一笔捐赠来自罗云先生, 这笔捐
 
 在很多人看来，我们可能有些不切实际，说得好听一点，有些理想主义。我们选择做那些我们认为有意义的事，而不是那些"速效"之事。
 
-虽然我们有些"不切实际"，但在具体执行上，却希望尽可能做到合理、高效，我们阅读[彼得·德鲁克](https://zh.wikipedia.org/zh/%E5%BD%BC%E5%BE%97%C2%B7%E5%BE%B7%E9%B2%81%E5%85%8B)的《非营利组织的管理》、约翰·杜威的《学校与社会》、伯特兰·罗素的《论教育》、伊藤穰一的《爆裂》、米切尔•雷斯尼克的《终生幼儿园》、以及 Y Combinator 的《YC 创业课》。我们去学习[code.org](https://code.org/learn)、[code club](https://www.codeclub.org.uk/)、[microbit](http://microbit.org)、[raspberrypi](https://raspberrypi.org)以及[scratch](https://scratch.mit.edu/)等 优秀的非营利项目的策略。
+虽然我们有些"不切实际"，但在具体执行上，却希望尽可能做到合理、高效，我们阅读[彼得·德鲁克](https://zh.wikipedia.org/zh/%E5%BD%BC%E5%BE%97%C2%B7%E5%BE%B7%E9%B2%81%E5%85%8B)的《非营利组织的管理》、约翰·杜威的《学校与社会》、伯特兰·罗素的《论教育》、西摩尔·派普特的《Mindstorms》<!--、伊藤穰一的《爆裂》-->、米切尔•雷斯尼克的《终生幼儿园》、以及 Y Combinator 的《YC 创业课》。我们去学习[code.org](https://code.org/learn)、[code club](https://www.codeclub.org.uk/)、[microbit](http://microbit.org)、[raspberrypi](https://raspberrypi.org)以及[scratch](https://scratch.mit.edu/)等 优秀的非营利项目的策略。
 
 # 在做什么?
 

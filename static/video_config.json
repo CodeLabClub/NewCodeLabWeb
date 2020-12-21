@@ -25,8 +25,29 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/1608367488419632.mp4",
+            "title": "Linda Lively/JavaScript client",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/1608095793244042.mp4",
+            "title": "Jupyter 与 Scratch 的互操作（基于Linda）",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/1608092417506796.mp4",
+            "title": "可理解的实时Python编程环境",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/1608041327753652.mp4",
-            "title": "Scratch & Python & Linda",
+            "title": "2 Scratch & Python & Linda",
             "id": "3",
             "tags": ["Neverland2"],
             "weight": ""

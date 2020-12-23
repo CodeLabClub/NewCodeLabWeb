@@ -25,6 +25,14 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/1608689235907497.mp4",
+            "title": "魔杖激活开场视频",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": "", 
+            "project_url": "https://create.codelab.club/projects/8499/"
+        },
+        {
             "src": "https://adapter.codelab.club/video/1608519188336306.mp4",
             "title": "Neverland 2.0 原型-Welcome to CodeLab",
             "id": "3",

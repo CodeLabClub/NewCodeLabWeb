@@ -25,6 +25,20 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/1608865673731432.mp4",
+            "title": "MIDI 乐器",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/1608804837247213.mp4",
+            "title": "tunnel",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/1608689235907497.mp4",
             "title": "魔杖激活开场视频",
             "id": "3",

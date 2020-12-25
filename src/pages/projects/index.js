@@ -103,7 +103,7 @@ export const VideoRow = function ({title, videos, ...props}) {
                   className={clsx(styles.video, 'lozad')}
                   onClick={() => openModal(video)}
                 />
-                <p className={clsx('text--center', styles.headerFontTitle)}>{video.title}{video.project_url ?<a target="_blank" href={video.project_url}>(项目地址)</a>: null}</p>
+                <p className={clsx('text--center', styles.headerFontTitle)}>{video.title}{video.project_url ?<a target="_blank" href={video.project_url}>(社区项目地址)</a>: null}</p>
               </div>
 
                 {/*

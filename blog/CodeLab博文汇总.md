@@ -18,6 +18,7 @@ tages: ["CodeLab相关"]
 
 ## CodeLab 相关
 
+-   [CodeLab 无法访问的解决方案](https://codelab.club/blog/2020/12/28/codelab-404)
 -   [CodeLab Adapter](https://adapter.codelab.club/)
 -   [社区版 Neverland](https://codelab.club/blog/2020/03/09/Neverland-community)
 -   [CodeLab 可编程空间背后的理念与设计原则](https://codelab.club/blog/2020/04/29/%E5%8F%AF%E7%BC%96%E7%A8%8B%E7%A9%BA%E9%97%B4)
@@ -35,6 +36,7 @@ tages: ["CodeLab相关"]
 -   [CodeLab 近况与未来\_02](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/codelab-recent-situation-and-future/)
 -   [CodeLab 近况\_01](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/codelab-club-recent-situation/)
 -   [CodeLab 近况](https://codelab.club/blog/2018/12/18/codelab-club-recent-situation)
+-   [CodeLab Adapter 4.0：关注协作](https://codelab.club/blog/2020/12/28/adapter-4)
 -   [CodeLab Adapter 3.7 发布](https://codelab.club/blog/2020/11/03/3.7-release)
 -   [CodeLab Adapter 3.5 发布](https://codelab.club/blog/2020/08/14/3.5-release)
 -   [CodeLab Adapter 3.3 发布](https://codelab.club/blog/2020/06/07/3_3_1-release)

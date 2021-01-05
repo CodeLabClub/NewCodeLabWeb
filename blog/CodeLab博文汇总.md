@@ -1,7 +1,7 @@
 ---
 title: "在阅读中认识CodeLab——博文汇总"
 author: CodeLab
-date: 2020-11-06
+date: 2021-01-05
 tages: ["CodeLab相关"]
 ---
 
@@ -10,8 +10,8 @@ tages: ["CodeLab相关"]
 
 
 ## 最近更新
--   [Bash 指南译后记](/blog/2020/12/02/wordsafterbashguidetranslation)
--   [CodeLab Adapter 3.7 发布](https://codelab.club/blog/2020/11/03/3.7-release)
+-   [CodeLab Adapter 4.0：关注协作](https://codelab.club/blog/2020/12/28/adapter-4)
+-   [CodeLab 无法访问的解决方案](https://codelab.club/blog/2020/12/28/codelab-404)
 -   [创意计算授课实践与总结](https://codelab.club/blog/2020/10/16/创意计算授课实践与总结)
 -   [CodeLab实习记](https://codelab.club/blog/2020/11/05/daysatcodelabbykunhao)
 

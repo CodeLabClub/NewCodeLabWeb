@@ -22,7 +22,7 @@ module.exports = {
       },
       links: [
         {
-          href: 'https://scratch.codelab.club',
+          href: 'https://create.codelab.club',
           label:'创作平台',
           position: 'left'
         },

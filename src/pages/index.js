@@ -114,7 +114,7 @@ function Home() {
         <div className={clsx("container",styles.start)}>
           <p className={clsx(styles.subtitle1)}>让我们从这里开始</p>
           <p className={clsx(styles.subtitleNote)}>色彩、卡通、音乐、运动、交互全在此，由此进入动画故事、交互游戏、程序软件的幕后创作</p>
-          <iframe className={styles.iframe} src="https://scratch3v3.codelab.club/?sb3url=https://scratch3-files.just4fun.site/Wake_me_up_now_3m.sb3"/>
+          <iframe className={styles.iframe} src="https://scratch-beta.codelab.club/?sb3url=https://scratch3-files.just4fun.site/Wake_me_up_now_3m.sb3"/>
           <p className="text--center margin-top--lg">
             <a href="https://scratch.codelab.club/projects/editor/" target="_blank"><button className="button button--info margin-bottom--md">立即开始创作</button></a>
             <a href="https://scratch.codelab.club" target="_blank"><button className="button button--info margin-bottom--md">先去看看大家的作品</button></a>

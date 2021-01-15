@@ -148,7 +148,7 @@ module.exports = {
 */
 
       /*copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,*/
-      copyright: `©CodeLab`,
+      copyright: `Copyright © ${new Date().getFullYear()} CodeLab` + '&nbsp' + '&nbsp' + '&nbsp' + '<a style="color:white" target="_blank" href="https://beian.miit.gov.cn/">粤ICP备2021005905号-1</a>'
     },
     prism: {
       theme: codeblockTheme,

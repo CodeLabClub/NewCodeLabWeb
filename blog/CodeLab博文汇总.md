@@ -1,7 +1,7 @@
 ---
 title: "在阅读中认识CodeLab——博文汇总"
 author: CodeLab
-date: 2021-01-05
+date: 2021-01-19
 tages: ["CodeLab相关"]
 ---
 
@@ -10,8 +10,9 @@ tages: ["CodeLab相关"]
 
 
 ## 最近更新
+
+-   [CodeLab 《创意编程》课程发布！](https://codelab.club/blog/2021/01/19/creativecodingcourse)
 -   [CodeLab Adapter 4.0：关注协作](https://codelab.club/blog/2020/12/28/adapter-4)
--   [CodeLab 无法访问的解决方案](https://codelab.club/blog/2020/12/28/codelab-404)
 -   [创意计算授课实践与总结](https://codelab.club/blog/2020/10/16/创意计算授课实践与总结)
 -   [CodeLab实习记](https://codelab.club/blog/2020/11/05/daysatcodelabbykunhao)
 
@@ -73,6 +74,7 @@ tages: ["CodeLab相关"]
 
 ## 编程学习（理念与实践）
 
+-   [CodeLab 《创意编程》课程发布！](https://codelab.club/blog/2021/01/19/creativecodingcourse)
 -   [编程少年 1+1 访谈](https://codelab.club/blog/2020/05/18/%E7%BC%96%E7%A8%8B%E5%B0%91%E5%B9%B41+1%E8%AE%BF%E8%B0%88)
 -   [编程少年再 + 1](https://codelab.club/blog/2020/06/29/%E7%BC%96%E7%A8%8B%E5%B0%91%E5%B9%B4%E5%86%8D%E5%8A%A0%E4%B8%80)
 -   [Play: 像学习 Scratch 那样学习 Python](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/replit-play/)

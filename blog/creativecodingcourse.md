@@ -13,7 +13,7 @@ tages: ["CodeLab相关", "编程学习"]
 
 [创意编程](https://creative-coding.codelab.club/)（Creative Coding）是 [CodeLab](https://www.codelab.club/) 围绕创意实现而设计的一门编程入门课程。创意编程使用图形化编程工具，通过拼接积木来编写程序。它围绕动画制作、故事创作、游戏设计三大主题进行设计，学习者在情境化的项目实践中理解编程的基本概念，在计算思维的框架下和媒体互动并表达创意，在 [CodeLab 社区](https://create.codelab.club/)中学习、交流，甚至找到同伴，一起探索编程的乐趣。
 
-![](img/0.1-ji-mu-.png)
+![](/img/0.1-ji-mu-.png)
 
 <!--truncate-->
 
@@ -40,7 +40,7 @@ tages: ["CodeLab相关", "编程学习"]
 
 创意编程的学习资料包含[**视频**](https://www.bilibili.com/video/BV1jT4y1K7iA)和[**学习讲义**](https://creative-coding.codelab.club/)，学习的时候建议两者搭配使用。
 
-![](img/0.2-shi-pin-.png)
+![](/img/0.2-shi-pin-.png)
 
 学习讲义包含以下内容：
 
@@ -57,19 +57,19 @@ tages: ["CodeLab相关", "编程学习"]
 
 创意编程围绕创意的实现和表达进行设计，在具体情境中融入编程知识，侧重点在动画、故事、游戏的创作。通过编程进行创作表达也融合在了课程设计中，视频开头、结尾和部分概念的讲解也是使用图形化编程工具制作的。
 
-![](img/0.3-chuang-yi-bian-cheng-.png)
+![](/img/0.3-chuang-yi-bian-cheng-.png)
 
 ### 低门槛、宽围墙
 
 创意编程使用图形化编程工具，学习者通过拼积木进行编程，容易使用和学习，结合媒体（动画、音乐）丰富的表现力，学习者可以自由探索和测试。课程涵盖了动画、故事、游戏三大主题，兼顾了不同学习者的兴趣。
 
-![](img/0.4-hua-hang-.gif)
+![](/img/0.4-hua-hang-.gif)
 
 ### 学习社区
 
 同伴是创作灵感和学习乐趣的来源，创意编程重视同伴的力量，为此专门构建了学习社区。课程工作室可以收集大家创作的相同主题的作品，它们是丰富的学习素材。[CodeLab 论坛](https://discuss.codelab.club/)专门开设了“[创意编程](https://discuss.codelab.club/c/8-category/32-category/32)”讨论区，供大家讨论学习过程中遇到的问题。[CodeLab 社区](https://create.codelab.club/)丰富的作品和开放的创作交流氛围为学习者进一步创作提供了支持。
 
-![](img/0.5-gong-zuo-shi-.png)
+![](/img/0.5-gong-zuo-shi-.png)
 
 ## 致谢
 

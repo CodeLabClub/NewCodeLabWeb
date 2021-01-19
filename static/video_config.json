@@ -25,6 +25,20 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/6919292053349106690.MP4",
+            "title": "Neverland 2.0 原型--彩虹乐器",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/legomario.MP4",
+            "title": "Neverland 2.0 原型--真的马里奥",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/1609339244644934.mp4",
             "title": "Neverland 2.0 原型--画个圈圈",
             "id": "3",
@@ -871,6 +885,13 @@
         }
     ],
     "竖版视频": [
+        {
+            "src": "https://codelab-adapter-docs.codelab.club/video/6919292049054139390.MP4",
+            "title": "Neverland 2.0 原型--集体演奏",
+            "id": "52",
+            "tags": ["机器人","物联网"],
+            "weight": ""
+        },
         {
             "src": "https://codelab-adapter-docs.codelab.club/video/1589960907435316.mp4",
             "title": "欢迎来到CodeLab（Yanshee）",

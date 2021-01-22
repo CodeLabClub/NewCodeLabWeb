@@ -25,6 +25,34 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/6920462938283877706.MP4",
+            "title": "microbit驾驶仪",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/bfaa594b4419b4a056f1ebfc3022ae.MP4",
+            "title": "Neverland 2.0 原型--真的跨年",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/eb22d4aeaf623afe259f30bd1aaefd.MP4",
+            "title": "Neverland 2.0 原型--在CodeLab跨年",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/6dfdf79.MP4",
+            "title": "Sphero RVR",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/6919292053349106690.MP4",
             "title": "Neverland 2.0 原型--彩虹乐器",
             "id": "3",
@@ -33,7 +61,7 @@
         },
         {
             "src": "https://adapter.codelab.club/video/legomario.MP4",
-            "title": "Neverland 2.0 原型--真的马里奥",
+            "title": "真的马里奥",
             "id": "3",
             "tags": ["Neverland2"],
             "weight": ""

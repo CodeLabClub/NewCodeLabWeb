@@ -148,12 +148,12 @@ function Home() {
             <div className= 'col'>
               <article className={clsx(styles.box)}>
                 <div className={clsx(styles.imageFeature)}>
-                <a href="blog/2020/10/16/创意计算授课实践与总结/" target="_blank">
-                  <img src="/img/cover.JPG" alt = "创意计算授课实践与总结"></img>
+                <a href="blog/2021/01/19/creativecodingcourse" target="_blank">
+                  <img src="/img/creativecodecover.JPG" alt = "《创意编程》课程发布！"></img>
                 </a>
                 </div>
                 <h3>
-                  <a href="blog/2020/10/16/创意计算授课实践与总结/" target="_blank">创意计算授课实践与总结</a>
+                  <a href="blog/2021/01/19/creativecodingcourse" target="_blank">《创意编程》课程发布！</a>
                 </h3>
                 <p></p>
               </article>
@@ -161,12 +161,12 @@ function Home() {
             <div className= 'col'>
               <article className={clsx(styles.box)}>
                 <div className={clsx(styles.imageFeature)}>
-                <a href="/blog/2020/11/03/3.7-release" target="_blank">
-                  <img src="/img/adapter373.jpg" alt = "CodeLab Adapter 3.7 发布"></img>
+                <a href="/blog/2020/12/28/adapter-4" target="_blank">
+                  <img src="https://adapter.codelab.club/img/The_Tower_of_Babel.jpg" alt = "CodeLab Adapter 4.0：关注协作"></img>
                 </a>
                 </div>
                 <h3>
-                  <a href="/blog/2020/11/03/3.7-release" target="_blank">CodeLab Adapter 3.7 发布</a>
+                  <a href="/blog/2020/12/28/adapter-4" target="_blank">CodeLab Adapter 4.0:关注协作</a>
                 </h3>
                 <p></p>
               </article>

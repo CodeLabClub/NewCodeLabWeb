@@ -25,10 +25,52 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/hello-blender.mp4",
+            "title": "Scratch & Blender 星舰剧场",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/89885caff19be76b24502f13f7d425.MP4",
+            "title": "microbit 无线油门",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/8b4596f7a47d6beb51cb878711a8a7.MP4",
+            "title": "Neverland 2.0 原型--踢香蕉",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/fe5fb1d3ce1d311740faf31eb7cb1f.MP4",
+            "title": "Overdrive",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/1081e7f968389114158aea3601ef21.MP4",
+            "title": "Neverland 2.0 原型--记忆里翻牌游戏",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/8470b781e0551b782fba2e7d72382c.MP4",
+            "title": "Neverland 2.0 原型--记忆里翻牌游戏(与机器人协作)",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/8a9edf95b1d1da2fd2dcc11ef3427a.MP4",
             "title": "Hello Raspberry Pi Pico",
             "id": "3",
-            "tags": [],
+            "tags": ["Neverland2"],
             "weight": ""
         },
         {

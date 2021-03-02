@@ -114,6 +114,7 @@ html[data-theme=dark] .header-github-link:before {
   flex-grow: 1;
   justify-content: space-between;
   font-size: 1.3rem;
+  color:white;
 }
 
 .navbar__items--right {

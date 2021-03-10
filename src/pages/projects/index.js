@@ -172,6 +172,14 @@ function Projects() {
     window.$(".stack").lettering();
   }, [])
 
+  useEffect(() => {
+    if (!window.location.hash) return
+    let mayBeTag = decodeURI(window.location.hash.slice(1,window.location.hash.length)).replace('tag_',"")
+    if (tags.includes(mayBeTag)){
+      setCurrentTag(mayBeTag)
+    }
+  },[])
+
   return (
     <Layout title="Projects">
       {/*
@@ -188,7 +196,10 @@ function Projects() {
                 <button
                   key={tag}
                   className={clsx(styles.tag, currentTag === tag && styles.tagActive)}
-                  onClick={() => setCurrentTag(tag)}
+                  onClick={() => {
+                    window.location.hash = 'tag_' + tag
+                    setCurrentTag(tag)
+                  }}
                 >
                   { tag }
                 </button>)

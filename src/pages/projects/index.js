@@ -52,6 +52,7 @@ export const VideoRow = function ({title, videos, ...props}) {
   }
 
   function openModal(video) {
+    window.location.hash = video.title
     setCurrVideo(video)
     setIsOpen(true);
   }
@@ -61,7 +62,9 @@ export const VideoRow = function ({title, videos, ...props}) {
     // subtitle.style.color = '#f00';
   }
 
-  function closeModal(){
+  function closeModal() {
+    window.location.hash = ''
+
     let player = videojs.getPlayer('my-video')
     if (player) {
       player.pause()
@@ -69,6 +72,22 @@ export const VideoRow = function ({title, videos, ...props}) {
       setIsOpen(false);
     }
   }
+
+  useEffect(() => {
+    let timer
+    timer = setTimeout(() => {
+      if (window.location.hash) {
+        let title = decodeURI(window.location.hash.slice(1, window.location.hash.length))
+        const video = videos.find(video => video.title === title)
+        if (video) {
+          console.log('find video:', title, video)
+          openModal(video)
+        }
+      }
+    }, 800)
+
+    return () => clearTimeout(timer)
+  }, [])
 
   useLayoutEffect(() => {
     const observer = window.lozad('.lozad', {
@@ -167,6 +186,7 @@ function Projects() {
             {
               tags.map(tag => (
                 <button
+                  key={tag}
                   className={clsx(styles.tag, currentTag === tag && styles.tagActive)}
                   onClick={() => setCurrentTag(tag)}
                 >

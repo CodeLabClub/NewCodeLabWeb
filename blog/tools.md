@@ -13,10 +13,10 @@ tags: ["CodeLab相关","Adapter"]
 
 ## CodeLab Scratch Desktop(离线版)
 
-v4.2.2:
+v4.3.0:
 
--   [Windows](https://scratch3-files.just4fun.site/CodeLab-Scratch-win-4-2-2.zip) (Windows7 及以上)
--   [MacOS](https://scratch3-files.just4fun.site/CodeLab-Scratch-mac-4-2-2.zip)
+-   [Windows](https://scratch3-files.just4fun.site/CodeLab-Scratch-win-4-3-0.zip) (Windows7 及以上)
+-   [MacOS](https://scratch3-files.just4fun.site/CodeLab-Scratch-mac-4-3-0.zip)
 
 如果发现 CodeLab Scratch Desktop 与 MIT Scratch Desktop无法在一台电脑共存（会彼此替代），可以先安装CodeLab再安装MIT官方的，就可以同时存在了
 

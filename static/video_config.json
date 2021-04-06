@@ -25,10 +25,45 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/1615793877192664.mp4",
+            "title": "可编程沙盘",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/overdrive-ai-demo.MP4",
+            "title": "四驱兄弟 之 Neverland剧场版 (AI实时训练)",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/54a5a5bbca6d01a0a7947afbe2e570.MP4",
+            "title": "环境与对象的可编程性",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/08022ae2b5ffe87c68f21ad9dee5ec.MP4",
+            "title": "3D世界 作为Scratch的舞台",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
+            "src": "https://adapter.codelab.club/video/95ed6929a48e4af229f34599068319.MP4",
+            "title": "秋天场景里的可编程星舰",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        },
+        {
             "src": "https://adapter.codelab.club/video/hello-blender.mp4",
             "title": "Scratch & Blender 星舰剧场",
             "id": "3",
-            "tags": [],
+            "tags": ["Neverland2"],
             "weight": ""
         },
         {

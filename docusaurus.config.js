@@ -148,7 +148,15 @@ module.exports = {
 */
 
       /*copyright: `Copyright © ${new Date().getFullYear()} CodeLab, Inc. Built with Docusaurus.`,*/
-      copyright: `Copyright © ${new Date().getFullYear()} CodeLab` + '&nbsp' + '&nbsp' + '&nbsp' + '<a style="color:white" target="_blank" href="https://beian.miit.gov.cn/">粤ICP备2021005905号-1</a>'
+      copyright: `Copyright © ${new Date().getFullYear()} CodeLab` + '&nbsp' + '&nbsp' + '&nbsp' + '<a style="color:white" target="_blank" href="https://beian.miit.gov.cn/">粤ICP备2021005905号-1</a>' + `<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3be250eb38d350c4a750c4b0bbfe513e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>`
     },
     prism: {
       theme: codeblockTheme,

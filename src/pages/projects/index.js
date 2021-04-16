@@ -63,7 +63,7 @@ export const VideoRow = function ({title, videos, ...props}) {
   }
 
   function closeModal() {
-    window.location.hash = ''
+    window.location.hash = ' '
 
     let player = videojs.getPlayer('my-video')
     if (player) {

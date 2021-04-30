@@ -25,6 +25,27 @@
     ],
     "横版视频": [
         {
+            "src": "/img/ToioShowTime.MP4",
+            "title": "Toio，it's show time!",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        }, 
+        {
+            "src": "/img/ShinningforToio.MP4",
+            "title": "灯光为 Toio",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },        
+        {
+            "src": "/img/1p2machine.MP4",
+            "title": "跨机器 Scratch 同步",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },        
+        {
             "src": "https://adapter.codelab.club/video/1615793877192664.mp4",
             "title": "可编程沙盘",
             "id": "3",

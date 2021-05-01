@@ -43,6 +43,9 @@ v4.3.0:
 *  Android: /system/etc/hosts
 *  Mac/Linux: /etc/hosts
 
+### 代理
+`127.0.0.1` 可以是局域网内运行 Scratch Link 的IP，此时，该IP设备上的Scratch Link将为你服务. 你需要先信任 `https://device-manager.scratch.mit.edu:20110/scratch/ble`
+ 
 ## Chrome
 
 -   [Windows](http://scratch3-files.just4fun.site/ChromeSetup.exe)

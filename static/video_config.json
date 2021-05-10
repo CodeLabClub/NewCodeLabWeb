@@ -24,18 +24,26 @@
         }
     ],
     "横版视频": [
+        
         {
-            "src": "/img/ToioShowTime.MP4",
-            "title": "Toio，it's show time!",
+            "src": "https://adapter.codelab.club/video/1620365dfdf3erf34rf.mp4",
+            "title": "物理引擎2.0-台球",
             "id": "3",
-            "tags": ["Neverland2"],
+            "tags": ["物理引擎"],
             "weight": ""
         }, 
         {
-            "src": "/img/ShinningforToio.MP4",
-            "title": "灯光为 Toio",
+            "src": "https://adapter.codelab.club/video/1620610444486932.mp4",
+            "title": "gamepad-漂移",
             "id": "3",
-            "tags": ["Neverland2"],
+            "tags": ["高级编辑器"],
+            "weight": ""
+        }, 
+        {
+            "src": "https://adapter.codelab.club/video/1620610446385098.mp4",
+            "title": "高级编辑器-兼容gamepad",
+            "id": "3",
+            "tags": ["高级编辑器"],
             "weight": ""
         },        
         {
@@ -68,7 +76,7 @@
         },
         {
             "src": "https://adapter.codelab.club/video/a6b6c0576c150144e1ae0226b7bee8.MP4",
-            "title": "召唤！",
+            "title": "召唤变形金刚",
             "id": "3",
             "tags": [""],
             "weight": ""
@@ -82,7 +90,7 @@
         },
         {
             "src": "https://adapter.codelab.club/video/overdrive-ai-demo.MP4",
-            "title": "四驱兄弟 之 Neverland剧场版 (AI实时训练)",
+            "title": "四驱兄弟之Neverland剧场版 (AI实时训练)",
             "id": "3",
             "tags": ["Neverland2"],
             "weight": ""
@@ -96,7 +104,7 @@
         },
         {
             "src": "https://adapter.codelab.club/video/08022ae2b5ffe87c68f21ad9dee5ec.MP4",
-            "title": "3D世界 作为Scratch的舞台",
+            "title": "3D世界作为Scratch的舞台",
             "id": "3",
             "tags": [],
             "weight": ""

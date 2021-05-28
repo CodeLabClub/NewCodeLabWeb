@@ -24,27 +24,36 @@
         }
     ],
     "横版视频": [
-        
+        {
+            "src": "https://adapter.codelab.club/video/c81708f21e688c6ddb574f54c27b43.MP4",
+            "title": "可编程舞台-舞台灯光",
+            "id": "3",
+            "tags": ["Neverland2"],
+            "weight": ""
+        }, 
         {
             "src": "https://adapter.codelab.club/video/1620365dfdf3erf34rf.mp4",
             "title": "物理引擎2.0-台球",
             "id": "3",
             "tags": ["物理引擎"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/235"
         }, 
         {
             "src": "https://adapter.codelab.club/video/1620610444486932.mp4",
             "title": "gamepad-漂移",
             "id": "3",
             "tags": ["高级编辑器"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/238"
         }, 
         {
             "src": "https://adapter.codelab.club/video/1620610446385098.mp4",
             "title": "高级编辑器-兼容gamepad",
             "id": "3",
             "tags": ["高级编辑器"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/237"
         },        
         {
             "src": "/img/1p2machine.MP4",
@@ -72,14 +81,16 @@
             "title": "摇晃魔方控制智能灯",
             "id": "3",
             "tags": [""],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/239"
         },
         {
             "src": "https://adapter.codelab.club/video/a6b6c0576c150144e1ae0226b7bee8.MP4",
             "title": "召唤变形金刚",
             "id": "3",
             "tags": [""],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/236"
         },
         {
             "src": "https://adapter.codelab.club/video/1615793877192664.mp4",
@@ -93,7 +104,8 @@
             "title": "四驱兄弟之Neverland剧场版 (AI实时训练)",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/240"
         },
         {
             "src": "https://adapter.codelab.club/video/54a5a5bbca6d01a0a7947afbe2e570.MP4",
@@ -135,22 +147,25 @@
             "title": "Neverland 2.0 原型--踢香蕉",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/241"
         },
         {
             "src": "https://adapter.codelab.club/video/0373483608052c3f6b63098392f826.MP4",
             "title": "行为艺术",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/242"
         },
         
         {
             "src": "https://adapter.codelab.club/video/fe5fb1d3ce1d311740faf31eb7cb1f.MP4",
-            "title": "Overdrive",
+            "title": "jupyterlab Overdrive",
             "id": "3",
             "tags": [],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/243"
         },
         {
             "src": "https://adapter.codelab.club/video/1081e7f968389114158aea3601ef21.MP4",
@@ -164,7 +179,8 @@
             "title": "Neverland 2.0 原型--记忆里翻牌游戏(与机器人协作)",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/244"
         },
         {
             "src": "https://adapter.codelab.club/video/8a9edf95b1d1da2fd2dcc11ef3427a.MP4",
@@ -185,7 +201,8 @@
             "title": "Neverland 2.0 原型--真的跨年",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/245"
         },
         {
             "src": "https://adapter.codelab.club/video/eb22d4aeaf623afe259f30bd1aaefd.MP4",
@@ -206,7 +223,8 @@
             "title": "Neverland 2.0 原型--彩虹乐器",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/246"
         },
         {
             "src": "https://adapter.codelab.club/video/legomario.MP4",
@@ -227,21 +245,24 @@
             "title": "Neverland 2.0 原型--德尔斐箴言",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/247"
         },
         {
             "src": "https://adapter.codelab.club/video/1609340165766239.mp4",
             "title": "Neverland 2.0 原型--追光",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/248"
         },
         {
             "src": "https://adapter.codelab.club/video/1609323186764794.mp4",
             "title": "Neverland 2.0 原型--玻璃碎片",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/250"
         },
         {
             "src": "https://adapter.codelab.club/video/1609323190133251.mp4",
@@ -255,7 +276,8 @@
             "title": "Neverland 2.0 原型--地面多点触控",
             "id": "3",
             "tags": ["Neverland2"],
-            "weight": ""
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/249"
         },
         {
             "src": "https://adapter.codelab.club/video/1608865673731432.mp4",
@@ -1062,6 +1084,22 @@
         }
     ],
     "竖版视频": [
+        
+        {
+            "src": "https://adapter.codelab.club/video/953a942766fea94daeb98acbeb7aaf.MP4",
+            "title": "可编程舞台-摇头灯",
+            "id": "52",
+            "tags": ["Neverland2"],
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/253"
+        },
+        {
+            "src": "https://adapter.codelab.club/video/49cfbe042c2c2ead23c030ce1f7994.MP4",
+            "title": "可编程舞台-helloworld",
+            "id": "52",
+            "tags": ["Neverland2"],
+            "weight": ""
+        },
         {
             "src": "https://adapter.codelab.club/video/brainco_tello.mp4",
             "title": "原力觉醒",

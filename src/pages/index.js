@@ -174,12 +174,12 @@ function Home() {
           <div className= 'col'>
             <article className={clsx(styles.box)}>
               <div className={clsx(styles.imageFeature)}>
-              <a href="/blog/2020/11/05/daysatcodelabbykunhao" target="_blank">
-                <img src="/img/talk.jpg" alt = "CodeLab实习记"></img>
+              <a href="/blog/2020/06/01/interactivecomputing" target="_blank">
+                <img src="/img/交互计算课程发布.png" alt = "《交互计算》课程发布！"></img>
               </a>
               </div>
               <h3>
-                <a href="/blog/2020/11/05/daysatcodelabbykunhao" target="_blank">CodeLab 实习记</a>
+                <a href="/blog/2020/06/01/interactivecomputing" target="_blank">《交互计算》课程发布！</a>
               </h3>
               <p></p>
             </article>

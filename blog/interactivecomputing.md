@@ -10,7 +10,8 @@ tags: ["编程学习", "CodeLab 相关"]
 
 【交互计算】(Interactive Computing) 是 [CodeLab](https://www.codelab.club/) 设计的一门 Python 编程入门课程。【交互计算】围绕动画、音乐、游戏等主题的创作，在 Scratch 和 JupyterLab 这种交互式编程环境中进行测试、探索、迭代，在和 Scratch 角色、 Python 程序互动的过程中表达自己的想法，实现自己的创意。
 
-<video width="80%" src="/img/ICintro.MP4" controls="controls"></video>
+<video width='80%' src="https://adapter.codelab.club/video/0-课程介绍.mp4" controls="controls"></video>
+
 
 <!--truncate-->
 

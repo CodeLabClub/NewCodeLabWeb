@@ -25,6 +25,37 @@
     ],
     "横版视频": [
         {
+            "src": "https://adapter.codelab.club/video/1624253382862846.mp4",
+            "title": "高级编辑器",
+            "id": "3",
+            "tags": [],
+            "weight": ""
+        }, 
+        {
+            "src": "https://adapter.codelab.club/video/1624253387482179.mp4",
+            "title": "在线交互计算课程（jupyterhub）",
+            "id": "3",
+            "tags": ["机器人"],
+            "weight": ""
+        }, 
+        {
+            "src": "https://adapter.codelab.club/video/1623132452266836.mp4",
+            "title": "hi pi-top",
+            "id": "3",
+            "tags": ["机器人"],
+            "weight": "",
+            "project_url": "https://adapter.codelab.club/extension_guide/pi-top/"
+        }, 
+        {
+            "src": "https://adapter.codelab.club/video/1622610016956349.mp4",
+            "title": "机械臂",
+            "id": "3",
+            "tags": ["机器人"],
+            "weight": "",
+            "project_url": "https://discuss.codelab.club/t/topic/259"
+            
+        }, 
+        {
             "src": "https://adapter.codelab.club/video/c81708f21e688c6ddb574f54c27b43.MP4",
             "title": "可编程舞台-舞台灯光",
             "id": "3",

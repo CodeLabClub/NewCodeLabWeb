@@ -161,12 +161,12 @@ function Home() {
             <div className= 'col'>
               <article className={clsx(styles.box)}>
                 <div className={clsx(styles.imageFeature)}>
-                <a href="/blog/2020/12/28/adapter-4" target="_blank">
-                  <img src="https://adapter.codelab.club/img/The_Tower_of_Babel.jpg" alt = "CodeLab Adapter 4.0：关注协作"></img>
+                <a href="/blog/2021/07/16/scratch_workshop" target="_blank">
+                  <img src="/img/create_pic.jpg" alt = "Scratch 工作坊发布"></img>
                 </a>
                 </div>
                 <h3>
-                  <a href="/blog/2020/12/28/adapter-4" target="_blank">CodeLab Adapter 4.0:关注协作</a>
+                  <a href="/blog/2021/07/16/scratch_workshop" target="_blank">Scratch 工作坊发布！</a>
                 </h3>
                 <p></p>
               </article>

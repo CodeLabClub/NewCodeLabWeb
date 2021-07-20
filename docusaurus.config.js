@@ -39,6 +39,16 @@ module.exports = {
         },
         {
 
+          href: 'https://create.codelab.club/ideas#course',
+          /*
+          to: 'docs/adapter',
+          activeBasePath:'docs/adapter',
+           */
+          label: '课程',
+          position: 'left',
+        },
+        {
+
           href: 'https://adapter.codelab.club/',
           /*
           to: 'docs/adapter',

@@ -118,7 +118,12 @@ CodeLab 社区才开放不久，还有许多不足。 但如果你偏好开放�
 
 在 2020 年的暑假里，我们分别探索了线下和线上的两期编程活动，效果令人满意，尤其是孩子表现出来的热情以及创意的多元化。这些实施的材料近期也会开放在官网，供 CodeLab 志愿者在不同地方实施它。
 
-截止到今年年底，我们计划发布 3 门 mooc 课程, 分别围绕 Scratch 入门、Python 入门以及 CodeLab 可编程空间。这三门课程，会有别于市面上的内容，我们希望它足够有趣，让孩子一开始就"玩起来"(`real playing`)。
+截止到今年年底，我们计划发布 2 门 mooc 课程, 分别围绕:
+
+*  [Scratch 入门](https://www.codelab.club/blog/2021/01/19/creativecodingcourse)
+*  [Python 入门](https://www.codelab.club/blog/2021/06/01/interactivecomputing/)
+
+这 2 门课程，会有别于市面上的内容，我们希望它足够有趣，让孩子一开始就"玩起来"(`real playing`)。
 
 此外，我们还计划开放 16 个 workshop 的实施方案。 并上线新的[技术文档](https://adapter.codelab.club/)（提升可理解性）。
 

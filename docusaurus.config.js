@@ -95,11 +95,21 @@ module.exports = {
           title: null,
           items:[
             {
+              label:'手册',
+              to: 'blog/2021/07/21/CodeLab-handbook'
+            },
+          ]
+        },
+	{
+          title: null,
+          items:[
+            {
               label:'下载',
               to: 'blog/2020/08/20/tools'
             },
           ]
         },
+
 /*
         {
           title: null,

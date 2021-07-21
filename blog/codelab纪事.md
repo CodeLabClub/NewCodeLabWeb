@@ -384,6 +384,7 @@ Smalltalk 社区的个人计算精神流淌在 Scratch 的方方面面。 它颇
 *  消息与角色
 
 #### 舞台区
+>  计算机只是一种乐器，它的音乐就是思想。 -- Alan Kay
 
 舞台区是一个"可见的世界": 一个图形化的世界，用户很容易把自己脑子里不可见的想法在此投射出来，通过操控角色，在舞台区演绎想法，这便是在 Scratch 中编程的体验。
 
@@ -396,6 +397,7 @@ Scratch 舞台区是 Smalltalk 图形用户界面(GUI)革命的一个产物。 �
 scratch-vm 中有大量代码是关于舞台区的，即便是其他代码（诸如积木），也多是为了舞台服务。你可能会反驳说，声音并不属于舞台，但是在典型的用例里，声音是由舞台角色发出的。
 
 #### 消息与角色
+>  制造伟大的、可成长的系统的关键是设计出模块之间的沟通机制，而不是关于内部属性和行为应该是什么。 -- Alan Kay
 
 从Scratch社区野生成长起来的孩子，相比变量，更喜欢使用消息(message)，我遇到过把变量设想成消息的一种特例的少年(Hanson）。
 
@@ -423,6 +425,8 @@ Alan Kay(面向对象先驱)发明 **面向对象** 这个词时，所指的并�
 
 面向对象在编程教育中的重要性， Adele Goldberg 和 Joan Ross 在 [Is the Smalltalk-80 System for Children?](https://archive.org/details/byte-magazine-1981-08/page/n3/mode/2up)中做了充分讨论。这是编程教育领域最好的文章之一。
 
+>  如果给你一些可玩、可扩展的东西，诸如写有段落的纸张，请你重写它，这比什么都不给你，让你在白纸上写东西来得容易。因此，对专业程序员和孩子们而言，这是比较好的一种教育方法，从一个能做一些事情的对象开始，或者把多个对象放在一起，让它们互动，之后扩展它们，让它们的行为有点不同，你可以采取一种渐进的方式来学习如何控制计算机系统。  -- Adele Goldberg
+
 ### 建构主义视角
 
 >  For fuck's sake, read "Mindstorms". -- bret victor [Learnable Programming](http://worrydream.com/LearnableProgramming/)
@@ -434,6 +438,8 @@ Smalltalk 社区个人计算精神只是 Scratch 的源头之一。 另一个源
 关于建构主义对 Scratch 的更多影响，参考 @Lounsen 的文章。
 
 ### 批评过分看重积木的视角
+>  简单的事情应该是简单的，复杂的事情应该是可能的。 -- Alan Kay
+
 
 我们以一篇批评来结束对 Scratch 的讨论。
 
@@ -478,6 +484,8 @@ Scratch 的精髓与积木无关， Blockly 也只是积木的一种实现(当�
 ## 看待 Python 的视角
 
 >  现代的编程就如同闭着眼睛去排列符号一样 -- Bret Victor
+
+>  一种不会影响你思考编程方式的语言是不值得学习的。 -- Alan Kay
 
 我受 黑客社区文化 和 Unix社区文化 影响很深，编程生涯成长于这两个社区。与这两个社区有关的书籍，我尤其喜欢:
 
@@ -673,7 +681,7 @@ Adapter 前后迭代了 4 个大版本（最新的版本是 4.9），之所以�
 
 # 感谢
 
-除了文章里提到的这些同伴，也感谢一直予以我们鼓励和帮助的人（排名部分先后）:
+除了文章里提到的这些同伴，也感谢一直予以我们鼓励和帮助的人（排名不分先后）:
 
 @在梦里、@wangshub、@EricQian、@张佳维、@Tony Yet、@Rick、@邵悦、@Cindy、@zhouF96、@bilikyar、@毛勇、@崔欣、@王中信、@Aihua Chen、@尚祖铭、@M、@tommy、@张印帅、@金磊、@Sean Shao、@JOY、@pigtigger、@熊、@李富荣、@Steven Sun、@song、@Tracy、@苏斌、@韩祝鹏、@李卓泉、@殷悦、@赵老师、@zph、@Shawn、@钟雨辰、@小河、@陈留洋、@陈十一、@CYC、@冯日、@Lyc:)、@罗浩、@Tom Tan、@MobeeHoran、@LLC、@陈坤和、@jingridong、@jingridong、@han-xuefei、@Michael Wu、@刘汉军、@Rhode、@李琦、@RedYin、@刘.泊荣、@okgo、@吴昊、@Hal ...
 
